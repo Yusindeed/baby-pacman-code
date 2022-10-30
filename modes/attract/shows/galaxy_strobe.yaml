@@ -1,0 +1,247 @@
+#show_version=5
+
+- time: 0
+  lights:
+    l_galaxy_g: 'FF0000'
+    l_galaxy_a: off
+- time: '+1'
+  lights:
+    l_galaxy_a: 'FF0000'
+    l_galaxy_g: off
+- time: '+1'
+  lights:
+    l_galaxy_l: 'FF0000'
+    l_galaxy_a: off
+- time: '+1'
+  lights:
+    l_galaxy_a_2: 'FF0000'
+    l_galaxy_l: off
+- time: '+1'
+  lights:
+    l_galaxy_x: 'FF0000'
+    l_galaxy_a_2: off
+- time: '+1'
+  lights:
+    l_galaxy_y: 'FF0000'
+    l_galaxy_x: off
+- time: '+1'
+  lights:
+    l_galaxy_x: 'FF0000'
+    l_galaxy_y: off
+- time: '+1'
+  lights:
+    l_galaxy_a_2: 'FF0000'
+    l_galaxy_x: off
+- time: '+1'
+  lights:
+    l_galaxy_l: 'FF0000'
+    l_galaxy_a_2: off
+- time: '+1'
+  lights:
+    l_galaxy_a: 'FF0000'
+    l_galaxy_l: off
+#
+- time: '+1'
+  lights:
+    l_galaxy_g: 'orange'
+    l_galaxy_a: off
+- time: '+1'
+  lights:
+    l_galaxy_a: 'orange'
+    l_galaxy_g: off
+- time: '+1'
+  lights:
+    l_galaxy_l: 'orange'
+    l_galaxy_a: off
+- time: '+1'
+  lights:
+    l_galaxy_a_2: 'orange'
+    l_galaxy_l: off
+- time: '+1'
+  lights:
+    l_galaxy_x: 'orange'
+    l_galaxy_a_2: off
+- time: '+1'
+  lights:
+    l_galaxy_y: 'orange'
+    l_galaxy_x: off
+- time: '+1'
+  lights:
+    l_galaxy_x: 'orange'
+    l_galaxy_y: off
+- time: '+1'
+  lights:
+    l_galaxy_a_2: 'orange'
+    l_galaxy_x: off
+- time: '+1'
+  lights:
+    l_galaxy_l: 'orange'
+    l_galaxy_a_2: off
+- time: '+1'
+  lights:
+    l_galaxy_a: 'orange'
+    l_galaxy_l: off
+#
+- time: '+1'
+  lights:
+    l_galaxy_g: 'yellow'
+    l_galaxy_a: off
+- time: '+1'
+  lights:
+    l_galaxy_a: 'yellow'
+    l_galaxy_g: off
+- time: '+1'
+  lights:
+    l_galaxy_l: 'yellow'
+    l_galaxy_a: off
+- time: '+1'
+  lights:
+    l_galaxy_a_2: 'yellow'
+    l_galaxy_l: off
+- time: '+1'
+  lights:
+    l_galaxy_x: 'yellow'
+    l_galaxy_a_2: off
+- time: '+1'
+  lights:
+    l_galaxy_y: 'yellow'
+    l_galaxy_x: off
+- time: '+1'
+  lights:
+    l_galaxy_x: 'yellow'
+    l_galaxy_y: off
+- time: '+1'
+  lights:
+    l_galaxy_a_2: 'yellow'
+    l_galaxy_x: off
+- time: '+1'
+  lights:
+    l_galaxy_l: 'yellow'
+    l_galaxy_a_2: off
+- time: '+1'
+  lights:
+    l_galaxy_a: 'yellow'
+    l_galaxy_l: off
+#
+- time: '+1'
+  lights:
+    l_galaxy_g: '00FF00'
+    l_galaxy_a: off
+- time: '+1'
+  lights:
+    l_galaxy_a: '00FF00'
+    l_galaxy_g: off
+- time: '+1'
+  lights:
+    l_galaxy_l: '00FF00'
+    l_galaxy_a: off
+- time: '+1'
+  lights:
+    l_galaxy_a_2: '00FF00'
+    l_galaxy_l: off
+- time: '+1'
+  lights:
+    l_galaxy_x: '00FF00'
+    l_galaxy_a_2: off
+- time: '+1'
+  lights:
+    l_galaxy_y: '00FF00'
+    l_galaxy_x: off
+- time: '+1'
+  lights:
+    l_galaxy_x: '00FF00'
+    l_galaxy_y: off
+- time: '+1'
+  lights:
+    l_galaxy_a_2: '00FF00'
+    l_galaxy_x: off
+- time: '+1'
+  lights:
+    l_galaxy_l: '00FF00'
+    l_galaxy_a_2: off
+- time: '+1'
+  lights:
+    l_galaxy_a: '00FF00'
+    l_galaxy_l: off
+#
+- time: '+1'
+  lights:
+    l_galaxy_g: '0000FF'
+    l_galaxy_a: off
+- time: '+1'
+  lights:
+    l_galaxy_a: '0000FF'
+    l_galaxy_g: off
+- time: '+1'
+  lights:
+    l_galaxy_l: '0000FF'
+    l_galaxy_a: off
+- time: '+1'
+  lights:
+    l_galaxy_a_2: '0000FF'
+    l_galaxy_l: off
+- time: '+1'
+  lights:
+    l_galaxy_x: '0000FF'
+    l_galaxy_a_2: off
+- time: '+1'
+  lights:
+    l_galaxy_y: '0000FF'
+    l_galaxy_x: off
+- time: '+1'
+  lights:
+    l_galaxy_x: '0000FF'
+    l_galaxy_y: off
+- time: '+1'
+  lights:
+    l_galaxy_a_2: '0000FF'
+    l_galaxy_x: off
+- time: '+1'
+  lights:
+    l_galaxy_l: '0000FF'
+    l_galaxy_a_2: off
+- time: '+1'
+  lights:
+    l_galaxy_a: '0000FF'
+    l_galaxy_l: off
+#
+- time: '+1'
+  lights:
+    l_galaxy_g: '800080'
+    l_galaxy_a: off
+- time: '+1'
+  lights:
+    l_galaxy_a: '800080'
+    l_galaxy_g: off
+- time: '+1'
+  lights:
+    l_galaxy_l: '800080'
+    l_galaxy_a: off
+- time: '+1'
+  lights:
+    l_galaxy_a_2: '800080'
+    l_galaxy_l: off
+- time: '+1'
+  lights:
+    l_galaxy_x: '800080'
+    l_galaxy_a_2: off
+- time: '+1'
+  lights:
+    l_galaxy_y: '800080'
+    l_galaxy_x: off
+- time: '+1'
+  lights:
+    l_galaxy_x: '800080'
+    l_galaxy_y: off
+- time: '+1'
+  lights:
+    l_galaxy_a_2: '800080'
+    l_galaxy_x: off
+- time: '+1'
+  lights:
+    l_galaxy_l: '800080'
+    l_galaxy_a_2: off
+- time: '+1'
+  lights:
+    l_galaxy_a: '800080'
+    l_galaxy_l: off

@@ -1,0 +1,191 @@
+#show_version=5
+- time: 0
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_galaxy_a_2: 'FF2EFD'
+    l_galaxy_l: 'FE2DFC'
+    
+- time: '+1'
+  lights:
+    l_galaxy_l: 'FF2EFD'
+    l_galaxy_x: 'FF2EFD'
+    
+- time: '+1'
+  lights:
+    l_galaxy_a: 'FF2EFD'
+    l_left_inlane: 'FF2EFD'
+    
+- time: '+1'
+  lights:
+    l_galaxy_y: 'FF2EFD'
+    
+- time: '+1'
+  lights:
+    l_galaxy_g: 'FF2EFD'
+    l_left_kicker: 'FF2EFD'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_gi_11: '0C020C'
+    l_gi_12: '130313'
+    
+- time: '+1'
+  lights:
+    l_gi_11: 'FF2EFD'
+    l_gi_12: 'FF2EFD'
+    l_left_loop: 'FF2EFD'
+    
+- time: '+1'
+  lights:
+    l_mission1_1: 'FF2EFD'
+    l_mission1_2: 'FF2EFD'
+    l_mission1_3: 'FF2EFD'
+    
+- time: '+1'
+  lights:
+    l_mission2_1: 'FF2EFD'
+    l_mission2_2: 'FF2EFD'
+    l_mission2_3: 'FF2EFD'
+    
+- time: '+1'
+  lights:
+    l_drop_target1: 'FF2EFD'
+    l_mini_wizard_mode: 'FF2EFD'
+    l_mission5_3: 'FF2EFD'
+    l_super_slings: 'FF2EFD'
+    
+- time: '+1'
+  lights:
+    l_drop_target2: 'FF2EFD'
+    l_gi_13: 'FF2EFD'
+    l_mission3_2: 'FF2EFD'
+    l_mission3_3: '8F1A8E'
+    l_mission5_2: 'FF2EFD'
+    l_mission6_3: 'FF2EFD'
+    l_super_lanes: 'FF2EFD'
+    
+- time: '+1'
+  lights:
+    l_drop_target3: 'FF2EFD'
+    l_mission3_1: 'FF2EFD'
+    l_mission3_3: 'FF2EFD'
+    l_mission6_2: 'FF2EFD'
+    
+- time: '+1'
+  lights:
+    l_drop_target4: 'D125CF'
+    l_gi_8: 'FF2EFD'
+    l_mission4_1: 'FF2EFD'
+    l_mission4_2: 'FF2EFD'
+    l_mission4_3: 'FF2EFD'
+    l_mission5_1: 'FF2EFD'
+    l_mission7_3: 'FF2EFD'
+    l_super_targets: '691368'
+    
+- time: '+1'
+  lights:
+    l_drop_target4: 'FF2EFD'
+    l_mission6_1: '230623'
+    l_mission7_2: 'B220B1'
+    l_mission8_3: 'FF2EFD'
+    l_super_targets: 'FF2EFD'
+    
+- time: '+1'
+  lights:
+    l_drop_target5: 'FF2EFD'
+    l_gi_14: 'FF2EFD'
+    l_mission6_1: 'FF2EFD'
+    l_mission7_2: 'FF2EFD'
+    l_right_loop: 'FF2EFD'
+    
+- time: '+1'
+  lights:
+    l_gi_10: 'FB2DF9'
+    l_left_dimension: '8F1A8E'
+    l_mission7_1: 'FF2EFD'
+    l_mission8_2: 'FF2EFD'
+    l_warp_w: 'FF2EFD'
+    
+- time: '+1'
+  lights:
+    l_gi_10: 'FF2EFD'
+    l_gi_6: 'FF2EFD'
+    l_gi_7: 'FF2EFD'
+    l_gi_9: 'FF2EFD'
+    l_left_dimension: 'FF2EFD'
+    l_mission8_1: 'FF2EFD'
+    l_right_kicker: 'FF2EFD'
+    l_super_spinners: 'FF2EFD'
+    l_warp_a: 'FF2EFD'
+    
+- time: '+1'
+  lights:
+    l_warp_r: 'FF2EFD'
+    
+- time: '+1'
+  lights:
+    l_gi_17: 'FF2EFD'
+    l_gi_4: 'FF2EFD'
+    l_right_inlane: 'FF2EFD'
+    l_warp_p: 'C323C1'
+    
+- time: '+1'
+  lights:
+    l_gi_2: 'FF2EFD'
+    l_portal_a: '941A93'
+    l_portal_o: 'F72CF5'
+    l_portal_p: '2C082B'
+    l_portal_r: 'FF2EFD'
+    l_portal_t: 'FF2EFD'
+    l_warp_p: 'FF2EFD'
+    
+- time: '+1'
+  lights:
+    l_gi_16: 'FF2EFD'
+    l_gi_5: 'FF2EFD'
+    l_portal_a: 'FF2EFD'
+    l_portal_l: 'FF2EFD'
+    l_portal_o: 'FF2EFD'
+    l_portal_p: 'FF2EFD'
+    
+- time: '+1'
+  lights:
+    l_gi_15: 'FF2EFD'
+    
+- time: '+1'
+  lights:
+    l_gi_3: 'FF2EFD'
+    
+- time: '+1'
+  lights:
+    l_wizard_mode: 'FF2EFD'
+    
+- time: '+1'
+  lights:
+    l_gi_1: 'FF2EFD'
+    l_right_dimension: 'C423C2'
+    
+- time: '+1'
+  lights:
+    l_right_dimension: 'FF2EFD'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    

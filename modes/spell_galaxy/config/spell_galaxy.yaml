@@ -1,0 +1,118 @@
+#config_version=5
+#this will handle the spelling of "galaxy"
+
+mode:
+  start_events: mode_base_started, start_portal, mode_mission1_will_stop, mode_mission2_will_stop, mode_mission3_will_stop, mode_mission4_will_stop
+  stop_events: start_selection_mode{current_player.playfield_multiplier<2}
+  priority: 200
+
+
+shots:
+  galaxy_advance:
+    switch: s_left_inlane_far
+
+variable_player:
+  add_x:
+    playfield_multiplier: 1
+
+counters:
+  galaxy_counter:
+    count_events: galaxy_advance_hit
+    events_when_complete: add_x
+    starting_count: 0
+    direction: up
+    count_complete_value: 6
+    persist_state: true
+    reset_on_complete: true
+  #  reset_events: mode_mission1_stopped, mode_mission2_stopped, mode_mission3_stopped, mode_mission4_stopped
+    disable_on_complete: false
+  #  control_events:
+  #    - event: mode_spell_portal_started{device.counters.galaxy_counter.value < 3 and current_player.portal_letters < 3}
+  #      action: jump
+  #      value: 3
+  #    - event: mode_spell_portal_started{device.counters.mode_completion_counter.value == 2}
+  #      action: jump
+  #      value: 2
+  #    - event: mode_spell_portal_started{device.counters.mode_completion_counter.value == 4}
+  #      action: jump
+  #      value: 1
+
+light_player:
+  "{device.counters.galaxy_counter.value > 0}":
+    l_galaxy_g: blue
+  "{device.counters.galaxy_counter.value > 1}":
+    l_galaxy_g: blue
+    l_galaxy_a: blue
+  "{device.counters.galaxy_counter.value > 2}":
+    l_galaxy_g: blue
+    l_galaxy_a: blue
+    l_galaxy_l: blue
+  "{device.counters.galaxy_counter.value > 3}":
+    l_galaxy_g: blue
+    l_galaxy_a: blue
+    l_galaxy_l: blue
+    l_galaxy_a_2: blue
+  "{device.counters.galaxy_counter.value > 4}":
+    l_galaxy_g: blue
+    l_galaxy_a: blue
+    l_galaxy_l: blue
+    l_galaxy_a_2: blue
+    l_galaxy_x: blue
+  "{device.counters.galaxy_counter.value > 5}":
+    l_galaxy_g: blue
+    l_galaxy_a: blue
+    l_galaxy_l: blue
+    l_galaxy_a_2: blue
+    l_galaxy_x: blue
+    l_galaxy_y: blue
+
+show_player:
+#  mode_lit:
+#    flash_rgb:
+#      sync_ms: 400
+#      loops: -1
+#      show_tokens:
+#        led: l_left_kicker, l_right_kicker
+#        color: white
+  mode_spell_galaxy_started:
+     flash_rgb:
+       sync_ms: 400
+       loops: -1
+       show_tokens:
+         led: l_galaxy_g
+         color: purple
+  "{device.counters.galaxy_counter.value > 0}":
+      flash_rgb:
+         sync_ms: 400
+         loops: -1
+         show_tokens:
+            led: l_galaxy_a
+            color: purple
+  "{device.counters.galaxy_counter.value > 1}":
+      flash_rgb:
+         sync_ms: 400
+         loops: -1
+         show_tokens:
+            led: l_galaxy_l
+            color: purple
+  "{device.counters.galaxy_counter.value > 2}":
+      flash_rgb:
+         sync_ms: 400
+         loops: -1
+         show_tokens:
+            led: l_galaxy_a_2
+            color: purple
+  "{device.counters.galaxy_counter.value > 3}":
+      flash_rgb:
+         sync_ms: 400
+         loops: -1
+         show_tokens:
+            led: l_galaxy_x
+            color: purple
+  "{device.counters.galaxy_counter.value > 4}":
+      flash_rgb:
+         sync_ms: 400
+         loops: -1
+         show_tokens:
+            led: l_galaxy_y
+            color: purple

@@ -1,0 +1,181 @@
+#show_version=5
+
+- time: 0
+  lights:
+    l_rgb_left_kicker: red
+    l_rgb_left_spinner: off
+
+- time: '+1'
+  lights:
+    l_rgb_left_spinner: red
+    l_rgb_left_kicker: off
+
+- time: '+1'
+  lights:
+    l_rgb_right_spinner: red
+    l_rgb_left_spinner: off
+
+- time: '+1'
+  lights:
+    l_rgb_right_kicker: red
+    l_rgb_right_spinner: off
+
+- time: '+1'
+  lights:
+    l_rgb_right_spinner: red
+    l_rgb_right_kicker: off
+
+- time: '+1'
+  lights:
+    l_rgb_left_spinner: red
+    l_rgb_right_spinner: off
+#----- orange ---------------------
+- time: '+1'
+  lights:
+    l_rgb_left_kicker: orange
+    l_rgb_left_spinner: off
+
+- time: '+1'
+  lights:
+    l_rgb_left_spinner: orange
+    l_rgb_left_kicker: off
+
+- time: '+1'
+  lights:
+    l_rgb_right_spinner: orange
+    l_rgb_left_spinner: off
+
+- time: '+1'
+  lights:
+    l_rgb_right_kicker: orange
+    l_rgb_right_spinner: off
+
+- time: '+1'
+  lights:
+    l_rgb_right_spinner: orange
+    l_rgb_right_kicker: off
+
+- time: '+1'
+  lights:
+    l_rgb_left_spinner: orange
+    l_rgb_right_spinner: off
+#---------- yellow -------------
+- time: '+1'
+  lights:
+    l_rgb_left_kicker: yellow
+    l_rgb_left_spinner: off
+
+- time: '+1'
+  lights:
+    l_rgb_left_spinner: yellow
+    l_rgb_left_kicker: off
+
+- time: '+1'
+  lights:
+    l_rgb_right_spinner: yellow
+    l_rgb_left_spinner: off
+
+- time: '+1'
+  lights:
+    l_rgb_right_kicker: yellow
+    l_rgb_right_spinner: off
+
+- time: '+1'
+  lights:
+    l_rgb_right_spinner: yellow
+    l_rgb_right_kicker: off
+
+- time: '+1'
+  lights:
+    l_rgb_left_spinner: yellow
+    l_rgb_right_spinner: off
+#--------- green -----------
+- time: '+1'
+  lights:
+    l_rgb_left_kicker: green
+    l_rgb_left_spinner: off
+
+- time: '+1'
+  lights:
+    l_rgb_left_spinner: green
+    l_rgb_left_kicker: off
+
+- time: '+1'
+  lights:
+    l_rgb_right_spinner: green
+    l_rgb_left_spinner: off
+
+- time: '+1'
+  lights:
+    l_rgb_right_kicker: green
+    l_rgb_right_spinner: off
+
+- time: '+1'
+  lights:
+    l_rgb_right_spinner: green
+    l_rgb_right_kicker: off
+
+- time: '+1'
+  lights:
+    l_rgb_left_spinner: green
+    l_rgb_right_spinner: off
+#---------- blue -----------
+- time: '+1'
+  lights:
+    l_rgb_left_kicker: blue
+    l_rgb_left_spinner: off
+
+- time: '+1'
+  lights:
+    l_rgb_left_spinner: blue
+    l_rgb_left_kicker: off
+
+- time: '+1'
+  lights:
+    l_rgb_right_spinner: blue
+    l_rgb_left_spinner: off
+
+- time: '+1'
+  lights:
+    l_rgb_right_kicker: blue
+    l_rgb_right_spinner: off
+
+- time: '+1'
+  lights:
+    l_rgb_right_spinner: blue
+    l_rgb_right_kicker: off
+
+- time: '+1'
+  lights:
+    l_rgb_left_spinner: blue
+    l_rgb_right_spinner: off
+#--------- purple ----------
+- time: '+1'
+  lights:
+    l_rgb_left_kicker: purple
+    l_rgb_left_spinner: off
+
+- time: '+1'
+  lights:
+    l_rgb_left_spinner: purple
+    l_rgb_left_kicker: off
+
+- time: '+1'
+  lights:
+    l_rgb_right_spinner: purple
+    l_rgb_left_spinner: off
+
+- time: '+1'
+  lights:
+    l_rgb_right_kicker: purple
+    l_rgb_right_spinner: off
+
+- time: '+1'
+  lights:
+    l_rgb_right_spinner: blue
+    l_rgb_right_kicker: off
+
+- time: '+1'
+  lights:
+    l_rgb_left_spinner: purple
+    l_rgb_right_spinner: off

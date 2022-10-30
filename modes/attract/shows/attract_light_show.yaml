@@ -1,0 +1,85 @@
+#show_version=5
+
+- duration: 30s
+  shows:
+    sheet: stop
+    rainbow_circle: stop
+    rainbow_fade:
+      loops: -1
+      speed: 1
+- duration: 15s
+  shows:
+    sheet: stop
+    rainbow_circle: stop
+    rainbow_fade: stop
+    rgb_shot_strobe:
+      loops: -1
+      speed: 5
+    dt_strobe:
+      loops: -1
+      speed: 5
+    portal_strobe:
+      loops: -1
+      speed: 5
+    galaxy_strobe:
+      loops: -1
+      speed: 5
+    warp_strobe:
+      loops: -1
+      speed: 4
+    dimension_strobe:
+      loops: -1
+      speed: 4
+    lane_strobe:
+      loops: -1
+      speed: 3
+    arrow_strobe:
+      loops: -1
+      speed: 4
+    center_strobe:
+      loops: -1
+      speed: 5
+    mission_strobe:
+      loops: -1
+      speed: 5
+    gi_on:
+      loops: -1
+      speed: 5
+
+- duration: 10s
+  shows:
+    gi_on: stop
+    center_strobe: stop
+    mission_strobe: stop
+    arrow_strobe: stop
+    lane_strobe: stop
+    dimension_strobe: stop
+    warp_strobe: stop
+    galaxy_strobe: stop
+    portal_strobe: stop
+    dt_strobe: stop
+    rgb_shot_strobe: stop
+    rainbow_circle:
+      loops: -1
+      speed: 9
+
+- duration: 4s
+  shows:
+    rainbow_circle: stop
+    circle_out:
+      loops: -1
+      speed: 13
+
+- duration: 8s
+  shows:
+    circle_out: stop
+    sheet:
+      loops: -1
+      speed: 30
+
+- duration: 6s
+  shows:
+    sheet: stop
+    heli:
+      loops: -1
+      speed: 38

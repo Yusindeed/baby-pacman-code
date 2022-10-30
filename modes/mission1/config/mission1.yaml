@@ -1,0 +1,250 @@
+#config_version=5
+
+mode:
+  start_events: carousel_mission1_selected
+  stop_events: mode_bonus_started, slide_final_shot_mission1_slide_removed, timer_mission1_timer_complete
+  priority: 1000
+
+timers:
+  mission1_timer:
+    start_value: 60
+    end_value: 0
+    tick_interval: 1200ms
+    direction: down
+    control_events:
+      - action: start
+        event: mode_mission1_started
+
+shots:
+  left_loop_mission1:
+    switch: s_left_inlane_far
+    profile: profile1
+    reset_events: mission1_phase2_start, mission1_phase4_start
+    show_tokens:
+      led: l_rgb_left_spinner
+  right_loop_mission1:
+    switch: s_right_inlane_far
+    profile: profile1
+    reset_events: mission1_phase2_start, mission1_phase4_start
+    show_tokens:
+      led: l_rgb_right_spinner
+  center_drop_mission1:
+    switch: s_drop_target3
+    profile: profile1
+    reset_events: mission1_phase3_start
+    show_tokens:
+      led: l_drop_target3
+
+variable_player:
+  mode_mission1_started:
+    multiplied_mode_value:
+      int: (current_player.playfield_multiplier) * (current_player.mode_value)
+      action: set
+#  add_x:
+#    multiplied_mode_value:
+#      int: (current_player.playfield_multiplier) * (current_player.mode_value)
+#      action: set
+  left_loop_mission1_flashing_hit:
+    score: (current_player.multiplied_mode_value)
+    mission1_total: (current_player.multiplied_mode_value)
+  right_loop_mission1_flashing_hit:
+    score: (current_player.multiplied_mode_value)
+    mission1_total: (current_player.multiplied_mode_value)
+  center_drop_mission1_flashing_hit:
+    score: (current_player.multiplied_mode_value)
+    mission1_total: (current_player.multiplied_mode_value)
+  mission1_completed:
+    crystals: 1
+  timer_mission1_timer_tick:
+    mission1_timer_seconds:
+      int: device.timers.mission1_timer.ticks
+      action: set
+    multiplied_mode_value:
+      int: (current_player.playfield_multiplier) * (current_player.mode_value)
+      action: set
+
+
+
+shot_profiles:
+  profile1:
+    states:
+      - name: flashing
+        show: flash_rgb
+        show_tokens:
+          led: (led)
+          color: red
+        sync_ms: 400
+      - name: unlit
+        show: off
+
+sound_player:
+  mode_mission1_started:
+    carousel_select:
+      action: play
+
+event_player:
+  left_loop_mission1_flashing_hit{device.accruals.mission1_phase1_shots.completed==False}: shot1
+  center_drop_mission1_flashing_hit{device.accruals.mission1_phase1_shots.completed==False}: shot2
+  right_loop_mission1_flashing_hit{device.accruals.mission1_phase1_shots.completed==False}: shot3
+  left_loop_mission1_flashing_hit{device.accruals.mission1_phase1_shots.completed==True}: shot4
+  right_loop_mission1_flashing_hit{device.accruals.mission1_phase1_shots.completed==True}: shot5
+  center_drop_mission1_flashing_hit{device.accruals.mission1_phase2_shots.completed==True}: shot6
+  left_loop_mission1_flashing_hit{device.accruals.mission1_phase3_shots.completed==True}: shot7
+  right_loop_mission1_flashing_hit{device.accruals.mission1_phase3_shots.completed==True}: shot8
+  center_drop_mission1_hit{device.accruals.mission1_phase4_shots.completed==True}: final_shot
+
+accruals:
+  mission1_phase1_shots:
+    events:
+      - shot1
+      - shot2
+      - shot3
+#    reset_events: ball_ending
+    persist_state: true
+    reset_on_complete: false
+    events_when_complete: mission1_phase2_start
+  mission1_phase2_shots:
+    events:
+      - shot4
+      - shot5
+#    reset_events: ball_will_end
+    persist_state: true
+    reset_on_complete: false
+    events_when_complete: mission1_phase3_start
+  mission1_phase3_shots:
+    events:
+      - shot6
+    persist_state: true
+    reset_on_complete: false
+    events_when_complete: mission1_phase4_start
+  mission1_phase4_shots:
+    events:
+      - shot7
+      - shot8
+#    reset_events: ball_ending
+    events_when_complete: final_shot_lit
+    persist_state: true
+    reset_on_complete: false
+  mission1_shot_phases:
+    events:
+      - mission1_phase2_start
+      - mission1_phase3_start
+      - mission1_phase4_start
+      - final_shot
+#    reset_events: ball_ending
+    persist_state: true
+    events_when_complete: mission1_completed
+
+
+slide_player:
+  mode_mission1_started: score_slide_lava
+  left_loop_mission1_flashing_hit: shot_slide
+  center_drop_mission1_flashing_hit: shot_slide
+  right_loop_mission1_flashing_hit: shot_slide
+  final_shot: final_shot_mission1_slide
+
+show_player:
+  mode_mission1_started:
+    on_rgb:
+        show_tokens:
+          led: l_gi_3, l_gi_5, l_gi_6, l_gi_8, l_gi_9, l_gi_11, l_gi_2, l_gi_12, l_gi_14, l_gi_15, l_gi_17
+          color: orange
+  left_loop_mission1_flashing_hit:
+    orange_sparkle:
+      loops: 0
+      speed: 35
+  center_drop_mission1_flashing_hit:
+    orange_sparkle:
+      loops: 0
+      speed: 35
+  right_loop_mission1_flashing_hit:
+    orange_sparkle:
+      loops: 0
+      speed: 35
+  final_shot_lit:
+    final_shot:
+      loops: -1
+  final_shot:
+    orange_sparkle:
+      loops: 3
+      speed: 35
+
+
+slides:
+  final_shot_mission1_slide:
+    expire: 3s
+    widgets:
+      - type: text
+        text: FINAL SHOT
+        y: 75%
+        font_name: space_font
+        font_size: 75
+      - type: text
+        text: (mission1_total)
+        y: 50%
+        number_grouping: true
+        font_name: space_font
+        font_size: 65
+      - type: text
+        text: (playfield_multiplier)X
+        y: 45%
+        number_grouping: true
+        font_name: space_font
+        font_size: 50
+      - type: image
+        image: crystal_red
+  shot_slide:
+    expire: 2s
+    widgets:
+      - type: text
+        text: (multiplied_mode_value)
+        number_grouping: true
+        font_name: space_font
+        font_size: 85
+        animations:
+          show_slide:
+            - property: opacity
+              value: 1
+              duration: 0.3s
+            - property: opacity
+              value: 0
+              duration: 0.3s
+              repeat: true
+      - type: image
+        image: mission1_active_bg
+  score_slide_lava:
+    widgets:
+      - type: text
+        text: (score)
+        font_name: score_font
+        number_grouping: true
+        min_digits: 2
+        font_size: 75
+        x: 60%
+      - type: text
+        text: PLAYER (number)
+        font_name: space_font
+        y: 10
+        x: 10
+        font_size: 50
+        anchor_x: left
+        anchor_y: bottom
+      - type: text
+        text: BALL (ball)
+        font_name: space_font
+        y: 10
+        x: 10
+        anchor_x: right
+        anchor_y: bottom
+        font_size: 50
+      - type: Text
+        text: (player|mission1_timer_seconds)
+        y: 85%
+        font_name: space_font
+        font_size: 75
+      - type: image
+        image: sparks
+        opacity: 0.25
+        scale: 2.5
+      - type: image
+        image: mission1_active_bg

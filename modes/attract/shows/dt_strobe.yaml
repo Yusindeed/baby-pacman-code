@@ -1,0 +1,241 @@
+#show_version=5
+
+- time: 0
+  lights:
+    l_drop_target1: 'FF0000'
+    l_drop_target2: off
+
+- time: '+1'
+  lights:
+    l_drop_target2: 'FF0000'
+    l_drop_target1: off
+
+- time: '+1'
+  lights:
+    l_drop_target3: 'FF0000'
+    l_drop_target2: off
+
+- time: '+1'
+  lights:
+    l_drop_target4: 'FF0000'
+    l_drop_target3: off
+
+- time: '+1'
+  lights:
+    l_drop_target5: 'FF0000'
+    l_drop_target4: off
+
+- time: '+1'
+  lights:
+    l_drop_target4: 'FF0000'
+    l_drop_target5: off
+
+- time: '+1'
+  lights:
+    l_drop_target3: 'FF0000'
+    l_drop_target4: off
+
+- time: '+1'
+  lights:
+    l_drop_target2: 'FF0000'
+    l_drop_target3: off
+
+- time: '+1'
+  lights:
+    l_drop_target1: 'orange'
+    l_drop_target2: off
+
+- time: '+1'
+  lights:
+    l_drop_target2: 'orange'
+    l_drop_target1: off
+
+- time: '+1'
+  lights:
+    l_drop_target3: 'orange'
+    l_drop_target2: off
+
+- time: '+1'
+  lights:
+    l_drop_target4: 'orange'
+    l_drop_target3: off
+
+- time: '+1'
+  lights:
+    l_drop_target5: 'orange'
+    l_drop_target4: off
+
+- time: '+1'
+  lights:
+    l_drop_target4: 'orange'
+    l_drop_target5: off
+
+- time: '+1'
+  lights:
+    l_drop_target3: 'orange'
+    l_drop_target4: off
+
+- time: '+1'
+  lights:
+    l_drop_target2: 'orange'
+    l_drop_target3: off
+
+- time: '+1'
+  lights:
+    l_drop_target1: 'yellow'
+    l_drop_target2: off
+
+- time: '+1'
+  lights:
+    l_drop_target2: 'yellow'
+    l_drop_target1: off
+
+- time: '+1'
+  lights:
+    l_drop_target3: 'yellow'
+    l_drop_target2: off
+
+- time: '+1'
+  lights:
+    l_drop_target4: 'yellow'
+    l_drop_target3: off
+
+- time: '+1'
+  lights:
+    l_drop_target5: 'yellow'
+    l_drop_target4: off
+
+- time: '+1'
+  lights:
+    l_drop_target4: 'yellow'
+    l_drop_target5: off
+
+- time: '+1'
+  lights:
+    l_drop_target3: 'yellow'
+    l_drop_target4: off
+
+- time: '+1'
+  lights:
+    l_drop_target2: 'yellow'
+    l_drop_target3: off
+
+- time: '+1'
+  lights:
+    l_drop_target1: '00FF00'
+    l_drop_target2: off
+
+- time: '+1'
+  lights:
+    l_drop_target2: '00FF00'
+    l_drop_target1: off
+
+- time: '+1'
+  lights:
+    l_drop_target3: '00FF00'
+    l_drop_target2: off
+
+- time: '+1'
+  lights:
+    l_drop_target4: '00FF00'
+    l_drop_target3: off
+
+- time: '+1'
+  lights:
+    l_drop_target5: '00FF00'
+    l_drop_target4: off
+
+- time: '+1'
+  lights:
+    l_drop_target4: '00FF00'
+    l_drop_target5: off
+
+- time: '+1'
+  lights:
+    l_drop_target3: '00FF00'
+    l_drop_target4: off
+
+- time: '+1'
+  lights:
+    l_drop_target2: '00FF00'
+    l_drop_target3: off
+
+- time: '+1'
+  lights:
+    l_drop_target1: '0000FF'
+    l_drop_target2: off
+
+- time: '+1'
+  lights:
+    l_drop_target2: '0000FF'
+    l_drop_target1: off
+
+- time: '+1'
+  lights:
+    l_drop_target3: '0000FF'
+    l_drop_target2: off
+
+- time: '+1'
+  lights:
+    l_drop_target4: '0000FF'
+    l_drop_target3: off
+
+- time: '+1'
+  lights:
+    l_drop_target5: '0000FF'
+    l_drop_target4: off
+
+- time: '+1'
+  lights:
+    l_drop_target4: '0000FF'
+    l_drop_target5: off
+
+- time: '+1'
+  lights:
+    l_drop_target3: '0000FF'
+    l_drop_target4: off
+
+- time: '+1'
+  lights:
+    l_drop_target2: '0000FF'
+    l_drop_target3: off
+
+- time: '+1'
+  lights:
+    l_drop_target1: '800080'
+    l_drop_target2: off
+
+- time: '+1'
+  lights:
+    l_drop_target2: '800080'
+    l_drop_target1: off
+
+- time: '+1'
+  lights:
+    l_drop_target3: '800080'
+    l_drop_target2: off
+
+- time: '+1'
+  lights:
+    l_drop_target4: '800080'
+    l_drop_target3: off
+
+- time: '+1'
+  lights:
+    l_drop_target5: '800080'
+    l_drop_target4: off
+
+- time: '+1'
+  lights:
+    l_drop_target4: '800080'
+    l_drop_target5: off
+
+- time: '+1'
+  lights:
+    l_drop_target3: '800080'
+    l_drop_target4: off
+
+- time: '+1'
+  lights:
+    l_drop_target2: '800080'
+    l_drop_target3: off

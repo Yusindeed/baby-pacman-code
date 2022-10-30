@@ -1,0 +1,41 @@
+#config_version=5
+#This will handle the lights and stuff associated with mini wizard mode being lit
+
+mode:
+  start_events: light_mini_wizard #, s_left_inlane_active
+  stop_events: mode_mini_wizard_started
+  restart_on_next_ball: true
+  priority: 800
+  stop_priority: 150
+
+show_player:
+  mode_mini_wizard_lit_started:
+    saucer_forward:
+      loops: -1
+
+shows:
+  saucer_forward:
+    - lights:
+        l_left_kicker: on-f250ms
+        l_right_kicker: on-f250ms
+      duration: 250ms
+    - lights:
+        l_rgb_left_kicker: on-f250ms
+        l_rgb_right_kicker: on-f250ms
+      duration: 250ms
+    - lights:
+        l_gi_2: on-f250ms
+        l_gi_11: on-f250ms
+      duration: 250ms
+    - lights:
+        l_left_kicker: off-f250ms
+        l_right_kicker: off-f250ms
+      duration: 250ms
+    - lights:
+        l_rgb_left_kicker: off-f250ms
+        l_rgb_right_kicker: off-f250ms
+      duration: 250ms
+    - lights:
+        l_gi_2: off-f250ms
+        l_gi_11: off-f250ms
+      duration: 250ms

@@ -1,0 +1,867 @@
+#config_version=5
+
+mode:
+  start_events: carousel_mission2_selected
+  stop_events: mode_bonus_started, slide_final_shot_mission2_slide_removed, timer_mission2_timer_complete
+  priority: 1000
+
+timers:
+  mission2_timer:
+    start_value: 75
+    end_value: 0
+    tick_interval: 1200ms
+    direction: down
+    control_events:
+      - action: start
+        event: mode_mission2_started
+      - action: subtract
+        event: wrong_shot_mission2_event
+        value: 5
+
+event_player:
+  mode_mission2_started{device.accruals.mission2_phase4_shots.completed==False}: pick_ice_path1, pick_ice_path2, pick_safe_ice_path
+  mission2_phase2_start: pick_ice_path1, pick_ice_path2, pick_safe_ice_path
+  mission2_phase3_start: pick_ice_path1, pick_ice_path2, pick_safe_ice_path
+  mission2_phase4_start: pick_ice_path1, pick_ice_path2, pick_safe_ice_path
+  left_kicker_mission2_safe_hit{device.accruals.mission2_phase1_shots.completed==False}: shot1
+  right_kicker_mission2_safe_hit{device.accruals.mission2_phase1_shots.completed==False}: shot1
+  left_loop_mission2_safe_hit{device.accruals.mission2_phase1_shots.completed==False}: shot1
+  right_loop_mission2_safe_hit{device.accruals.mission2_phase1_shots.completed==False}: shot1
+  drop_target1_mission2_safe_hit{device.accruals.mission2_phase1_shots.completed==False}: shot1
+  drop_target2_mission2_safe_hit{device.accruals.mission2_phase1_shots.completed==False}: shot1
+  drop_target3_mission2_safe_hit{device.accruals.mission2_phase1_shots.completed==False}: shot1
+  drop_target4_mission2_safe_hit{device.accruals.mission2_phase1_shots.completed==False}: shot1
+  drop_target5_mission2_safe_hit{device.accruals.mission2_phase1_shots.completed==False}: shot1
+  left_kicker_mission2_safe_hit{device.accruals.mission2_phase1_shots.completed==True}: shot2
+  right_kicker_mission2_safe_hit{device.accruals.mission2_phase1_shots.completed==True}: shot2
+  left_loop_mission2_safe_hit{device.accruals.mission2_phase1_shots.completed==True}: shot2
+  right_loop_mission2_safe_hit{device.accruals.mission2_phase1_shots.completed==True}: shot2
+  drop_target1_mission2_safe_hit{device.accruals.mission2_phase1_shots.completed==True}: shot2
+  drop_target2_mission2_safe_hit{device.accruals.mission2_phase1_shots.completed==True}: shot2
+  drop_target3_mission2_safe_hit{device.accruals.mission2_phase1_shots.completed==True}: shot2
+  drop_target4_mission2_safe_hit{device.accruals.mission2_phase1_shots.completed==True}: shot2
+  drop_target5_mission2_safe_hit{device.accruals.mission2_phase1_shots.completed==True}: shot2
+  left_kicker_mission2_safe_hit{device.accruals.mission2_phase2_shots.completed==True}: shot3
+  right_kicker_mission2_safe_hit{device.accruals.mission2_phase2_shots.completed==True}: shot3
+  left_loop_mission2_safe_hit{device.accruals.mission2_phase2_shots.completed==True}: shot3
+  right_loop_mission2_safe_hit{device.accruals.mission2_phase2_shots.completed==True}: shot3
+  drop_target1_mission2_safe_hit{device.accruals.mission2_phase2_shots.completed==True}: shot3
+  drop_target2_mission2_safe_hit{device.accruals.mission2_phase2_shots.completed==True}: shot3
+  drop_target3_mission2_safe_hit{device.accruals.mission2_phase2_shots.completed==True}: shot3
+  drop_target4_mission2_safe_hit{device.accruals.mission2_phase2_shots.completed==True}: shot3
+  drop_target5_mission2_safe_hit{device.accruals.mission2_phase2_shots.completed==True}: shot3
+  left_kicker_mission2_safe_hit{device.accruals.mission2_phase3_shots.completed==True}: shot4
+  right_kicker_mission2_safe_hit{device.accruals.mission2_phase3_shots.completed==True}: shot4
+  left_loop_mission2_safe_hit{device.accruals.mission2_phase3_shots.completed==True}: shot4
+  right_loop_mission2_safe_hit{device.accruals.mission2_phase3_shots.completed==True}: shot4
+  drop_target1_mission2_safe_hit{device.accruals.mission2_phase3_shots.completed==True}: shot4
+  drop_target2_mission2_safe_hit{device.accruals.mission2_phase3_shots.completed==True}: shot4
+  drop_target3_mission2_safe_hit{device.accruals.mission2_phase3_shots.completed==True}: shot4
+  drop_target4_mission2_safe_hit{device.accruals.mission2_phase3_shots.completed==True}: shot4
+  drop_target5_mission2_safe_hit{device.accruals.mission2_phase3_shots.completed==True}: shot4
+  drop_target3_mission2_hit{device.accruals.mission2_phase4_shots.completed==True}: final_shot_mission2
+  left_loop_mission2_blue_hit{current_player.wrong_path_left_loop=='purple'}: wrong_shot_mission2_event
+  right_loop_mission2_blue_hit{current_player.wrong_path_right_loop=='purple'}: wrong_shot_mission2_event
+  left_kicker_mission2_blue_hit{current_player.wrong_path_left_kicker=='purple'}: wrong_shot_mission2_event
+  right_kicker_mission2_blue_hit{current_player.wrong_path_right_kicker=='purple'}: wrong_shot_mission2_event
+  drop_target1_mission2_blue_hit{current_player.wrong_path_drop_target1=='purple'}: wrong_shot_mission2_event
+  drop_target2_mission2_blue_hit{current_player.wrong_path_drop_target2=='purple'}: wrong_shot_mission2_event
+  drop_target3_mission2_blue_hit{current_player.wrong_path_drop_target3=='purple'}: wrong_shot_mission2_event
+  drop_target4_mission2_blue_hit{current_player.wrong_path_drop_target4=='purple'}: wrong_shot_mission2_event
+  drop_target5_mission2_blue_hit{current_player.wrong_path_drop_target5=='purple'}: wrong_shot_mission2_event
+
+slide_player:
+  shot1: shot_slide_mission2
+  shot2: shot_slide_mission2
+  shot3: shot_slide_mission2
+  shot4: shot_slide_mission2
+  left_loop_mission2_safe_ready_hit: half_shot_slide_mission2
+  right_loop_mission2_safe_ready_hit: half_shot_slide_mission2
+  left_kicker_mission2_safe_ready_hit: half_shot_slide_mission2
+  right_kicker_mission2_safe_ready_hit: half_shot_slide_mission2
+  drop_target1_mission2_safe_ready_hit: half_shot_slide_mission2
+  drop_target2_mission2_safe_ready_hit: half_shot_slide_mission2
+  drop_target3_mission2_safe_ready_hit: half_shot_slide_mission2
+  drop_target4_mission2_safe_ready_hit: half_shot_slide_mission2
+  drop_target5_mission2_safe_ready_hit: half_shot_slide_mission2
+  # ------
+  wrong_shot_mission2_event: wrong_shot_slide_mission2
+  mode_mission2_started: score_slide_mission2
+  final_shot_mission2: final_shot_mission2_slide
+
+slides:
+  shot_slide_mission2:
+    expire: 2.5s
+    widgets:
+      - type: text
+        text: SAFE PATH TAKEN
+        font_name: space_font
+        font_size: 85
+        y: 75%
+      - type: text
+        text: (multiplied_mode_value)
+        number_grouping: true
+        font_name: score_font
+        font_size: 85
+        animations:
+          show_slide:
+            - property: opacity
+              value: 1
+              duration: 0.3s
+            - property: opacity
+              value: 0
+              duration: 0.3s
+              repeat: true
+      - type: image
+        image: mission2_active_bg
+        scale: 2.5
+        fps: 20
+  half_shot_slide_mission2:
+    expire: 2.5s
+    widgets:
+      - type: text
+        text: SAFE PATH FOUND
+        font_name: space_font
+        font_size: 85
+        y: 75%
+      - type: text
+        text: (mode_value_half)
+        number_grouping: true
+        font_name: score_font
+        font_size: 85
+        animations:
+          show_slide:
+            - property: opacity
+              value: 1
+              duration: 0.3s
+            - property: opacity
+              value: 0
+              duration: 0.3s
+              repeat: true
+      - type: image
+        image: mission2_active_bg
+        scale: 2.5
+        fps: 20
+  wrong_shot_slide_mission2:
+    expire: 2.5s
+    widgets:
+      - type: text
+        text: UNSAFE PATH TAKEN
+        font_name: space_font
+        font_size: 85
+        y: 75%
+      - type: text
+        text: -5 SECONDS
+        font_name: space_font
+        font_size: 70
+        y: 65%
+      - type: text
+        text: 50,000
+        number_grouping: true
+        font_name: score_font
+        font_size: 85
+        animations:
+          show_slide:
+            - property: opacity
+              value: 1
+              duration: 0.3s
+            - property: opacity
+              value: 0
+              duration: 0.3s
+              repeat: true
+      - type: image
+        image: mission2_active_bg
+        scale: 2.5
+        fps: 20
+  score_slide_mission2:
+    widgets:
+      - type: text
+        text: (score)
+        font_name: score_font
+        number_grouping: true
+        min_digits: 2
+        font_size: 75
+        x: 60%
+      - type: text
+        text: PLAYER (number)
+        font_name: space_font
+        y: 10
+        x: 10
+        font_size: 50
+        anchor_x: left
+        anchor_y: bottom
+      - type: text
+        text: BALL (ball)
+        font_name: space_font
+        y: 10
+        x: right-10
+        anchor_x: right
+        anchor_y: bottom
+        font_size: 50
+      - type: Text
+        text: (player|mission2_timer_seconds)
+        y: 85%
+        font_name: space_font
+        font_size: 75
+      - type: image
+        image: mission2_active_bg
+        scale: 2.4
+        fps: 20
+  final_shot_mission2_slide:
+    expire: 3s
+    widgets:
+      - type: text
+        text: FINAL SHOT
+        y: 75%
+        font_name: space_font
+        font_size: 75
+      - type: text
+        text: (mission2_total)
+        y: 50%
+        number_grouping: true
+        font_name: score_font
+        font_size: 65
+      - type: text
+        text: (playfield_multiplier)X
+        y: 45%
+        number_grouping: true
+        font_name: space_font
+        font_size: 50
+      - type: image
+        image: crystal_white
+        scale: 2.1
+
+coil_player:
+  drop_target1_mission2_safe_ready_hit: c_target_reset
+  drop_target2_mission2_safe_ready_hit: c_target_reset
+  drop_target3_mission2_safe_ready_hit: c_target_reset
+  drop_target4_mission2_safe_ready_hit: c_target_reset
+  drop_target5_mission2_safe_ready_hit: c_target_reset
+
+accruals:
+  mission2_phase1_shots:
+    events:
+      - shot1
+#    reset_events: ball_ending
+    persist_state: true
+    reset_on_complete: false
+    events_when_complete: mission2_phase2_start
+  mission2_phase2_shots:
+    events:
+      - shot2
+#    reset_events: ball_will_end
+    persist_state: true
+    reset_on_complete: false
+    events_when_complete: mission2_phase3_start
+  mission2_phase3_shots:
+    events:
+      - shot3
+    persist_state: true
+    reset_on_complete: false
+    events_when_complete: mission2_phase4_start
+  mission2_phase4_shots:
+    events:
+      - shot4
+    persist_state: true
+    reset_on_complete: false
+    events_when_complete: final_shot_lit
+  mission2_shot_phases:
+    events:
+      - mission2_phase2_start
+      - mission2_phase3_start
+      - mission2_phase4_start
+      - final_shot_mission2
+#    reset_events: ball_ending
+    persist_state: true
+    events_when_complete: mission2_completed
+
+shots:
+  left_loop_mission2:
+    advance_events: light_left_loop_path, light_safe_left_loop_path, left_loop_mission2_safe_ready_hit
+    reset_events: mission2_phase2_start, mission2_phase3_start, mission2_phase4_start, final_shot_lit, shot1, shot2, shot3, shot4, ball_will_end, mode_mission2_started
+    switch: s_left_inlane_far
+    profile: mission2_profile
+    show_tokens:
+      led: l_rgb_left_spinner
+  right_loop_mission2:
+    advance_events: light_right_loop_path, light_safe_right_loop_path, right_loop_mission2_safe_ready_hit
+    reset_events: mission2_phase2_start, mission2_phase3_start, mission2_phase4_start, final_shot_lit, shot1, shot2, shot3, shot4, ball_will_end, mode_mission2_started
+    switch: s_right_inlane_far
+    profile: mission2_profile
+    show_tokens:
+      led: l_rgb_right_spinner
+  left_kicker_mission2:
+    switch: s_left_kicker
+    profile: mission2_profile
+    advance_events: light_left_kicker_path, light_safe_left_kicker_path, left_kicker_mission2_safe_ready_hit
+    reset_events: mission2_phase2_start, mission2_phase3_start, mission2_phase4_start, final_shot_lit, shot1, shot2, shot3, shot4, ball_will_end, mode_mission2_started
+    show_tokens:
+      led: l_rgb_left_kicker
+  right_kicker_mission2:
+    switch: s_right_kicker
+    profile: mission2_profile
+    advance_events: light_right_kicker_path, light_safe_right_kicker_path, right_kicker_mission2_safe_ready_hit
+    reset_events: mission2_phase2_start, mission2_phase3_start, mission2_phase4_start, final_shot_lit, shot1, shot2, shot3, shot4, ball_will_end, mode_mission2_started
+    show_tokens:
+      led: l_rgb_right_kicker
+  drop_target1_mission2:
+    switch: s_drop_target1
+    profile: mission2_profile
+    advance_events: light_drop_target1_path, light_safe_drop_target1_path, drop_target1_mission2_safe_ready_hit
+    reset_events: mission2_phase2_start, mission2_phase3_start, mission2_phase4_start, final_shot_lit, shot1, shot2, shot3, shot4, ball_will_end, mode_mission2_started
+    show_tokens:
+      led: l_drop_target1
+  drop_target2_mission2:
+    switch: s_drop_target2
+    profile: mission2_profile
+    advance_events: light_drop_target2_path, light_safe_drop_target2_path, drop_target2_mission2_safe_ready_hit
+    reset_events: mission2_phase2_start, mission2_phase3_start, mission2_phase4_start, final_shot_lit, shot1, shot2, shot3, shot4, ball_will_end, mode_mission2_started
+    show_tokens:
+      led: l_drop_target2
+  drop_target3_mission2:
+    switch: s_drop_target3
+    profile: mission2_profile
+    advance_events: light_drop_target3_path, light_safe_drop_target3_path, drop_target3_mission2_safe_ready_hit
+    reset_events: mission2_phase2_start, mission2_phase3_start, mission2_phase4_start, final_shot_lit, shot1, shot2, shot3, shot4, ball_will_end, mode_mission2_started
+    show_tokens:
+      led: l_drop_target3
+  drop_target4_mission2:
+    switch: s_drop_target4
+    profile: mission2_profile
+    advance_events: light_drop_target4_path, light_safe_drop_target4_path, drop_target4_mission2_safe_ready_hit
+    reset_events: mission2_phase2_start, mission2_phase3_start, mission2_phase4_start, final_shot_lit, shot1, shot2, shot3, shot4, ball_will_end, mode_mission2_started
+    show_tokens:
+      led: l_drop_target4
+  drop_target5_mission2:
+    switch: s_drop_target5
+    profile: mission2_profile
+    advance_events: light_drop_target5_path, light_safe_drop_target5_path, drop_target5_mission2_safe_ready_hit
+    reset_events: mission2_phase2_start, mission2_phase3_start, mission2_phase4_start, final_shot_lit, shot1, shot2, shot3, shot4, ball_will_end, mode_mission2_started
+    show_tokens:
+      led: l_drop_target5
+
+shot_profiles:
+  mission2_profile:
+    advance_on_hit: false
+    states:
+    - name: unlit
+      show: off
+    - name: blue
+      show: flash_rgb
+      show_tokens:
+        led: (led)
+        color: ADD8E6
+      sync_ms: 400
+    - name: safe_ready
+      show: flash_rgb
+      show_tokens:
+        led: (led)
+        color: ADD8E6
+      sync_ms: 400
+    - name: safe
+      show: on_rgb
+      show_tokens:
+        led: (led)
+        color: ADD8E6
+
+variable_player:
+  mode_mission2_started:
+    multiplied_mode_value:
+      int: (current_player.playfield_multiplier) * (current_player.mode_value)
+      action: set
+    mode_value_half:
+      int: ((current_player.playfield_multiplier) * (current_player.mode_value))/2
+      action: set
+  wrong_shot_mission2_event:
+    score: 50000 * (current_player.playfield_multiplier)
+  left_loop_mission2_safe_hit:
+    score: (current_player.multiplied_mode_value)
+    mission2_total: (current_player.multiplied_mode_value)
+  right_loop_mission2_safe_hit:
+    score: (current_player.multiplied_mode_value)
+    mission2_total: (current_player.multiplied_mode_value)
+  left_kicker_mission2_safe_hit:
+    score: (current_player.multiplied_mode_value)
+    mission2_total: (current_player.multiplied_mode_value)
+  right_kicker_mission2_safe_hit:
+    score: (current_player.multiplied_mode_value)
+    mission2_total: (current_player.multiplied_mode_value)
+  drop_target1_mission2_safe_hit:
+    score: (current_player.multiplied_mode_value)
+    mission2_total: (current_player.multiplied_mode_value)
+  drop_target2_mission2_safe_hit:
+    score: (current_player.multiplied_mode_value)
+    mission2_total: (current_player.multiplied_mode_value)
+  drop_target3_mission2_safe_hit:
+    score: (current_player.multiplied_mode_value)
+    mission2_total: (current_player.multiplied_mode_value)
+  drop_target4_mission2_safe_hit:
+    score: (current_player.multiplied_mode_value)
+    mission2_total: (current_player.multiplied_mode_value)
+  drop_target5_mission2_safe_hit:
+    score: (current_player.multiplied_mode_value)
+    mission2_total: (current_player.multiplied_mode_value)
+#-----------------
+  left_loop_mission2_safe_ready_hit:
+    score: (current_player.multiplied_mode_value)/2
+    mission2_total: (current_player.multiplied_mode_value)/2
+  right_loop_mission2_safe_ready_hit:
+    score: (current_player.multiplied_mode_value)/2
+    mission2_total: (current_player.multiplied_mode_value)/2
+  left_kicker_mission2_safe_ready_hit:
+    score: (current_player.multiplied_mode_value)/2
+    mission2_total: (current_player.multiplied_mode_value)/2
+  right_kicker_mission2_safe_ready_hit:
+    score: (current_player.multiplied_mode_value)/2
+    mission2_total: (current_player.multiplied_mode_value)/2
+  drop_target1_mission2_safe_ready_hit:
+    score: (current_player.multiplied_mode_value)/2
+    mission2_total: (current_player.multiplied_mode_value)/2
+  drop_target2_mission2_safe_ready_hit:
+    score: (current_player.multiplied_mode_value)/2
+    mission2_total: (current_player.multiplied_mode_value)/2
+  drop_target3_mission2_safe_ready_hit:
+    score: (current_player.multiplied_mode_value)/2
+    mission2_total: (current_player.multiplied_mode_value)/2
+  drop_target4_mission2_safe_ready_hit:
+    score: (current_player.multiplied_mode_value)/2
+    mission2_total: (current_player.multiplied_mode_value)/2
+  drop_target5_mission2_safe_ready_hit:
+    score: (current_player.multiplied_mode_value)/2
+    mission2_total: (current_player.multiplied_mode_value)/2
+# ------------------------------------------------
+  left_kicker_mission2_blue_hit{current_player.wrong_path_left_kicker=='purple'}:
+    score: 20000 * (current_player.playfield_multiplier)
+  right_kicker_mission2_blue_hit{current_player.wrong_path_right_kicker=='purple'}:
+    score: 20000 * (current_player.playfield_multiplier)
+  left_loop_mission2_blue_hit{current_player.wrong_path_left_loop=='purple'}:
+    score: 20000 * (current_player.playfield_multiplier)
+  right_loop_mission2_blue_hit{current_player.wrong_path_right_loop=='purple'}:
+    score: 20000 * (current_player.playfield_multiplier)
+  drop_target1_mission2_blue_hit{current_player.wrong_path_drop_target1=='purple'}:
+    score: 20000 * (current_player.playfield_multiplier)
+  drop_target2_mission2_blue_hit{current_player.wrong_path_drop_target2=='purple'}:
+    score: 20000 * (current_player.playfield_multiplier)
+  drop_target3_mission2_blue_hit{current_player.wrong_path_drop_target3=='purple'}:
+    score: 20000 * (current_player.playfield_multiplier)
+  drop_target4_mission2_blue_hit{current_player.wrong_path_drop_target4=='purple'}:
+    score: 20000 * (current_player.playfield_multiplier)
+  drop_target5_mission2_blue_hit{current_player.wrong_path_drop_target5=='purple'}:
+    score: 20000 * (current_player.playfield_multiplier)
+  mission2_completed:
+    crystals: 1
+  timer_mission2_timer_tick:
+    mission2_timer_seconds:
+      int: device.timers.mission2_timer.ticks
+      action: set
+    multiplied_mode_value:
+      int: (current_player.playfield_multiplier) * (current_player.mode_value)
+      action: set  
+  left_kicker_mission2_blue_hit:
+    wrong_path_left_kicker:
+      string: purple
+      action: set
+  right_kicker_mission2_blue_hit:
+    wrong_path_right_kicker:
+      string: purple
+      action: set
+  left_loop_mission2_blue_hit:
+    wrong_path_left_loop:
+      string: purple
+      action: set
+  right_loop_mission2_blue_hit:
+    wrong_path_right_loop:
+      string: purple
+      action: set
+  drop_target1_mission2_blue_hit:
+    wrong_path_drop_target1:
+      string: purple
+      action: set
+  drop_target2_mission2_blue_hit:
+    wrong_path_drop_target2:
+      string: purple
+      action: set
+  drop_target3_mission2_blue_hit:
+    wrong_path_drop_target3:
+      string: purple
+      action: set
+  drop_target4_mission2_blue_hit:
+    wrong_path_drop_target4:
+      string: purple
+      action: set
+  drop_target5_mission2_blue_hit:
+    wrong_path_drop_target5:
+      string: purple
+      action: set
+  shot1:
+    wrong_path_left_loop:
+      string: off
+      action: set
+    wrong_path_right_loop:
+      string: off
+      action: set
+    wrong_path_left_kicker:
+      string: off
+      action: set
+    wrong_path_right_kicker:
+      string: off
+      action: set
+    wrong_path_drop_target1:
+      string: off
+      action: set
+    wrong_path_drop_target2:
+      string: off
+      action: set
+    wrong_path_drop_target3:
+      string: off
+      action: set
+    wrong_path_drop_target4:
+      string: off
+      action: set
+    wrong_path_drop_target5:
+      string: off
+      action: set
+  shot2:
+    wrong_path_left_loop:
+      string: off
+      action: set
+    wrong_path_right_loop:
+      string: off
+      action: set
+    wrong_path_left_kicker:
+      string: off
+      action: set
+    wrong_path_right_kicker:
+      string: off
+      action: set
+    wrong_path_drop_target1:
+      string: off
+      action: set
+    wrong_path_drop_target2:
+      string: off
+      action: set
+    wrong_path_drop_target3:
+      string: off
+      action: set
+    wrong_path_drop_target4:
+      string: off
+      action: set
+    wrong_path_drop_target5:
+      string: off
+      action: set
+  shot3:
+    wrong_path_left_loop:
+      string: off
+      action: set
+    wrong_path_right_loop:
+      string: off
+      action: set
+    wrong_path_left_kicker:
+      string: off
+      action: set
+    wrong_path_right_kicker:
+      string: off
+      action: set
+    wrong_path_drop_target1:
+      string: off
+      action: set
+    wrong_path_drop_target2:
+      string: off
+      action: set
+    wrong_path_drop_target3:
+      string: off
+      action: set
+    wrong_path_drop_target4:
+      string: off
+      action: set
+    wrong_path_drop_target5:
+      string: off
+      action: set
+  shot4:
+    wrong_path_left_loop:
+      string: off
+      action: set
+    wrong_path_right_loop:
+      string: off
+      action: set
+    wrong_path_left_kicker:
+      string: off
+      action: set
+    wrong_path_right_kicker:
+      string: off
+      action: set
+    wrong_path_drop_target1:
+      string: off
+      action: set
+    wrong_path_drop_target2:
+      string: off
+      action: set
+    wrong_path_drop_target3:
+      string: off
+      action: set
+    wrong_path_drop_target4:
+      string: off
+      action: set
+    wrong_path_drop_target5:
+      string: off
+      action: set
+
+show_player:
+  shot1:
+    snow_sparkle:
+      loops: 0
+      speed: 15
+  shot2:
+    snow_sparkle:
+      loops: 0
+      speed: 15
+  shot3:
+    snow_sparkle:
+      loops: 0
+      speed: 15
+  shot4:
+    snow_sparkle:
+      loops: 0
+      speed: 10
+  final_shot_mission2:
+    snow_sparkle:
+      loops: -1
+      speed: 15
+  final_shot_lit:
+    final_shot:
+      loops: -1
+  mode_mission2_started{device.accruals.mission2_phase4_shots.completed==True}:
+    final_shot:
+      loops: -1
+  left_kicker_mission2_blue_hit:
+    on_rgb:
+      show_tokens:
+        led: l_rgb_left_kicker
+        color: purple
+  right_kicker_mission2_blue_hit:
+    on_rgb:
+      show_tokens:
+        led: l_rgb_right_kicker
+        color: purple
+  left_loop_mission2_blue_hit:
+    on_rgb:
+      show_tokens:
+        led: l_rgb_left_spinner
+        color: purple
+  right_loop_mission2_blue_hit:
+    on_rgb:
+      show_tokens:
+        led: l_rgb_right_spinner
+        color: purple
+  drop_target1_mission2_blue_hit:
+    on_rgb:
+      show_tokens:
+        led: l_drop_target1
+        color: purple
+  drop_target2_mission2_blue_hit:
+    on_rgb:
+      show_tokens:
+        led: l_drop_target2
+        color: purple
+  drop_target3_mission2_blue_hit:
+    on_rgb:
+      show_tokens:
+        led: l_drop_target3
+        color: purple
+  drop_target4_mission2_blue_hit:
+    on_rgb:
+      show_tokens:
+        led: l_drop_target4
+        color: purple
+  drop_target5_mission2_blue_hit:
+    on_rgb:
+      show_tokens:
+        led: l_drop_target5
+        color: purple
+#-------------------------------
+  left_kicker_mission2_blue_hit{current_player.wrong_path_left_kicker=='purple'}:
+    off:
+      show_tokens:
+        led: l_rgb_left_kicker
+    rgb_gi_flash:
+      loops: 0
+      show_tokens:
+        color: purple
+  right_kicker_mission2_blue_hit{current_player.wrong_path_right_kicker=='purple'}:
+    off:
+      show_tokens:
+        led: l_rgb_right_kicker
+    rgb_gi_flash:
+      loops: 0
+      show_tokens:
+        color: purple
+  left_loop_mission2_blue_hit{current_player.wrong_path_left_loop=='purple'}:
+    off:
+      show_tokens:
+        led: l_rgb_left_spinner
+    rgb_gi_flash:
+      loops: 0
+      show_tokens:
+        color: purple
+  right_loop_mission2_blue_hit{current_player.wrong_path_right_loop=='purple'}:
+    off:
+      show_tokens:
+        led: l_rgb_right_spinner
+    rgb_gi_flash:
+      loops: 0
+      show_tokens:
+        color: purple
+  drop_target1_mission2_blue_hit{current_player.wrong_path_drop_target1=='purple'}:
+    off:
+      show_tokens:
+        led: l_drop_target1
+    rgb_gi_flash:
+      loops: 0
+      show_tokens:
+        color: purple
+  drop_target2_mission2_blue_hit{current_player.wrong_path_drop_target2=='purple'}:
+    off:
+      show_tokens:
+        led: l_drop_target2
+    rgb_gi_flash:
+      loops: 0
+      show_tokens:
+        color: purple
+  drop_target3_mission2_blue_hit{current_player.wrong_path_drop_target3=='purple'}:
+    off:
+      show_tokens:
+        led: l_drop_target3
+    rgb_gi_flash:
+      loops: 0
+      show_tokens:
+        color: purple
+  drop_target4_mission2_blue_hit{current_player.wrong_path_drop_target4=='purple'}:
+    off:
+      show_tokens:
+        led: l_drop_target4
+    rgb_gi_flash:
+      loops: 0
+      show_tokens:
+        color: purple
+  drop_target5_mission2_blue_hit{current_player.wrong_path_drop_target5=='purple'}:
+    off:
+      show_tokens:
+        led: l_drop_target5
+    rgb_gi_flash:
+      loops: 0
+      show_tokens:
+        color: purple
+#----------------------------------
+  left_kicker_mission2_safe_hit:
+    off:
+      show_tokens:
+        led: l_rgb_left_kicker
+  right_kicker_mission2_safe_hit:
+    off:
+      show_tokens:
+        led: l_rgb_right_kicker
+  left_loop_mission2_safe_hit:
+    off:
+      show_tokens:
+        led: l_rgb_left_spinner
+  right_loop_mission2_safe_hit:
+    off:
+      show_tokens:
+        led: l_rgb_right_spinner
+  drop_target1_mission2_safe_hit:
+    off:
+      show_tokens:
+        led: l_drop_target1
+  drop_target2_mission2_safe_hit:
+    off:
+      show_tokens:
+        led: l_drop_target2
+  drop_target3_mission2_safe_hit:
+    off:
+      show_tokens:
+        led: l_drop_target3
+  drop_target4_mission2_safe_hit:
+    off:
+      show_tokens:
+        led: l_drop_target4
+  drop_target5_mission2_safe_hit:
+    off:
+      show_tokens:
+        led: l_drop_target5
+
+shows:
+  rgb_gi_flash:
+    - lights:
+        l_gi_1: (color)
+        l_gi_2: (color)
+        l_gi_3: (color)
+        l_gi_4: (color)
+        l_gi_5: (color)
+        l_gi_6: (color)
+        l_gi_7: (color)
+        l_gi_8: (color)
+        l_gi_9: (color)
+        l_gi_10: (color)
+        l_gi_11: (color)
+        l_gi_12: (color)
+        l_gi_13: (color)
+        l_gi_14: (color)
+        l_gi_15: (color)
+        l_gi_16: (color)
+        l_gi_17: (color)
+      duration: 200ms
+    - lights:
+        l_gi_1: off-f200ms
+        l_gi_2: off-f200ms
+        l_gi_3: off-f200ms
+        l_gi_4: off-f200ms
+        l_gi_5: off-f200ms
+        l_gi_6: off-f200ms
+        l_gi_7: off-f200ms
+        l_gi_8: off-f200ms
+        l_gi_9: off-f200ms
+        l_gi_10: off-f200ms
+        l_gi_11: off-f200ms
+        l_gi_12: off-f200ms
+        l_gi_13: off-f200ms
+        l_gi_14: off-f200ms
+        l_gi_15: off-f200ms
+        l_gi_16: off-f200ms
+        l_gi_17: off-f200ms
+      duration: 200ms
+
+
+random_event_player:
+  pick_ice_path1: #pick the first shot
+    events:
+    - light_left_kicker_path # {device.shots.left_kicker_mission2.state_name=='unlit'}
+    - light_right_kicker_path # {device.shots.right_kicker_mission2.state_name=='unlit'}
+    - light_left_loop_path # {device.shots.left_loop_mission2.state_name=='unlit'}
+    - light_right_loop_path # {device.shots.right_loop_mission2.state_name=='unlit'}
+    - light_drop_target1_path # {device.shots.drop_target1_mission2.state_name=='unlit'}
+    - light_drop_target2_path # {device.shots.drop_target2_mission2.state_name=='unlit'}
+    - light_drop_target3_path # {device.shots.drop_target3_mission2.state_name=='unlit'}
+    - light_drop_target4_path # {device.shots.drop_target4_mission2.state_name=='unlit'}
+    - light_drop_target5_path # {device.shots.drop_target5_mission2.state_name=='unlit'}
+  pick_ice_path2: #pick the second shot
+    events:
+    - light_left_kicker_path{device.shots.left_kicker_mission2.state_name=='unlit'}
+    - light_right_kicker_path{device.shots.right_kicker_mission2.state_name=='unlit'}
+    - light_left_loop_path{device.shots.left_loop_mission2.state_name=='unlit'}
+    - light_right_loop_path{device.shots.right_loop_mission2.state_name=='unlit'}
+    - light_drop_target1_path{device.shots.drop_target1_mission2.state_name=='unlit'}
+    - light_drop_target2_path{device.shots.drop_target2_mission2.state_name=='unlit'}
+    - light_drop_target3_path{device.shots.drop_target3_mission2.state_name=='unlit'}
+    - light_drop_target4_path{device.shots.drop_target4_mission2.state_name=='unlit'}
+    - light_drop_target5_path{device.shots.drop_target5_mission2.state_name=='unlit'}
+  pick_safe_ice_path: #pick safe shot
+    events:
+    - light_safe_left_kicker_path{device.shots.left_kicker_mission2.state_name=='blue'}
+    - light_safe_right_kicker_path{device.shots.right_kicker_mission2.state_name=='blue'}
+    - light_safe_left_loop_path{device.shots.left_loop_mission2.state_name=='blue'}
+    - light_safe_right_loop_path{device.shots.right_loop_mission2.state_name=='blue'}
+    - light_safe_drop_target1_path{device.shots.drop_target1_mission2.state_name=='blue'}
+    - light_safe_drop_target2_path{device.shots.drop_target2_mission2.state_name=='blue'}
+    - light_safe_drop_target3_path{device.shots.drop_target3_mission2.state_name=='blue'}
+    - light_safe_drop_target4_path{device.shots.drop_target4_mission2.state_name=='blue'}
+    - light_safe_drop_target5_path{device.shots.drop_target5_mission2.state_name=='blue'}

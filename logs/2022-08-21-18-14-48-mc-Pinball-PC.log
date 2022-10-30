@@ -1,0 +1,25 @@
+2022-08-21 18:14:49,011 : kivy : Factory: 186 symbols loaded
+2022-08-21 18:14:49,167 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2022-08-21 18:14:49,167 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2022-08-21 18:14:49,198 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2022-08-21 18:14:49,198 : kivy : Video: Provider: gstplayer
+2022-08-21 18:14:49,359 : kivy : Loading MPF-MC controller
+2022-08-21 18:14:49,898 : ConfigProcessor : Config spec file cache created: C:\Users\Brendan\AppData\Local\Temp\config_spec.mpf_cache
+2022-08-21 18:14:49,899 : YamlMultifileConfigLoader : Machine config file #1: config
+2022-08-21 18:14:49,899 : ConfigProcessor : Config file in cache changed: C:\Baby_pacman_code\machine\config\config
+2022-08-21 18:14:49,899 : ConfigProcessor : Loading config from file c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpfmc\mcconfig.yaml.
+2022-08-21 18:14:49,950 : ConfigProcessor : Loading config: c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpfmc\mcconfig.yaml
+2022-08-21 18:14:49,950 : ConfigProcessor : Loading config from file C:\Baby_pacman_code\machine\config\config.
+2022-08-21 18:14:50,079 : ConfigProcessor : Loading config: C:\Baby_pacman_code\machine\config\config
+2022-08-21 18:14:50,082 : ConfigProcessor : Config file cache created: C:\Users\Brendan\AppData\Local\Temp\e68bda1e95a8aa0185725ca2569cabab.mpf_cache
+2022-08-21 18:14:50,082 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\467e7647689d29fad6adf949e1f4d51d.mpf_cache
+2022-08-21 18:14:50,083 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\5550e037aa776b42b91b29b40b356c70.mpf_cache
+2022-08-21 18:14:50,083 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\15e0c601392b30c3d9ba3ead8131edb5.mpf_cache
+2022-08-21 18:14:50,084 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\0bf50917c4ef15ab65ee13d6c14e7d7c.mpf_cache
+2022-08-21 18:14:50,084 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\bc7da7b13b2754e080c2afa0678ac274.mpf_cache
+2022-08-21 18:14:50,085 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\bbd59d0bb6602ee0c5a89d6f85e6dd42.mpf_cache
+2022-08-21 18:14:50,086 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\5526c78976fee311c3d05505d75f653d.mpf_cache
+2022-08-21 18:14:50,086 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\6e95138ae5415fc76b53ebf8fa245fb5.mpf_cache
+2022-08-21 18:14:50,087 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\1ec1c4dffb383758956493783a9ed391.mpf_cache
+2022-08-21 18:14:50,087 : ConfigProcessor : Config file in cache changed: C:\Baby_pacman_code\machine\modes\mission2\config\mission2.yaml
+2022-08-21 18:14:50,087 : ConfigProcessor : Loading config from file C:\Baby_pacman_code\machine\modes\mission2\config\mission2.yaml.

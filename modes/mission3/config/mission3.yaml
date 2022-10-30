@@ -1,0 +1,334 @@
+#config_version=5
+
+mode:
+  start_events: carousel_mission3_selected
+  stop_events: mode_bonus_started, slide_final_shot_mission3_slide_removed, timer_mission3_timer_complete
+  priority: 1000
+
+timers:
+  mission3_timer:
+    start_value: 60
+    end_value: 0
+    tick_interval: 1200ms
+    direction: down
+    control_events:
+      - action: start
+        event: mode_mission3_started
+
+variable_player:
+  mode_mission3_started:
+    multiplied_mode_value:
+      int: (current_player.playfield_multiplier) * (current_player.mode_value)
+      action: set
+    mode_value_half:
+      int: ((current_player.playfield_multiplier) * (current_player.mode_value))/2
+      action: set
+  drop_targets_mission3_hit:
+    score: (current_player.mode_value_half)
+    mission3_total: (current_player.mode_value_half)
+  timer_mission3_timer_tick:
+    mission3_timer_seconds:
+      int: device.timers.mission3_timer.ticks
+      action: set
+    multiplied_mode_value:
+      int: (current_player.playfield_multiplier) * (current_player.mode_value)
+      action: set  
+  mission3_completed:
+    crystals: 1
+
+shots:
+  drop_targets_mission3:
+    switch: s_drop_target1, s_drop_target2, s_drop_target3, s_drop_target4, s_drop_target5
+    profile: mission3_profile
+
+shot_profiles:
+  mission3_profile:
+    states:
+    - name: phase1
+      show: mission3_strobe
+    - name: phase2
+      show: mission3_strobe
+    - name: phase3
+      show: mission3_strobe
+    - name: phase4
+      show: mission3_strobe
+    - name: phase5
+      show: mission3_strobe
+    - name: phase6
+      show: mission3_strobe
+
+accruals:
+  mission3_phase1_shots:
+    events:
+      - shot1
+      - shot2
+      - shot3
+      - shot4
+      - shot5
+#    reset_events: ball_ending
+    persist_state: true
+    reset_on_complete: false
+    events_when_complete: mission3_phase2_start
+  mission3_phase2_shots:
+    events:
+      - shot6
+      - shot7
+      - shot8
+      - shot9
+      - shot10
+#    reset_events: ball_will_end
+    persist_state: true
+    reset_on_complete: false
+    events_when_complete: final_shot_lit
+  mission3_shot_phases:
+    events:
+      - final_shot_lit
+      - final_shot_mission3
+#    reset_events: ball_ending
+    persist_state: true
+    events_when_complete: mission3_completed
+
+show_player:
+  final_shot_lit:
+    final_shot:
+      loops: -1
+  shot1:
+    green_swipe_up:
+      speed: 30
+      loops: 0
+  shot2:
+    green_swipe_up:
+      speed: 30
+      loops: 0
+  shot3:
+    green_swipe_up:
+      speed: 30
+      loops: 0
+  shot4:
+    green_swipe_up:
+      speed: 30
+      loops: 0
+  shot5:
+    green_swipe_up:
+      speed: 30
+      loops: 0
+  shot6:
+    green_swipe_up:
+      speed: 30
+      loops: 0
+  shot7:
+    green_swipe_up:
+      speed: 30
+      loops: 0
+  shot8:
+    green_swipe_up:
+      speed: 30
+      loops: 0
+  shot9:
+    green_swipe_up:
+      speed: 30
+      loops: 0
+  shot10:
+    green_swipe_up:
+      speed: 30
+      loops: 0
+
+shows:
+  mission3_strobe:
+    - lights:
+        l_drop_target1: green-f200ms
+        l_drop_target2: off-f200ms
+      duration: 200ms
+    - lights:
+        l_drop_target2: green-f200ms
+        l_drop_target1: green-f200ms
+      duration: 200ms
+    - lights:
+        l_drop_target3: green-f200ms
+        l_drop_target2: green-f200ms
+        l_drop_target1: green-f200ms
+      duration: 200ms
+    - lights:
+        l_drop_target4: green-f200ms
+        l_drop_target3: green-f200ms
+        l_drop_target2: green-f200ms
+        l_drop_target1: green-f200ms
+      duration: 200ms
+    - lights:
+        l_drop_target5: green-f200ms
+        l_drop_target4: green-f200ms
+        l_drop_target3: green-f200ms
+        l_drop_target2: green-f200ms
+        l_drop_target1: green-f200ms
+      duration: 200ms
+    - lights:
+        l_drop_target5: green-f200ms
+        l_drop_target4: green-f200ms
+        l_drop_target3: green-f200ms
+        l_drop_target2: green-f200ms
+        l_drop_target1: off-f200ms
+      duration: 200ms
+    - lights:
+        l_drop_target3: green-f200ms
+        l_drop_target4: green-f200ms
+        l_drop_target5: green-f200ms
+        l_drop_target1: off-f200ms
+        l_drop_target2: off-f200ms
+      duration: 200ms
+    - lights:
+        l_drop_target4: green-f200ms
+        l_drop_target5: green-f200ms
+        l_drop_target1: off-f200ms
+        l_drop_target2: off-f200ms
+        l_drop_target3: off-f200ms
+      duration: 200ms
+    - lights:
+        l_drop_target5: green-f200ms
+        l_drop_target1: off-f200ms
+        l_drop_target2: off-f200ms
+        l_drop_target3: off-f200ms
+        l_drop_target4: off-f200ms
+      duration: 200ms
+    - lights:
+        l_drop_target4: green-f200ms
+        l_drop_target5: green-f200ms
+      duration: 200ms
+    - lights:
+        l_drop_target3: green-f200ms
+        l_drop_target4: green-f200ms
+        l_drop_target5: green-f200ms
+      duration: 200ms
+    - lights:
+        l_drop_target5: green-f200ms
+        l_drop_target4: green-f200ms
+        l_drop_target3: green-f200ms
+        l_drop_target2: green-f200ms
+      duration: 200ms
+    - lights:
+        l_drop_target5: green-f200ms
+        l_drop_target4: green-f200ms
+        l_drop_target3: green-f200ms
+        l_drop_target2: green-f200ms
+        l_drop_target1: green-f200ms
+      duration: 200ms
+    - lights:
+        l_drop_target4: green-f200ms
+        l_drop_target3: green-f200ms
+        l_drop_target2: green-f200ms
+        l_drop_target1: green-f200ms
+        l_drop_target5: off-f200ms
+      duration: 200ms
+    - lights:
+        l_drop_target3: green-f200ms
+        l_drop_target2: green-f200ms
+        l_drop_target1: green-f200ms
+        l_drop_target5: off-f200ms
+        l_drop_target4: off-f200ms
+      duration: 200ms
+    - lights:
+        l_drop_target2: green-f200ms
+        l_drop_target1: green-f200ms
+        l_drop_target5: off-f200ms
+        l_drop_target4: off-f200ms
+        l_drop_target3: off-f200ms
+      duration: 200ms
+
+slide_player:
+  drop_targets_mission3_hit: shot_slide_mission3
+  mode_mission3_started: score_slide_forest
+  final_shot_mission3: final_shot_mission3_slide
+
+event_player:
+  s_drop_target3_active{device.accruals.mission3_phase2_shots.completed==True and device.accruals.mission3_shot_phases.completed==False}: final_shot_mission3
+  s_drop_target1_active{device.accruals.mission3_phase1_shots.completed==False}: shot1
+  s_drop_target2_active{device.accruals.mission3_phase1_shots.completed==False}: shot2
+  s_drop_target3_active{device.accruals.mission3_phase1_shots.completed==False}: shot3
+  s_drop_target4_active{device.accruals.mission3_phase1_shots.completed==False}: shot4
+  s_drop_target5_active{device.accruals.mission3_phase1_shots.completed==False}: shot5
+  s_drop_target1_active{device.accruals.mission3_phase1_shots.completed==True}: shot6
+  s_drop_target2_active{device.accruals.mission3_phase1_shots.completed==True}: shot7
+  s_drop_target3_active{device.accruals.mission3_phase1_shots.completed==True}: shot8
+  s_drop_target4_active{device.accruals.mission3_phase1_shots.completed==True}: shot9
+  s_drop_target5_active{device.accruals.mission3_phase1_shots.completed==True}: shot10
+
+
+slides:
+  score_slide_forest:
+    widgets:
+      - type: text
+        text: (score)
+        font_name: score_font
+        number_grouping: true
+        min_digits: 2
+        font_size: 75
+        x: 60%
+      - type: text
+        text: PLAYER (number)
+        font_name: space_font
+        y: 10
+        x: 10
+        font_size: 50
+        anchor_x: left
+        anchor_y: bottom
+      - type: text
+        text: BALL (ball)
+        font_name: space_font
+        y: 10
+        x: right-10
+        anchor_x: right
+        anchor_y: bottom
+        font_size: 50
+      - type: Text
+        text: (player|mission3_timer_seconds)
+        y: 85%
+        font_name: space_font
+        font_size: 75
+      - type: image
+        image: forest_sparkle
+        opacity: 0.25
+        scale: 2.5
+      - type: image
+        image: mission3_active_bg
+        scale: 2
+  shot_slide_mission3:
+    expire: 2.5s
+    widgets:
+      - type: text
+        text: (mode_value_half)
+        number_grouping: true
+        font_name: score_font
+        font_size: 85
+        animations:
+          show_slide:
+            - property: opacity
+              value: 1
+              duration: 0.3s
+            - property: opacity
+              value: 0
+              duration: 0.3s
+              repeat: true
+      - type: image
+        image: mission3_active_bg
+        scale: 2
+  final_shot_mission3_slide:
+    expire: 3s
+    widgets:
+      - type: text
+        text: FINAL SHOT
+        y: 75%
+        font_name: space_font
+        font_size: 75
+      - type: text
+        text: (mission3_total)
+        y: 50%
+        number_grouping: true
+        font_name: score_font
+        font_size: 65
+      - type: text
+        text: (playfield_multiplier)X
+        y: 45%
+        number_grouping: true
+        font_name: space_font
+        font_size: 50
+      - type: image
+        image: crystal_green

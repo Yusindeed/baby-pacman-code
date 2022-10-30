@@ -1,0 +1,164 @@
+2022-08-21 18:45:00,736 : INFO : root : Loading config.
+2022-08-21 18:45:01,277 : INFO : ConfigProcessor : Config spec file cache created: C:\Users\Brendan\AppData\Local\Temp\config_spec.mpf_cache
+2022-08-21 18:45:01,278 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-08-21 18:45:01,278 : WARNING : ConfigProcessor : Config file in cache changed: C:\Baby_pacman_code\machine\config\config.yaml
+2022-08-21 18:45:01,278 : INFO : ConfigProcessor : Loading config from file c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\mpfconfig.yaml.
+2022-08-21 18:45:01,380 : INFO : ConfigProcessor : Loading config: c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\mpfconfig.yaml
+2022-08-21 18:45:01,381 : INFO : ConfigProcessor : Loading config from file C:\Baby_pacman_code\machine\config\config.yaml.
+2022-08-21 18:45:01,509 : INFO : ConfigProcessor : Loading config: C:\Baby_pacman_code\machine\config\config.yaml
+2022-08-21 18:45:01,513 : INFO : ConfigProcessor : Config file cache created: C:\Users\Brendan\AppData\Local\Temp\bccefe987bb586eace29905fa80cab57.mpf_cache
+2022-08-21 18:45:01,568 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\467e7647689d29fad6adf949e1f4d51d.mpf_cache
+2022-08-21 18:45:01,569 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\5550e037aa776b42b91b29b40b356c70.mpf_cache
+2022-08-21 18:45:01,569 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\15e0c601392b30c3d9ba3ead8131edb5.mpf_cache
+2022-08-21 18:45:01,570 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\0bf50917c4ef15ab65ee13d6c14e7d7c.mpf_cache
+2022-08-21 18:45:01,571 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\bc7da7b13b2754e080c2afa0678ac274.mpf_cache
+2022-08-21 18:45:01,572 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\bbd59d0bb6602ee0c5a89d6f85e6dd42.mpf_cache
+2022-08-21 18:45:01,573 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\5526c78976fee311c3d05505d75f653d.mpf_cache
+2022-08-21 18:45:01,573 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\6e95138ae5415fc76b53ebf8fa245fb5.mpf_cache
+2022-08-21 18:45:01,574 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\1ec1c4dffb383758956493783a9ed391.mpf_cache
+2022-08-21 18:45:01,575 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\f2aee92728c8017b77c710c804dd7f5a.mpf_cache
+2022-08-21 18:45:01,576 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\88f57fa1305e9dc100972ec9f84d57fe.mpf_cache
+2022-08-21 18:45:01,577 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\6e00a9d794d4c3f43a0fc48da04dac60.mpf_cache
+2022-08-21 18:45:01,578 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\05ef98219fc733c3bcab58726c4b37ef.mpf_cache
+2022-08-21 18:45:01,579 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\c22d657a5a7bb60632c2be2c735e073b.mpf_cache
+2022-08-21 18:45:01,580 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\f7d4f5eb9425fe84d2e83a363afd4bdf.mpf_cache
+2022-08-21 18:45:01,581 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\125f51d329f930ea7bff10973551cc26.mpf_cache
+2022-08-21 18:45:01,581 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\08e18dfdf4e02cd29cc0cc52be2faaf4.mpf_cache
+2022-08-21 18:45:01,582 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\f042f5bf6362b9e04d43b40b93a92057.mpf_cache
+2022-08-21 18:45:01,583 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\60badac06cd62deb71f25fac24b103c2.mpf_cache
+2022-08-21 18:45:01,584 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\a3ad1aeb679a0686901de8a6ffe784f0.mpf_cache
+2022-08-21 18:45:01,584 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\d7856287e4ec48fb5adaa65e5f7b2848.mpf_cache
+2022-08-21 18:45:01,585 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\4849f32e60febd99d83791f2417d9a0f.mpf_cache
+2022-08-21 18:45:01,586 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\942a9c8af084c06606ececc74db0a30f.mpf_cache
+2022-08-21 18:45:01,586 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\d3a5f9b6ba13782c30d3f4f7e40a9dcf.mpf_cache
+2022-08-21 18:45:01,587 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\bb2305c107159ac261738ee6fa5177f9.mpf_cache
+2022-08-21 18:45:01,588 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\5e8fe62f7d4a280c75af4e016e79234a.mpf_cache
+2022-08-21 18:45:01,588 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\7934ad8984867b043b25c8f1f16418da.mpf_cache
+2022-08-21 18:45:01,589 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\201f4c0a0d10e05df2979372d05b639d.mpf_cache
+2022-08-21 18:45:01,589 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\29084e75e573608c6a2e9d91f8c2e516.mpf_cache
+2022-08-21 18:45:01,590 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\c1a52d9ec6beffcf3a0c74172f4f1789.mpf_cache
+2022-08-21 18:45:01,591 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\1a7cfdccecce53cd51775700aa921808.mpf_cache
+2022-08-21 18:45:01,591 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\bbeb6a5751b9d2029aa6e8633936e040.mpf_cache
+2022-08-21 18:45:01,592 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\396defae609afab4d6d7399595fd494b.mpf_cache
+2022-08-21 18:45:01,593 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\df5b128cf73808572dcd58af6b99a12a.mpf_cache
+2022-08-21 18:45:01,593 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\b16abd66a20b52f76df13eb007a93cde.mpf_cache
+2022-08-21 18:45:01,594 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\09ddf149c2750d0dc18124afb4ec1692.mpf_cache
+2022-08-21 18:45:01,594 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\dc261f740d4fb0b58874215bc05837b4.mpf_cache
+2022-08-21 18:45:01,595 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\fd5b67850c190931870595f7ba331325.mpf_cache
+2022-08-21 18:45:01,595 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\7fa0bf6f8a3d06d96f9daba2d24e8451.mpf_cache
+2022-08-21 18:45:01,596 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\17652c03725ec0d5dc66b35abdc504c5.mpf_cache
+2022-08-21 18:45:01,596 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\f6549f0a1a12987384ccc86b9df17004.mpf_cache
+2022-08-21 18:45:01,597 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\d416d6f9f35dec068a811f18f969a8db.mpf_cache
+2022-08-21 18:45:01,598 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\2cbb22f93ff96ef242a9a2d7465f7b14.mpf_cache
+2022-08-21 18:45:01,599 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\5b43fbcb021f3ce97d73fdb8a470eae4.mpf_cache
+2022-08-21 18:45:01,599 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\6d994d077edad00fe01353c1bfbf6638.mpf_cache
+2022-08-21 18:45:01,600 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\df6e37541f81fc1a6e02dbcf98e0d10b.mpf_cache
+2022-08-21 18:45:01,600 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\c5e911b563ca93c8e10ce7743f92e657.mpf_cache
+2022-08-21 18:45:01,601 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\99ecafb2993dab1e69369c4f69529b6f.mpf_cache
+2022-08-21 18:45:01,602 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\57f2f8973b8bd58edd1d215976151c60.mpf_cache
+2022-08-21 18:45:01,602 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\19f702536b27ff66106645e85afb027e.mpf_cache
+2022-08-21 18:45:01,603 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\c17101e4486856bd6430e66412997ee7.mpf_cache
+2022-08-21 18:45:01,605 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\c5b3b18e965344eb40bdf988f6d052aa.mpf_cache
+2022-08-21 18:45:01,606 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-08-21 18:45:01,606 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-08-21-18-45-00-mpf-Pinball-PC.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-08-21 18:45:01,606 : INFO : Machine : MPF path: c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf
+2022-08-21 18:45:01,606 : INFO : Machine : Machine path: C:\Baby_pacman_code\machine
+2022-08-21 18:45:01,606 : INFO : Machine : Platform: win32
+2022-08-21 18:45:01,606 : INFO : Machine : Python executable location: c:\users\brendan\appdata\local\programs\python\python37\python.exe
+2022-08-21 18:45:01,606 : INFO : Machine : Python version: 3.7.8 (64-bit)
+2022-08-21 18:45:01,608 : INFO : Machine : Initialise MPF.
+2022-08-21 18:45:01,764 : INFO : FAST : Connecting to com7 at 921600bps
+2022-08-21 18:45:01,812 : INFO : FAST : Connected! Processor: NET, Board Type: FP-CPU-002-2, Firmware: 01.05
+2022-08-21 18:45:01,812 : INFO : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'value': '01.05', 'prev_value': None, 'change': True}
+2022-08-21 18:45:01,812 : INFO : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2022-08-21 18:45:04,181 : WARNING : FAST : Got unexpected message from FAST: -N:06
+2022-08-21 18:45:04,181 : WARNING : FAST : Got unexpected message from FAST: -N:13
+2022-08-21 18:45:04,228 : INFO : FAST : Connecting to com8 at 921600bps
+2022-08-21 18:45:04,276 : INFO : FAST : Connected! Processor: RGB, Board Type: FP-CPU-002-2, Firmware: 01.00
+2022-08-21 18:45:04,276 : INFO : EventManager : Event: ======'machine_var_fast_rgb_firmware'====== Args={'value': '01.00', 'prev_value': None, 'change': True}
+2022-08-21 18:45:04,276 : INFO : EventManager : Event: ======'machine_var_fast_rgb_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2022-08-21 18:45:04,277 : INFO : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-08-21 18:45:04,331 : INFO : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-08-21 18:45:04,331 : INFO : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 58540490, 'prev_value': None, 'change': True}
+2022-08-21 18:45:04,331 : INFO : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-08-21 18:45:04,332 : INFO : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-08-21 18:45:04,332 : INFO : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.7.8', 'prev_value': None, 'change': True}
+2022-08-21 18:45:04,332 : INFO : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-7-6.1.7601-SP1', 'prev_value': None, 'change': True}
+2022-08-21 18:45:04,332 : INFO : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-08-21 18:45:04,332 : INFO : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '7', 'prev_value': None, 'change': True}
+2022-08-21 18:45:04,332 : INFO : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '6.1.7601', 'prev_value': None, 'change': True}
+2022-08-21 18:45:04,332 : INFO : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-08-21 18:45:04,332 : INFO : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-08-21 18:45:04,374 : ERROR : asyncio : Exception in callback EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...tem to dict')>) at c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\events.py:112
+handle: <Handle EventManager._async_handler_done(<QueuedEvent>)(<Task finishe...tem to dict')>) at c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\events.py:112>
+Traceback (most recent call last):
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 317, in _validate_dict_or_omap
+    item = Util.event_config_to_dict(item)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\utility_functions.py", line 333, in event_config_to_dict
+    return_dict[event] = 0
+TypeError: unhashable type: 'dict'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\events.py", line 115, in _async_handler_done
+    future.result()
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\device_manager.py", line 89, in _load_device_modules
+    self.load_devices_config(validate=True)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\device_manager.py", line 147, in load_devices_config
+    config[device_name] = collection[device_name].validate_and_parse_config(config[device_name], False)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\device.py", line 109, in validate_and_parse_config
+    self.config_section, config, self.name, "device", prefix=debug_prefix)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 180, in validate_config
+    validation_failure_info=validation_failure_info)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 222, in _validate_config
+    validation_failure_info=ValidationPath(validation_failure_info, k))
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 288, in validate_config_item
+    return self._validate_dict_or_omap(item_type, validation, validation_failure_info, item)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 319, in _validate_dict_or_omap
+    self.validation_error(item, validation_failure_info, "Could not convert item to dict", 8)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 728, in validation_error
+    item, msg), 5 if code is None else code, self.log.name)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry drop_target_banks:main:reset_events = "[{'drop_target_bank_main_down': '1s'}, 'ball_started', 'carousel_mission1_selected', 'mission1_phase4_start', 'mission1_phase3_start', 'mode_base_started', 'mode_mission3_started', 'light_drop_target1_path', 'light_drop_target2_path', 'light_drop_target3_path', 'light_drop_target4_path', 'light_drop_target5_path', 'final_shot_lit']" is not valid. Could not convert item to dict Error Code: CFE-ConfigValidator-8 (https://docs.missionpinball.org/en/0.55/logs/CFE-ConfigValidator-8.html)
+2022-08-21 18:45:04,379 : INFO : Machine : Starting the main run loop.
+2022-08-21 18:45:04,380 : INFO : Machine : Shutting down...
+2022-08-21 18:45:04,381 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-08-21 18:45:04,462 : ERROR : FAST : Stop called on serial connection com7
+2022-08-21 18:45:04,462 : ERROR : FAST : Stop called on serial connection com8
+2022-08-21 18:45:04,680 : ERROR : Machine : Runtime Exception
+Traceback (most recent call last):
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 317, in _validate_dict_or_omap
+    item = Util.event_config_to_dict(item)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\utility_functions.py", line 333, in event_config_to_dict
+    return_dict[event] = 0
+TypeError: unhashable type: 'dict'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\machine.py", line 769, in _run_loop
+    raise self._exception['exception']
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\asyncio\events.py", line 88, in _run
+    self._context.run(self._callback, *self._args)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\events.py", line 115, in _async_handler_done
+    future.result()
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\device_manager.py", line 89, in _load_device_modules
+    self.load_devices_config(validate=True)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\device_manager.py", line 147, in load_devices_config
+    config[device_name] = collection[device_name].validate_and_parse_config(config[device_name], False)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\device.py", line 109, in validate_and_parse_config
+    self.config_section, config, self.name, "device", prefix=debug_prefix)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 180, in validate_config
+    validation_failure_info=validation_failure_info)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 222, in _validate_config
+    validation_failure_info=ValidationPath(validation_failure_info, k))
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 288, in validate_config_item
+    return self._validate_dict_or_omap(item_type, validation, validation_failure_info, item)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 319, in _validate_dict_or_omap
+    self.validation_error(item, validation_failure_info, "Could not convert item to dict", 8)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 728, in validation_error
+    item, msg), 5 if code is None else code, self.log.name)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Config validation error: Entry drop_target_banks:main:reset_events = "[{'drop_target_bank_main_down': '1s'}, 'ball_started', 'carousel_mission1_selected', 'mission1_phase4_start', 'mission1_phase3_start', 'mode_base_started', 'mode_mission3_started', 'light_drop_target1_path', 'light_drop_target2_path', 'light_drop_target3_path', 'light_drop_target4_path', 'light_drop_target5_path', 'final_shot_lit']" is not valid. Could not convert item to dict Error Code: CFE-ConfigValidator-8 (https://docs.missionpinball.org/en/0.55/logs/CFE-ConfigValidator-8.html)
+2022-08-21 18:45:16,805 : INFO : root : MPF run loop ended.

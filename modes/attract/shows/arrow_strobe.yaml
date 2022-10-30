@@ -1,0 +1,15 @@
+#show_version=5
+
+- time: 0
+  lights:
+    l_left_kicker: 'FFFFFF'
+    l_right_loop: 'FFFFFF'
+    l_right_kicker: off
+    l_left_loop: off
+
+- time: '+1'
+  lights:
+    l_right_kicker: 'FFFFFF'
+    l_left_loop: 'FFFFFF'
+    l_left_kicker: off
+    l_right_loop: off

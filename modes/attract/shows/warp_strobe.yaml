@@ -1,0 +1,31 @@
+#show_version=5
+
+- time: 0
+  lights:
+    l_warp_w: '0000FF'
+    l_warp_a: off
+
+- time: '+1'
+  lights:
+    l_warp_a: '0000FF'
+    l_warp_w: off
+
+- time: '+1'
+  lights:
+    l_warp_r: '0000FF'
+    l_warp_a: off
+
+- time: '+1'
+  lights:
+    l_warp_p: '0000FF'
+    l_warp_r: off
+
+- time: '+1'
+  lights:
+    l_warp_r: '0000FF'
+    l_warp_p: off
+
+- time: '+1'
+  lights:
+    l_warp_a: '0000FF'
+    l_warp_r: off

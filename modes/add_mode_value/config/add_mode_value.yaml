@@ -1,0 +1,23 @@
+#config_version=5
+#This will handle adding mode shot value when a misssion is not currently active 
+
+mode:
+  start_events: mode_base_started, start_portal, mode_mission1_will_stop, mode_mission2_will_stop, mode_mission3_will_stop, mode_mission4_will_stop
+  stop_events: start_selection_mode
+  priority: 200
+
+variable_player:
+    s_left_captive_ball_inactive:
+      mode_value: 25000
+    s_right_captive_ball_inactive:
+      mode_value: 25000
+    mission1_complete:
+      mode_value: 250000
+    mission2_complete:
+      mode_value: 250000
+    mission3_complete:
+      mode_value: 250000
+    mission4_complete:
+      mode_value: 250000
+    drop_target_bank_main_down:
+      mode_value: 100000

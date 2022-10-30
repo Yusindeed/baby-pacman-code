@@ -1,0 +1,247 @@
+#show_version=5
+
+- time: 0
+  lights:
+    l_portal_p: 'FF0000'
+    l_portal_o: off
+- time: '+1'
+  lights:
+    l_portal_o: 'FF0000'
+    l_portal_p: off
+- time: '+1'
+  lights:
+    l_portal_r: 'FF0000'
+    l_portal_o: off
+- time: '+1'
+  lights:
+    l_portal_t: 'FF0000'
+    l_portal_r: off
+- time: '+1'
+  lights:
+    l_portal_a: 'FF0000'
+    l_portal_t: off
+- time: '+1'
+  lights:
+    l_portal_l: 'FF0000'
+    l_portal_a: off
+- time: '+1'
+  lights:
+    l_portal_a: 'FF0000'
+    l_portal_l: off
+- time: '+1'
+  lights:
+    l_portal_t: 'FF0000'
+    l_portal_a: off
+- time: '+1'
+  lights:
+    l_portal_r: 'FF0000'
+    l_portal_t: off
+- time: '+1'
+  lights:
+    l_portal_o: 'FF0000'
+    l_portal_r: off
+#
+- time: '+1'
+  lights:
+    l_portal_p: 'orange'
+    l_portal_o: off
+- time: '+1'
+  lights:
+    l_portal_o: 'orange'
+    l_portal_p: off
+- time: '+1'
+  lights:
+    l_portal_r: 'orange'
+    l_portal_o: off
+- time: '+1'
+  lights:
+    l_portal_t: 'orange'
+    l_portal_r: off
+- time: '+1'
+  lights:
+    l_portal_a: 'orange'
+    l_portal_t: off
+- time: '+1'
+  lights:
+    l_portal_l: 'orange'
+    l_portal_a: off
+- time: '+1'
+  lights:
+    l_portal_a: 'orange'
+    l_portal_l: off
+- time: '+1'
+  lights:
+    l_portal_t: 'orange'
+    l_portal_a: off
+- time: '+1'
+  lights:
+    l_portal_r: 'orange'
+    l_portal_t: off
+- time: '+1'
+  lights:
+    l_portal_o: 'orange'
+    l_portal_r: off
+#
+- time: '+1'
+  lights:
+    l_portal_p: 'yellow'
+    l_portal_o: off
+- time: '+1'
+  lights:
+    l_portal_o: 'yellow'
+    l_portal_p: off
+- time: '+1'
+  lights:
+    l_portal_r: 'yellow'
+    l_portal_o: off
+- time: '+1'
+  lights:
+    l_portal_t: 'yellow'
+    l_portal_r: off
+- time: '+1'
+  lights:
+    l_portal_a: 'yellow'
+    l_portal_t: off
+- time: '+1'
+  lights:
+    l_portal_l: 'yellow'
+    l_portal_a: off
+- time: '+1'
+  lights:
+    l_portal_a: 'yellow'
+    l_portal_l: off
+- time: '+1'
+  lights:
+    l_portal_t: 'yellow'
+    l_portal_a: off
+- time: '+1'
+  lights:
+    l_portal_r: 'yellow'
+    l_portal_t: off
+- time: '+1'
+  lights:
+    l_portal_o: 'yellow'
+    l_portal_r: off
+#
+- time: '+1'
+  lights:
+    l_portal_p: '00FF00'
+    l_portal_o: off
+- time: '+1'
+  lights:
+    l_portal_o: '00FF00'
+    l_portal_p: off
+- time: '+1'
+  lights:
+    l_portal_r: '00FF00'
+    l_portal_o: off
+- time: '+1'
+  lights:
+    l_portal_t: '00FF00'
+    l_portal_r: off
+- time: '+1'
+  lights:
+    l_portal_a: '00FF00'
+    l_portal_t: off
+- time: '+1'
+  lights:
+    l_portal_l: '00FF00'
+    l_portal_a: off
+- time: '+1'
+  lights:
+    l_portal_a: '00FF00'
+    l_portal_l: off
+- time: '+1'
+  lights:
+    l_portal_t: '00FF00'
+    l_portal_a: off
+- time: '+1'
+  lights:
+    l_portal_r: '00FF00'
+    l_portal_t: off
+- time: '+1'
+  lights:
+    l_portal_o: '00FF00'
+    l_portal_r: off
+#
+- time: '+1'
+  lights:
+    l_portal_p: '0000FF'
+    l_portal_o: off
+- time: '+1'
+  lights:
+    l_portal_o: '0000FF'
+    l_portal_p: off
+- time: '+1'
+  lights:
+    l_portal_r: '0000FF'
+    l_portal_o: off
+- time: '+1'
+  lights:
+    l_portal_t: '0000FF'
+    l_portal_r: off
+- time: '+1'
+  lights:
+    l_portal_a: '0000FF'
+    l_portal_t: off
+- time: '+1'
+  lights:
+    l_portal_l: '0000FF'
+    l_portal_a: off
+- time: '+1'
+  lights:
+    l_portal_a: '0000FF'
+    l_portal_l: off
+- time: '+1'
+  lights:
+    l_portal_t: '0000FF'
+    l_portal_a: off
+- time: '+1'
+  lights:
+    l_portal_r: '0000FF'
+    l_portal_t: off
+- time: '+1'
+  lights:
+    l_portal_o: '0000FF'
+    l_portal_r: off
+#
+- time: '+1'
+  lights:
+    l_portal_p: '800080'
+    l_portal_o: off
+- time: '+1'
+  lights:
+    l_portal_o: '800080'
+    l_portal_p: off
+- time: '+1'
+  lights:
+    l_portal_r: '800080'
+    l_portal_o: off
+- time: '+1'
+  lights:
+    l_portal_t: '800080'
+    l_portal_r: off
+- time: '+1'
+  lights:
+    l_portal_a: '800080'
+    l_portal_t: off
+- time: '+1'
+  lights:
+    l_portal_l: '800080'
+    l_portal_a: off
+- time: '+1'
+  lights:
+    l_portal_a: '800080'
+    l_portal_l: off
+- time: '+1'
+  lights:
+    l_portal_t: '800080'
+    l_portal_a: off
+- time: '+1'
+  lights:
+    l_portal_r: '800080'
+    l_portal_t: off
+- time: '+1'
+  lights:
+    l_portal_o: '800080'
+    l_portal_r: off

@@ -1,0 +1,92 @@
+#config_version=5
+#this will handle the spelling of "warp"
+
+mode:
+  start_events: mode_base_started, start_warp, mode_mission1_will_stop, mode_mission2_will_stop, mode_mission3_will_stop, mode_mission4_will_stop
+  stop_events: start_selection_mode
+  priority: 200
+
+
+shots:
+  warp_advance:
+    switch: s_drop_target3
+
+
+counters:
+  warp_counter:
+    count_events: warp_advance_hit
+    events_when_complete: dimension_lit
+    starting_count: 0
+    direction: up
+    count_complete_value: 4
+    persist_state: true
+    reset_on_complete: false
+    reset_events: end_dimension
+    disable_on_complete: false #change this to true when I actually make modes for this
+  #  control_events:
+  #    - event: mode_spell_portal_started{device.counters.warp_counter.value < 3 and current_player.portal_letters < 3}
+  #      action: jump
+  #      value: 3
+  #    - event: mode_spell_portal_started{device.counters.mode_completion_counter.value == 2}
+  #      action: jump
+  #      value: 2
+  #    - event: mode_spell_portal_started{device.counters.mode_completion_counter.value == 4}
+  #      action: jump
+  #      value: 1
+
+light_player:
+  mode_spell_warp_started:
+    l_drop_target3: blue
+  dimension_lit:
+    l_drop_target3: stop
+  "{device.counters.warp_counter.value > 0}":
+    l_warp_w: white
+  "{device.counters.warp_counter.value > 1}":
+    l_warp_w: white
+    l_warp_a: white
+  "{device.counters.warp_counter.value > 2}":
+    l_warp_w: white
+    l_warp_a: white
+    l_warp_r: white
+  "{device.counters.warp_counter.value > 3}":
+    l_warp_w: white
+    l_warp_a: white
+    l_warp_r: white
+    l_warp_p: white
+
+show_player:
+#  mode_lit:
+#    flash_rgb:
+#      sync_ms: 400
+#      loops: -1
+#      show_tokens:
+#        led: l_left_kicker, l_right_kicker
+#        color: white
+  mode_spell_warp_started:
+     flash_rgb:
+       sync_ms: 400
+       loops: -1
+       show_tokens:
+         led: l_warp_w
+         color: white
+  "{device.counters.warp_counter.value > 0}":
+      flash_rgb:
+         sync_ms: 400
+         loops: -1
+         show_tokens:
+            led: l_warp_a
+            color: white
+  "{device.counters.warp_counter.value > 1}":
+      flash_rgb:
+         sync_ms: 400
+         loops: -1
+         show_tokens:
+            led: l_warp_r
+            color: white
+  "{device.counters.warp_counter.value > 2}":
+      flash_rgb:
+         sync_ms: 400
+         loops: -1
+         show_tokens:
+            led: l_warp_p
+            color: white

@@ -1,0 +1,288 @@
+#config_version=5
+
+
+mode:
+  start_events: carousel_mission4_selected
+  stop_events: mode_bonus_started, slide_final_shot_mission4_slide_removed, timer_mission4_timer_complete
+  priority: 1000
+
+timers:
+  mission4_shot_rotater:
+    start_running: true
+    tick_interval: 2.2s
+  mission4_timer:
+    start_value: 60
+    end_value: 0
+    tick_interval: 1200ms
+    direction: down
+    control_events:
+      - action: start
+        event: mode_mission4_started
+
+event_player:
+  left_kicker_mission4_flashing_hit{device.accruals.mission4_phase1_shots.completed==False}: shot1
+  right_kicker_mission4_flashing_hit{device.accruals.mission4_phase1_shots.completed==False}: shot1
+  left_loop_mission4_flashing_hit{device.accruals.mission4_phase1_shots.completed==False}: shot1
+  right_loop_mission4_flashing_hit{device.accruals.mission4_phase1_shots.completed==False}: shot1
+  left_kicker_mission4_flashing_hit{device.accruals.mission4_phase1_shots.completed==True}: shot2
+  right_kicker_mission4_flashing_hit{device.accruals.mission4_phase1_shots.completed==True}: shot2
+  left_loop_mission4_flashing_hit{device.accruals.mission4_phase1_shots.completed==True}: shot2
+  right_loop_mission4_flashing_hit{device.accruals.mission4_phase1_shots.completed==True}: shot2
+  left_kicker_mission4_flashing_hit{device.accruals.mission4_phase2_shots.completed==True}: shot3
+  right_kicker_mission4_flashing_hit{device.accruals.mission4_phase2_shots.completed==True}: shot3
+  left_loop_mission4_flashing_hit{device.accruals.mission4_phase2_shots.completed==True}: shot3
+  right_loop_mission4_flashing_hit{device.accruals.mission4_phase2_shots.completed==True}: shot3
+  left_kicker_mission4_flashing_hit{device.accruals.mission4_phase3_shots.completed==True}: shot4
+  right_kicker_mission4_flashing_hit{device.accruals.mission4_phase3_shots.completed==True}: shot4
+  left_loop_mission4_flashing_hit{device.accruals.mission4_phase3_shots.completed==True}: shot4
+  right_loop_mission4_flashing_hit{device.accruals.mission4_phase3_shots.completed==True}: shot4
+  left_kicker_mission4_flashing_hit{device.accruals.mission4_phase4_shots.completed==True}: shot5
+  right_kicker_mission4_flashing_hit{device.accruals.mission4_phase4_shots.completed==True}: shot5
+  left_loop_mission4_flashing_hit{device.accruals.mission4_phase4_shots.completed==True}: shot5
+  right_loop_mission4_flashing_hit{device.accruals.mission4_phase4_shots.completed==True}: shot5
+  left_kicker_mission4_flashing_hit{device.accruals.mission4_phase5_shots.completed==True}: shot6
+  right_kicker_mission4_flashing_hit{device.accruals.mission4_phase5_shots.completed==True}: shot6
+  left_loop_mission4_flashing_hit{device.accruals.mission4_phase5_shots.completed==True}: shot6
+  right_loop_mission4_flashing_hit{device.accruals.mission4_phase5_shots.completed==True}: shot6
+  s_drop_target3_active{device.accruals.mission4_phase4_shots.completed==True}: final_shot_mission4
+
+shots:
+  left_kicker_mission4:
+    switch: s_left_kicker
+    profile: mission4_profile
+    advance_events: mode_mission4_started
+    show_tokens:
+      led: l_rgb_left_kicker
+  right_kicker_mission4:
+    switch: s_right_kicker
+    profile: mission4_profile
+    reset_events: mode_mission4_started
+    show_tokens:
+      led: l_rgb_right_kicker
+  left_loop_mission4:
+    switch: s_left_inlane_far
+    profile: mission4_profile
+    reset_events: mode_mission4_started
+    show_tokens:
+      led: l_rgb_left_spinner
+  right_loop_mission4:
+    switch: s_right_inlane_far
+    profile: mission4_profile
+    reset_events: mode_mission4_started
+    show_tokens:
+      led: l_rgb_right_spinner
+
+variable_player:
+  mode_mission4_started:
+    multiplied_mode_value:
+      int: (current_player.playfield_multiplier) * (current_player.mode_value)
+      action: set
+  left_kicker_mission4_flashing_hit:
+    score: (current_player.multiplied_mode_value)
+    mission4_total: (current_player.multiplied_mode_value)
+  right_kicker_mission4_flashing_hit:
+    score: (current_player.multiplied_mode_value)
+    mission4_total: (current_player.multiplied_mode_value)
+  left_loop_mission4_flashing_hit:
+    score: (current_player.multiplied_mode_value)
+    mission4_total: (current_player.multiplied_mode_value)
+  right_loop_mission4_flashing_hit:
+    score: (current_player.multiplied_mode_value)
+    mission4_total: (current_player.multiplied_mode_value)
+  s_drop_target3_active{device.accruals.mission4_phase6_shots.completed==True}:
+    score: (current_player.mission4_total)
+  timer_mission4_timer_tick:
+    mission4_timer_seconds:
+      int: device.timers.mission4_timer.ticks
+      action: set
+    multiplied_mode_value:
+      int: (current_player.playfield_multiplier) * (current_player.mode_value)
+      action: set  
+  mission4_completed:
+    crystals: 1
+
+slide_player:
+  mode_mission4_started: score_slide_desert
+  left_kicker_mission4_flashing_hit: shot_slide_mission4
+  right_kicker_mission4_flashing_hit: shot_slide_mission4
+  left_loop_mission4_flashing_hit: shot_slide_mission4
+  right_loop_mission4_flashing_hit: shot_slide_mission4
+  mission4_completed: final_shot_mission4_slide
+
+slides:
+  score_slide_desert:
+    widgets:
+      - type: text
+        text: (score)
+        font_name: score_font
+        number_grouping: true
+        min_digits: 2
+        font_size: 75
+        x: 60%
+      - type: text
+        text: PLAYER (number)
+        font_name: space_font
+        y: 10
+        x: 10
+        font_size: 50
+        anchor_x: left
+        anchor_y: bottom
+      - type: text
+        text: BALL (ball)
+        font_name: space_font
+        y: 10
+        x: right-10
+        anchor_x: right
+        anchor_y: bottom
+        font_size: 50
+      - type: Text
+        text: (player|mission4_timer_seconds)
+        y: 85%
+        font_name: space_font
+        font_size: 75
+      - type: image
+        image: forest_sparkle
+        opacity: 0.25
+        scale: 2.5
+      - type: image
+        image: mission4_active_bg
+        scale: 1.5
+  shot_slide_mission4:
+    expire: 2.5s
+    widgets:
+      - type: text
+        text: (multiplied_mode_value)
+        number_grouping: true
+        font_name: space_font
+        font_size: 85
+        animations:
+          show_slide:
+            - property: opacity
+              value: 1
+              duration: 0.2s
+            - property: opacity
+              value: 0
+              duration: 0.03s
+            - property: opacity
+              value: 0
+              duration: 0.2s
+            - property: opacity
+              value: 1
+              duration: 0.03s
+              repeat: true
+      - type: image
+        image: mission4_active_bg
+        scale: 1.5
+  final_shot_mission4_slide:
+    expire: 3s
+    widgets:
+      - type: text
+        text: FINAL SHOT
+        y: 75%
+        font_name: space_font
+        font_size: 75
+      - type: text
+        text: (mission4_total)
+        y: 50%
+        number_grouping: true
+        font_name: score_font
+        font_size: 65
+      - type: text
+        text: (playfield_multiplier)X
+        y: 45%
+        number_grouping: true
+        font_name: space_font
+        font_size: 50
+      - type: image
+        image: crystal_yellow
+
+show_player:
+  final_shot_lit:
+    final_shot:
+      loops: -1
+  shot1:
+    mission4_shot:
+      speed: 30
+      loops: 0
+      priority: 1200
+  shot2:
+    mission4_shot:
+      speed: 30
+      loops: 0
+      priority: 1200
+  shot3:
+    mission4_shot:
+      speed: 30
+      loops: 0
+      priority: 1200
+  shot4:
+    mission4_shot:
+      speed: 30
+      loops: 0
+      priority: 1200
+
+accruals:
+  mission4_phase1_shots:
+    events:
+      - shot1
+    persist_state: true
+    reset_on_complete: false
+    events_when_complete: mission4_phase2_start
+  mission4_phase2_shots:
+    events:
+      - shot2
+    persist_state: true
+    reset_on_complete: false
+    events_when_complete: mission4_phase3_start
+  mission4_phase3_shots:
+    events:
+      - shot3
+    persist_state: true
+    reset_on_complete: false
+    events_when_complete: mission4_phase4_start
+  mission4_phase4_shots:
+    events:
+      - shot4
+    persist_state: true
+    reset_on_complete: false
+    events_when_complete: mission4_phase5_start
+  mission4_phase5_shots:
+    events:
+      - shot5
+    persist_state: true
+    reset_on_complete: false
+    events_when_complete: mission4_phase6_start
+  mission4_phase6_shots:
+    events:
+      - shot6
+    persist_state: true
+    reset_on_complete: false
+    events_when_complete: final_shot_lit
+  mission4_shot_phases:
+    events:
+      - mission4_phase2_start
+      - mission4_phase3_start
+      - mission4_phase4_start
+      - mission4_phase5_start
+      - mission4_phase6_start
+      - final_shot_mission4
+    persist_state: true
+    events_when_complete: mission4_completed
+
+shot_groups:
+  mission4_shots:
+    shots: left_kicker_mission4, left_loop_mission4, right_loop_mission4, right_kicker_mission4
+    rotate_events: timer_mission4_shot_rotater_tick
+
+shot_profiles:
+  mission4_profile:
+    rotation_pattern: r, r, r, l, l, l
+    advance_on_hit: false
+    states:
+      - name: unlit
+        show: off
+      - name: flashing
+        show: flash_rgb
+        show_tokens:
+          led: (led)
+          color: yellow

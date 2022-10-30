@@ -1,0 +1,26 @@
+#show_version=5
+
+- time: 0
+  lights:
+    l_super_spinners: 'FFFFFF'
+    l_mini_wizard_mode: off
+
+- time: '+1'
+  lights:
+    l_super_targets: 'FFFFFF'
+    l_super_spinners: off
+
+- time: '+1'
+  lights:
+    l_super_lanes: 'FFFFFF'
+    l_super_targets: off
+
+- time: '+1'
+  lights:
+    l_super_slings: 'FFFFFF'
+    l_super_lanes: off
+
+- time: '+1'
+  lights:
+    l_mini_wizard_mode: 'FFFFFF'
+    l_super_slings: off         

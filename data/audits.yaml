@@ -1,0 +1,65 @@
+events:
+  game_ended: 0
+  game_started: 1
+player:
+  score:
+    average: 23664407.47320062
+    top:
+    - 1008872060
+    - 826762340
+    - 720234070
+    - 715873710
+    - 706004620
+    - 670142530
+    - 591554830
+    - 589569650
+    - 507595620
+    - 502234510
+    total: 653
+shots:
+  center_drop_mission1: 685
+  center_target: 646
+  drop_target1_mission2: 287
+  drop_target2_mission2: 332
+  drop_target3_mission2: 382
+  drop_target4_mission2: 335
+  drop_target5_mission2: 295
+  drop_targets_mission3: 1972
+  galaxy_advance: 3668
+  l_lane: 800
+  left_kicker_mission2: 189
+  left_kicker_mission4: 144
+  left_loop_mission1: 782
+  left_loop_mission2: 343
+  left_loop_mission4: 469
+  portal_advance: 5789
+  r_lane: 679
+  right_kicker_mission2: 165
+  right_kicker_mission4: 166
+  right_loop_mission1: 893
+  right_loop_mission2: 393
+  right_loop_mission4: 537
+  warp_advance: 1233
+switches:
+  s_action_button: 4638
+  s_drain: 3143
+  s_drop_target1: 2299
+  s_drop_target2: 2611
+  s_drop_target3: 3091
+  s_drop_target4: 2493
+  s_drop_target5: 2387
+  s_left_captive_ball: 554
+  s_left_flipper: 42939
+  s_left_inlane: 803
+  s_left_inlane_far: 5758
+  s_left_kicker: 1830
+  s_left_sling: 8317
+  s_left_spinner: 28352
+  s_right_captive_ball: 575
+  s_right_flipper: 39006
+  s_right_inlane: 679
+  s_right_inlane_far: 7843
+  s_right_kicker: 2050
+  s_right_sling: 14956
+  s_right_spinner: 21053
+  s_start: 424

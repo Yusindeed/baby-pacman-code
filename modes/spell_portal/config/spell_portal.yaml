@@ -1,0 +1,121 @@
+#config_version=5
+#this will handle the spelling of "portal"
+mode:
+  start_events: mode_base_started, start_portal, mode_mission1_will_stop, mode_mission2_will_stop, mode_mission3_will_stop, mode_mission4_will_stop
+  stop_events: start_selection_mode, mode_mini_wizard_lit_started
+  priority: 200
+
+
+shots:
+  portal_advance:
+    switch: s_right_inlane_far
+
+
+counters:
+  portal_counter:
+    count_events: portal_advance_hit
+    events_when_complete: mode_lit
+    start_enabled: true
+    starting_count: 0
+    direction: up
+    count_complete_value: 6
+    persist_state: true
+    reset_on_complete: false
+    reset_events: mode_mission1_stopped, mode_mission2_stopped, mode_mission3_stopped, mode_mission4_stopped
+    disable_on_complete: true
+    enable_events: mode_mission1_stopped, mode_mission2_stopped, mode_mission3_stopped, mode_mission4_stopped, ball_started
+    control_events:
+      - event: mode_spell_portal_started{current_player.modes_completed < 2 and device.counters.portal_counter.value < 1}
+        action: jump
+        value: 3
+      - event: mode_spell_portal_started{current_player.modes_completed == 2 and device.counters.portal_counter.value < 1}
+        action: jump
+        value: 2
+      - event: mode_spell_portal_started{current_player.modes_completed == 3 and device.counters.portal_counter.value < 1}
+        action: jump
+        value: 2
+      - event: mode_spell_portal_started{current_player.modes_completed == 4 and device.counters.portal_counter.value < 1}
+        action: jump
+        value: 1
+
+
+
+light_player:
+  "{device.counters.portal_counter.value > 0}":
+    l_portal_p: green
+  "{device.counters.portal_counter.value > 1}":
+    l_portal_p: green
+    l_portal_o: green
+  "{device.counters.portal_counter.value > 2}":
+    l_portal_p: green
+    l_portal_o: green
+    l_portal_r: green
+  "{device.counters.portal_counter.value > 3}":
+    l_portal_p: green
+    l_portal_o: green
+    l_portal_r: green
+    l_portal_t: green
+  "{device.counters.portal_counter.value > 4}":
+    l_portal_p: green
+    l_portal_o: green
+    l_portal_r: green
+    l_portal_t: green
+    l_portal_a: green
+  "{device.counters.portal_counter.value > 5}":
+    l_portal_p: green
+    l_portal_o: green
+    l_portal_r: green
+    l_portal_t: green
+    l_portal_a: green
+    l_portal_l: green
+
+show_player:
+  mode_lit:
+    flash_rgb:
+      sync_ms: 400
+      loops: -1
+      show_tokens:
+        led: l_left_kicker, l_right_kicker
+        color: white
+  mode_spell_portal_started:
+     flash_rgb:
+       sync_ms: 400
+       loops: -1
+       show_tokens:
+         led: l_portal_p
+         color: red
+  "{device.counters.portal_counter.value > 0}":
+      flash_rgb:
+         sync_ms: 400
+         loops: -1
+         show_tokens:
+            led: l_portal_o
+            color: red
+  "{device.counters.portal_counter.value > 1}":
+      flash_rgb:
+         sync_ms: 400
+         loops: -1
+         show_tokens:
+            led: l_portal_r
+            color: red
+  "{device.counters.portal_counter.value > 2}":
+      flash_rgb:
+         sync_ms: 400
+         loops: -1
+         show_tokens:
+            led: l_portal_t
+            color: red
+  "{device.counters.portal_counter.value > 3}":
+      flash_rgb:
+         sync_ms: 400
+         loops: -1
+         show_tokens:
+            led: l_portal_a
+            color: red
+  "{device.counters.portal_counter.value > 4}":
+      flash_rgb:
+         sync_ms: 400
+         loops: -1
+         show_tokens:
+            led: l_portal_l
+            color: red

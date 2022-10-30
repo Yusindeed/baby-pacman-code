@@ -1,0 +1,62 @@
+#show_version=5
+
+- duration: .1
+  lights:
+    l_super_spinners: FFFFFF
+- duration: .1
+  lights:
+    l_super_spinners: FFFFFF
+    l_super_targets: FFFFFF
+- duration: .1
+  lights:
+    l_super_targets: FFFFFF
+    l_super_spinners: FFFFFF
+    l_super_lanes: FFFFFF
+- duration: .1
+  lights:
+    l_super_lanes: FFFFFF
+    l_super_spinners: FFFFFF
+    l_super_slings: FFFFFF
+    l_super_targets: FFFFFF
+- duration: .1
+  lights:
+    l_super_lanes: FFFFFF
+    l_super_spinners: FFFFFF
+    l_super_slings: FFFFFF
+    l_super_targets: FFFFFF
+    l_mini_wizard_mode: FFFFFF
+- duration: .1
+  lights:
+    l_super_spinners: off
+    l_super_lanes: FFFFFF
+    l_super_slings: FFFFFF
+    l_super_targets: FFFFFF
+    l_mini_wizard_mode: FFFFFF
+- duration: .1
+  lights:
+    l_super_targets: off
+    l_super_spinners: off
+    l_super_slings: FFFFFF
+    l_super_lanes: FFFFFF
+    l_mini_wizard_mode: FFFFFF
+- duration: .1
+  lights:
+    l_super_lanes: off
+    l_super_spinners: off
+    l_super_targets: off
+    l_super_slings: FFFFFF
+    l_mini_wizard_mode: FFFFFF
+- duration: .1
+  lights:
+    l_super_lanes: off
+    l_super_spinners: off
+    l_super_slings: off
+    l_super_targets: off
+    l_mini_wizard_mode: FFFFFF
+- duration: .1
+  lights:
+    l_super_lanes: off
+    l_super_spinners: off
+    l_super_slings: off
+    l_super_targets: off
+    l_mini_wizard_mode: off

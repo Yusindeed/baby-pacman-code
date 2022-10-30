@@ -1,0 +1,420 @@
+#show_version=5
+- time: 0
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_gi_1: 'C8C8C8'
+    l_portal_a: 'C8C8C8'
+    l_portal_l: 'C8C8C8'
+    l_portal_o: 'C8C8C8'
+    l_portal_p: 'C8C8C8'
+    l_portal_r: 'C8C8C8'
+    l_portal_t: 'C8C8C8'
+    l_right_dimension: 'C8C8C8'
+    
+- time: '+1'
+  lights:
+    l_gi_2: 'C8C8C8'
+    l_right_inlane: 'C8C8C8'
+    
+- time: '+1'
+  lights:
+    l_gi_16: 'C8C8C8'
+    l_gi_17: 'C8C8C8'
+    l_gi_3: 'C8C8C8'
+    l_right_kicker: 'C8C8C8'
+    
+- time: '+1'
+  lights:
+    l_gi_15: 'C8C8C8'
+    
+- time: '+1'
+  lights:
+    l_gi_4: 'C8C8C8'
+    l_gi_5: 'C8C8C8'
+    l_right_loop: 'C8C8C8'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_drop_target5: 'C8C8C8'
+    l_mission4_1: 'C8C8C8'
+    l_mission4_2: 'C8C8C8'
+    l_mission4_3: 'C8C8C8'
+    l_mission8_1: 'C8C8C8'
+    l_mission8_2: 'C8C8C8'
+    l_mission8_3: 'C8C8C8'
+    l_warp_p: 'C8C8C8'
+    
+- time: '+1'
+  lights:
+    l_drop_target4: 'C8C8C8'
+    l_mission3_1: 'C8C8C8'
+    l_mission3_2: 'C8C8C8'
+    l_mission3_3: 'C8C8C8'
+    l_mission7_1: 'C8C8C8'
+    l_mission7_2: 'C8C8C8'
+    l_mission7_3: 'C8C8C8'
+    l_warp_r: 'C8C8C8'
+    
+- time: '+1'
+  lights:
+    l_drop_target3: 'C8C8C8'
+    l_gi_6: 'C8C8C8'
+    l_mini_wizard_mode: 'C8C8C8'
+    l_super_lanes: 'C8C8C8'
+    l_super_slings: 'C8C8C8'
+    l_super_spinners: 'C8C8C8'
+    l_super_targets: 'C8C8C8'
+    l_wizard_mode: 'C8C8C8'
+    
+- time: '+1'
+  lights:
+    l_drop_target2: 'C8C8C8'
+    l_mission2_1: 'C8C8C8'
+    l_mission2_2: 'C8C8C8'
+    l_mission2_3: 'C8C8C8'
+    l_mission6_1: 'C8C8C8'
+    l_mission6_2: 'C8C8C8'
+    l_mission6_3: 'C8C8C8'
+    l_warp_a: 'C8C8C8'
+    
+- time: '+1'
+  lights:
+    l_mission1_1: 'C8C8C8'
+    l_mission1_2: 'C8C8C8'
+    l_mission1_3: 'C8C8C8'
+    l_mission5_1: 'C8C8C8'
+    l_mission5_2: 'C8C8C8'
+    l_mission5_3: 'C8C8C8'
+    
+- time: '+1'
+  lights:
+    l_drop_target1: 'C8C8C8'
+    l_warp_w: 'C8C8C8'
+    
+- time: '+1'
+  lights:
+    l_gi_7: 'C8C8C8'
+    l_gi_8: 'C8C8C8'
+    l_left_loop: 'C8C8C8'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_gi_13: 'C8C8C8'
+    l_gi_14: 'C8C8C8'
+    l_gi_9: 'C8C8C8'
+    l_left_kicker: 'C8C8C8'
+    
+- time: '+1'
+  lights:
+    l_gi_12: 'C8C8C8'
+    l_left_inlane: 'C8C8C8'
+    
+- time: '+1'
+  lights:
+    l_gi_11: 'C8C8C8'
+    l_left_dimension: 'C8C8C8'
+    
+- time: '+1'
+  lights:
+    l_drop_target1: 'C8C7C8'
+    l_drop_target2: 'C8C7C8'
+    l_drop_target3: 'C8C7C8'
+    l_drop_target4: 'C8C7C8'
+    l_drop_target5: 'C8C7C8'
+    l_galaxy_a: 'C8C7C8'
+    l_galaxy_a_2: 'C8C7C8'
+    l_galaxy_g: 'C8C7C8'
+    l_galaxy_l: 'C8C7C8'
+    l_galaxy_x: 'C8C7C8'
+    l_galaxy_y: 'C8C7C8'
+    l_gi_1: 'C8C7C8'
+    l_gi_10: 'C8C7C8'
+    l_gi_11: 'C8C7C8'
+    l_gi_12: 'C8C7C8'
+    l_gi_13: 'C8C7C8'
+    l_gi_14: 'C8C7C8'
+    l_gi_15: 'C8C7C8'
+    l_gi_16: 'C8C7C8'
+    l_gi_17: 'C8C7C8'
+    l_gi_2: 'C8C7C8'
+    l_gi_3: 'C8C7C8'
+    l_gi_4: 'C8C7C8'
+    l_gi_5: 'C8C7C8'
+    l_gi_6: 'C8C7C8'
+    l_gi_7: 'C8C7C8'
+    l_gi_8: 'C8C7C8'
+    l_gi_9: 'C8C7C8'
+    l_left_dimension: 'C8C7C8'
+    l_left_inlane: 'C8C7C8'
+    l_left_kicker: 'C8C7C8'
+    l_left_loop: 'C8C7C8'
+    l_mini_wizard_mode: 'C8C7C8'
+    l_mission1_1: 'C8C7C8'
+    l_mission1_2: 'C8C7C8'
+    l_mission1_3: 'C8C7C8'
+    l_mission2_1: 'C8C7C8'
+    l_mission2_2: 'C8C7C8'
+    l_mission2_3: 'C8C7C8'
+    l_mission3_1: 'C8C7C8'
+    l_mission3_2: 'C8C7C8'
+    l_mission3_3: 'C8C7C8'
+    l_mission4_1: 'C8C7C8'
+    l_mission4_2: 'C8C7C8'
+    l_mission4_3: 'C8C7C8'
+    l_mission5_1: 'C8C7C8'
+    l_mission5_2: 'C8C7C8'
+    l_mission5_3: 'C8C7C8'
+    l_mission6_1: 'C8C7C8'
+    l_mission6_2: 'C8C7C8'
+    l_mission6_3: 'C8C7C8'
+    l_mission7_1: 'C8C7C8'
+    l_mission7_2: 'C8C7C8'
+    l_mission7_3: 'C8C7C8'
+    l_mission8_1: 'C8C7C8'
+    l_mission8_2: 'C8C7C8'
+    l_mission8_3: 'C8C7C8'
+    l_portal_a: 'C8C7C8'
+    l_portal_l: 'C8C7C8'
+    l_portal_o: 'C8C7C8'
+    l_portal_p: 'C8C7C8'
+    l_portal_r: 'C8C7C8'
+    l_portal_t: 'C8C7C8'
+    l_right_dimension: 'C8C7C8'
+    l_right_inlane: 'C8C7C8'
+    l_right_kicker: 'C8C7C8'
+    l_right_loop: 'C8C7C8'
+    l_super_lanes: 'C8C7C8'
+    l_super_slings: 'C8C7C8'
+    l_super_spinners: 'C8C7C8'
+    l_super_targets: 'C8C7C8'
+    l_warp_a: 'C8C7C8'
+    l_warp_p: 'C8C7C8'
+    l_warp_r: 'C8C7C8'
+    l_warp_w: 'C8C7C8'
+    l_wizard_mode: 'C8C7C8'
+    
+- time: '+1'
+  lights:
+    l_drop_target1: 'C8C8C8'
+    l_drop_target2: 'C8C8C8'
+    l_drop_target3: 'C8C8C8'
+    l_drop_target4: 'C8C8C8'
+    l_drop_target5: 'C8C8C8'
+    l_galaxy_a: 'C8C8C8'
+    l_galaxy_a_2: 'C8C8C8'
+    l_galaxy_g: 'C8C8C8'
+    l_galaxy_l: 'C8C8C8'
+    l_galaxy_x: 'C8C8C8'
+    l_galaxy_y: 'C8C8C8'
+    l_gi_1: '000000'
+    l_gi_10: 'C8C8C8'
+    l_gi_11: 'C8C8C8'
+    l_gi_12: 'C8C8C8'
+    l_gi_13: 'C8C8C8'
+    l_gi_14: 'C8C8C8'
+    l_gi_15: 'C8C8C8'
+    l_gi_16: 'C8C8C8'
+    l_gi_17: 'C8C8C8'
+    l_gi_2: 'C8C8C8'
+    l_gi_3: 'C8C8C8'
+    l_gi_4: 'C8C8C8'
+    l_gi_5: 'C8C8C8'
+    l_gi_6: 'C8C8C8'
+    l_gi_7: 'C8C8C8'
+    l_gi_8: 'C8C8C8'
+    l_gi_9: 'C8C8C8'
+    l_left_dimension: 'C8C8C8'
+    l_left_inlane: 'C8C8C8'
+    l_left_kicker: 'C8C8C8'
+    l_left_loop: 'C8C8C8'
+    l_mini_wizard_mode: 'C8C8C8'
+    l_mission1_1: 'C8C8C8'
+    l_mission1_2: 'C8C8C8'
+    l_mission1_3: 'C8C8C8'
+    l_mission2_1: 'C8C8C8'
+    l_mission2_2: 'C8C8C8'
+    l_mission2_3: 'C8C8C8'
+    l_mission3_1: 'C8C8C8'
+    l_mission3_2: 'C8C8C8'
+    l_mission3_3: 'C8C8C8'
+    l_mission4_1: 'C8C8C8'
+    l_mission4_2: 'C8C8C8'
+    l_mission4_3: 'C8C8C8'
+    l_mission5_1: 'C8C8C8'
+    l_mission5_2: 'C8C8C8'
+    l_mission5_3: 'C8C8C8'
+    l_mission6_1: 'C8C8C8'
+    l_mission6_2: 'C8C8C8'
+    l_mission6_3: 'C8C8C8'
+    l_mission7_1: 'C8C8C8'
+    l_mission7_2: 'C8C8C8'
+    l_mission7_3: 'C8C8C8'
+    l_mission8_1: 'C8C8C8'
+    l_mission8_2: 'C8C8C8'
+    l_mission8_3: 'C8C8C8'
+    l_portal_a: '000000'
+    l_portal_l: '000000'
+    l_portal_o: '000000'
+    l_portal_p: '000000'
+    l_portal_r: '000000'
+    l_portal_t: '000000'
+    l_right_dimension: '000000'
+    l_right_inlane: 'C8C8C8'
+    l_right_kicker: 'C8C8C8'
+    l_right_loop: 'C8C8C8'
+    l_super_lanes: 'C8C8C8'
+    l_super_slings: 'C8C8C8'
+    l_super_spinners: 'C8C8C8'
+    l_super_targets: 'C8C8C8'
+    l_warp_a: 'C8C8C8'
+    l_warp_p: 'C8C8C8'
+    l_warp_r: 'C8C8C8'
+    l_warp_w: 'C8C8C8'
+    l_wizard_mode: 'C8C8C8'
+    
+- time: '+1'
+  lights:
+    l_gi_2: '000000'
+    l_right_inlane: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_gi_15: '000000'
+    l_gi_16: '000000'
+    l_gi_17: '000000'
+    l_gi_3: '000000'
+    l_right_kicker: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_gi_4: '000000'
+    l_gi_5: '000000'
+    l_right_loop: '000000'
+    
+- time: '+1'
+  lights:
+    l_drop_target5: '000000'
+    l_mission4_1: '000000'
+    l_mission4_3: '000000'
+    l_mission8_1: '000000'
+    l_mission8_2: '000000'
+    l_mission8_3: '000000'
+    l_warp_p: '000000'
+    
+- time: '+1'
+  lights:
+    l_mission4_2: '000000'
+    
+- time: '+1'
+  lights:
+    l_drop_target4: '000000'
+    l_mission3_1: '000000'
+    l_mission3_2: '000000'
+    l_mission3_3: '000000'
+    l_mission7_1: '000000'
+    l_mission7_2: '000000'
+    l_mission7_3: '000000'
+    l_warp_r: '000000'
+    
+- time: '+1'
+  lights:
+    l_drop_target3: '000000'
+    l_gi_6: '000000'
+    l_mini_wizard_mode: '000000'
+    l_super_lanes: '000000'
+    l_super_slings: '000000'
+    l_super_spinners: '000000'
+    l_super_targets: '000000'
+    l_wizard_mode: '000000'
+    
+- time: '+1'
+  lights:
+    l_drop_target2: '000000'
+    l_mission2_1: '000000'
+    l_mission2_2: '000000'
+    l_mission2_3: '000000'
+    l_mission6_1: '000000'
+    l_mission6_2: '000000'
+    l_mission6_3: '000000'
+    l_warp_a: '000000'
+    
+- time: '+1'
+  lights:
+    l_drop_target1: '000000'
+    l_mission1_1: '000000'
+    l_mission1_2: '000000'
+    l_mission1_3: '000000'
+    l_mission5_1: '000000'
+    l_mission5_2: '000000'
+    l_mission5_3: '000000'
+    l_warp_w: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+- time: '+1'
+  lights:
+    l_gi_7: '000000'
+    l_gi_8: '000000'
+    l_left_loop: '000000'
+    
+- time: '+1'
+  lights:
+    l_gi_14: '000000'
+    l_left_kicker: '000000'
+    
+- time: '+1'
+  lights:
+    l_gi_12: '000000'
+    l_gi_13: '000000'
+    l_gi_9: '000000'
+    
+- time: '+1'
+  lights:
+    l_gi_11: '000000'
+    l_left_inlane: '000000'
+    
+- time: '+1'
+  lights:
+    l_galaxy_a: '000000'
+    l_galaxy_a_2: '000000'
+    l_galaxy_g: '000000'
+    l_galaxy_l: '000000'
+    l_galaxy_x: '000000'
+    l_galaxy_y: '000000'
+    l_gi_10: '000000'
+    l_left_dimension: '000000'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    
+#No change this frame - take another step
+#  lights:
+- time: '+1'
+    

@@ -1,0 +1,93 @@
+2022-09-10 13:37:12,131 : kivy : Factory: 186 symbols loaded
+2022-09-10 13:37:12,287 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2022-09-10 13:37:12,287 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2022-09-10 13:37:12,319 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2022-09-10 13:37:12,319 : kivy : Video: Provider: gstplayer
+2022-09-10 13:37:12,473 : kivy : Loading MPF-MC controller
+2022-09-10 13:37:12,996 : ConfigProcessor : Config spec file cache created: C:\Users\Brendan\AppData\Local\Temp\config_spec.mpf_cache
+2022-09-10 13:37:12,996 : YamlMultifileConfigLoader : Machine config file #1: config
+2022-09-10 13:37:12,996 : ConfigProcessor : Config file in cache changed: C:\Baby_pacman_code\machine\config\config
+2022-09-10 13:37:12,996 : ConfigProcessor : Loading config from file c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpfmc\mcconfig.yaml.
+2022-09-10 13:37:13,046 : ConfigProcessor : Loading config: c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpfmc\mcconfig.yaml
+2022-09-10 13:37:13,047 : ConfigProcessor : Loading config from file C:\Baby_pacman_code\machine\config\config.
+2022-09-10 13:37:13,176 : ConfigProcessor : Loading config: C:\Baby_pacman_code\machine\config\config
+2022-09-10 13:37:13,179 : ConfigProcessor : Config file cache created: C:\Users\Brendan\AppData\Local\Temp\e68bda1e95a8aa0185725ca2569cabab.mpf_cache
+2022-09-10 13:37:13,179 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\467e7647689d29fad6adf949e1f4d51d.mpf_cache
+2022-09-10 13:37:13,180 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\5550e037aa776b42b91b29b40b356c70.mpf_cache
+2022-09-10 13:37:13,180 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\15e0c601392b30c3d9ba3ead8131edb5.mpf_cache
+2022-09-10 13:37:13,181 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\0bf50917c4ef15ab65ee13d6c14e7d7c.mpf_cache
+2022-09-10 13:37:13,181 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\bc7da7b13b2754e080c2afa0678ac274.mpf_cache
+2022-09-10 13:37:13,182 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\bbd59d0bb6602ee0c5a89d6f85e6dd42.mpf_cache
+2022-09-10 13:37:13,183 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\5526c78976fee311c3d05505d75f653d.mpf_cache
+2022-09-10 13:37:13,183 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\6e95138ae5415fc76b53ebf8fa245fb5.mpf_cache
+2022-09-10 13:37:13,184 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\1ec1c4dffb383758956493783a9ed391.mpf_cache
+2022-09-10 13:37:13,184 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\f2aee92728c8017b77c710c804dd7f5a.mpf_cache
+2022-09-10 13:37:13,185 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\88f57fa1305e9dc100972ec9f84d57fe.mpf_cache
+2022-09-10 13:37:13,186 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\6e00a9d794d4c3f43a0fc48da04dac60.mpf_cache
+2022-09-10 13:37:13,186 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\05ef98219fc733c3bcab58726c4b37ef.mpf_cache
+2022-09-10 13:37:13,187 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\c22d657a5a7bb60632c2be2c735e073b.mpf_cache
+2022-09-10 13:37:13,188 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\f7d4f5eb9425fe84d2e83a363afd4bdf.mpf_cache
+2022-09-10 13:37:13,188 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\125f51d329f930ea7bff10973551cc26.mpf_cache
+2022-09-10 13:37:13,189 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\08e18dfdf4e02cd29cc0cc52be2faaf4.mpf_cache
+2022-09-10 13:37:13,189 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\f042f5bf6362b9e04d43b40b93a92057.mpf_cache
+2022-09-10 13:37:13,190 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\60badac06cd62deb71f25fac24b103c2.mpf_cache
+2022-09-10 13:37:13,190 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\a3ad1aeb679a0686901de8a6ffe784f0.mpf_cache
+2022-09-10 13:37:13,191 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\d7856287e4ec48fb5adaa65e5f7b2848.mpf_cache
+2022-09-10 13:37:13,191 : ConfigProcessor : Loading config from file C:\Baby_pacman_code\machine\modes\mini_wizard\config\mini_wizard.yaml.
+2022-09-10 13:37:13,193 : ConfigProcessor : Loading config: C:\Baby_pacman_code\machine\modes\mini_wizard\config\mini_wizard.yaml
+2022-09-10 13:37:13,194 : ConfigProcessor : Config file cache created: C:\Users\Brendan\AppData\Local\Temp\338dcf2127887f92988a932f243d1482.mpf_cache
+2022-09-10 13:37:13,194 : mpfmc : Mission Pinball Framework Media Controller v0.55.0
+2022-09-10 13:37:13,194 : mpfmc : Mission Pinball Framework Game Engine v0.55.0
+2022-09-10 13:37:13,194 : mpfmc : Machine path: C:\Baby_pacman_code\machine
+2022-09-10 13:37:13,195 : mpfmc : Starting clock at 60.0Hz
+2022-09-10 13:37:13,206 : kivy : Text: Provider: sdl2
+2022-09-10 13:37:13,239 : kivy : Window: Provider: sdl2
+2022-09-10 13:37:13,305 : kivy : GL: Using the "OpenGL" graphics system
+2022-09-10 13:37:13,306 : kivy : GL: GLEW initialization succeeded
+2022-09-10 13:37:13,306 : kivy : GL: Backend used <glew>
+2022-09-10 13:37:13,306 : kivy : GL: OpenGL version <b'3.1.0 - Build 9.17.10.3517'>
+2022-09-10 13:37:13,306 : kivy : GL: OpenGL vendor <b'Intel'>
+2022-09-10 13:37:13,306 : kivy : GL: OpenGL renderer <b'Intel(R) HD Graphics 2000'>
+2022-09-10 13:37:13,307 : kivy : GL: OpenGL parsed version: 3, 1
+2022-09-10 13:37:13,307 : kivy : GL: Shading version <b'1.40 - Intel Build 9.17.10.3517'>
+2022-09-10 13:37:13,307 : kivy : GL: Texture max size <8192>
+2022-09-10 13:37:13,307 : kivy : GL: Texture max units <16>
+2022-09-10 13:37:13,373 : kivy : Window: auto add sdl2 input provider
+2022-09-10 13:37:13,373 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2022-09-10 13:37:13,519 : AudioInterface : Initialized
+2022-09-10 13:37:13,519 : AudioInterface : Loaded SDL 2.0.12
+2022-09-10 13:37:13,519 : AudioInterface : Loaded SDL_Mixer 2.0.4
+2022-09-10 13:37:13,520 : AudioInterface : Loaded GStreamer 1.18.0.0
+2022-09-10 13:37:13,520 : AudioInterface : Loaded GLib 2.62.6
+2022-09-10 13:37:13,520 : AudioInterface : Settings requested - rate: 44100, channels: 1, buffer: 2048 samples
+2022-09-10 13:37:13,520 : AudioInterface : Settings in use - rate: 44100, channels: 1, buffer: 2048 samples (4096 bytes @ 2 bytes per sample)
+2022-09-10 13:37:13,520 : SoundSystem : Setting master volume to 0.0
+2022-09-10 13:37:13,520 : SoundSystem : master_volume in sound_system is deprecated and will be removed in the future.
+2022-09-10 13:37:13,520 : AudioInterface : Enabling audio playback
+2022-09-10 13:37:13,523 : kivy : Base: Start application main loop
+2022-09-10 13:37:13,523 : EventManager : Event: ======'display_window1_initialized'====== Args={}
+2022-09-10 13:37:13,726 : mpfmc : Display: Setting 'window1' as default display
+2022-09-10 13:37:13,732 : mpfmc : ASPECT RATIO MISMATCH: The on-screen window is not the same aspect ratio as the display called 'window1'. The logical display will be scaled from 1366x768 to the window size 1920x1058, and a black bar will make up the difference
+2022-09-10 13:37:13,734 : EventManager : Event: ======'displays_initialized'====== Args={}
+2022-09-10 13:37:13,735 : EventManager : Event: ======'slide_window1_blank_created'====== Args={}
+2022-09-10 13:37:13,735 : EventManager : Event: ======'display_window1_ready'====== Args={}
+2022-09-10 13:37:13,745 : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-09-10 13:37:13,750 : EventManager : Event: ======'mc_ready'====== Args={}
+2022-09-10 13:37:13,750 : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-09-10 13:37:13,779 : EventManager : Event: ======'init_phase_3'====== Args={}
+2022-09-10 13:37:13,786 : EventManager : Event: ======'init_phase_4'====== Args={}
+2022-09-10 13:37:13,787 : EventManager : Event: ======'init_phase_5'====== Args={}
+2022-09-10 13:37:13,847 : kivy : GL: NPOT texture support is available
+2022-09-10 13:37:13,880 : kivy : GL: Unpack subimage support is available
+2022-09-10 13:37:13,903 : EventManager : Event: ======'loading_assets'====== Args={'total': 27, 'loaded': 1, 'remaining': 26, 'percent': 4}
+2022-09-10 13:37:13,903 : AssetManager : Loading assets: 1/27 (4%)
+2022-09-10 13:37:15,155 : EventManager : Event: ======'loading_assets'====== Args={'total': 27, 'loaded': 2, 'remaining': 25, 'percent': 7}
+2022-09-10 13:37:15,155 : AssetManager : Loading assets: 2/27 (7%)
+2022-09-10 13:37:15,943 : kivy : Base: Leaving application in progress...
+2022-09-10 13:37:16,148 : mpfmc : Stopping...
+2022-09-10 13:37:16,148 : EventManager : Event: ======'shutdown'====== Args={}
+2022-09-10 13:37:16,148 : AudioInterface : Disabling audio playback
+2022-09-10 13:37:16,148 : mpfmc : Loop rate 43.42 Hz
+2022-09-10 13:37:16,148 : kivy : MC run loop ended.
+2022-09-10 13:37:16,148 : kivy : Stopping child threads... (1 remaining)
+2022-09-10 13:37:16,475 : kivy : All child threads stopped.

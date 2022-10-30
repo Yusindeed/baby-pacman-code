@@ -1,0 +1,148 @@
+#config_version=5
+mode:
+  priority: 50000
+
+mode_settings:
+  display_delay_ms: 750
+  hurry_up_delay_ms: 500
+  hurry_up_event: flipper_cancel
+  bonus_entries:
+    - event: bonus_combos
+      score: (current_player.combo) * 25000
+    - event: bonus_switches
+      score: (current_player.switches) * 100
+    - event: bonus_modes_started
+      score: (current_player.modes_started) * 100000
+    - event: bonus_crystals
+      score: (current_player.crystals) * 1000000
+slide_player:
+  mode_bonus_started: bonus_start_slide
+  bonus_switches: bonus_switches_slide
+  bonus_modes_started: bonus_modes_started_slide
+  bonus_combos: bonus_combo_slide
+  bonus_crystals: bonus_crystals_collected_slide
+  bonus_multiplier: bonus_multiplier_slide
+  bonus_total: bonus_total_slide
+
+variable_player:
+  mode_bonus_started:
+    combos_25k:
+      int: (current_player.combo) * 25000
+    switches_100:
+      int: (current_player.switches) * 100
+      action: set
+    modes_started_100k:
+      int: (current_player.modes_started) * 100000
+      action: set
+    crystals_1mil:
+      int: (current_player.crystals) * 1000000
+      action: set
+
+slides:
+  bonus_start_slide:
+    widgets:
+      - type: text
+        text: BONUS
+        font_size: 70
+        font_name: space_font
+      - type: image
+        image: default_bg
+  bonus_switches_slide:
+    widgets:
+      - type: text
+        text: SWITCHES
+        font_size: 70
+        font_name: space_font
+        y: 70%
+      - type: text
+        text: (switches)
+        font_size: 70
+        font_name: space_font
+      - type: text
+        text: (switches_100)
+        font_size: 70
+        font_name: space_font
+        number_grouping: true
+        y: 30%
+      - type: image
+        image: default_bg
+  bonus_modes_started_slide:
+    widgets:
+      - type: text
+        text: MODES STARTED
+        font_size: 70
+        y: 70%
+        font_name: space_font
+      - type: text
+        text: (modes_started)
+        font_name: space_font
+        font_size: 70
+      - type: text
+        text: (modes_started_100k)
+        font_size: 70
+        font_name: space_font
+        number_grouping: true
+        y: 30%
+      - type: image
+        image: default_bg
+  bonus_combo_slide:
+      - type: text
+        text: COMBOS
+        font_size: 70
+        y: 70%
+        font_name: space_font
+      - type: text
+        text: (combo)
+        font_name: space_font
+        font_size: 70
+      - type: text
+        text: (combos_25k)
+        font_size: 70
+        font_name: space_font
+        number_grouping: true
+        y: 30%
+      - type: image
+        image: default_bg
+  bonus_crystals_collected_slide:
+      - type: text
+        text: CRYSTALS COLLECTED
+        font_size: 70
+        y: 70%
+        font_name: space_font
+      - type: text
+        text: (crystals)
+        font_name: space_font
+        font_size: 70
+      - type: text
+        text: (crystals_1mil)
+        font_size: 70
+        font_name: space_font
+        number_grouping: true
+        y: 30%
+      - type: image
+        image: default_bg
+  bonus_multiplier_slide:
+    - type: text
+      text: MULTIPLIER
+      font_size: 70
+      font_name: space_font
+      y: 70%
+    - type: text
+      text: (bonus_multiplier)X
+      font_size: 70
+      font_name: space_font
+    - type: image
+      image: default_bg
+  bonus_total_slide:
+    - type: text
+      text: TOTAL BONUS
+      font_size: 70
+      font_name: space_font
+      y: 70%
+    - type: text
+      text: (score)
+      number_grouping: true
+      font_size: 70
+      font_name: space_font
+    - type: image
+      image: default_bg

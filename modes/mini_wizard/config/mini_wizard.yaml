@@ -1,0 +1,142 @@
+#config_version=5
+
+mode:
+  start_events: ball_hold_left_wizard_saucer_held_ball, ball_hold_right_wizard_saucer_held_ball #s_left_inlane_active
+  priority: 75000
+
+show_player:
+  mode_mini_wizard_started:
+    blinky:
+      priority: 100100
+      loops: -1
+    all_off:
+      loops: -1
+  timer_mw_intro_timer_tick{device.timers.mw_intro_timer.ticks==4}:
+    blinky:
+      action: stop
+  slide_mw_intro_2_created:
+    blam:
+      loops: 0
+  slide_mw_intro_3_created:
+    blam:
+      loops: 0
+  slide_mw_intro_4_created:
+    blam:
+      loops: 0
+  slide_mw_intro_4_removed:
+    all_off:
+      action: stop
+
+timers:
+  mw_intro_timer:
+    start_value: 0
+    tick_interval: 500ms
+    direction: up
+    control_events:
+      - action: start
+        event: mode_mini_wizard_started
+
+slide_player:
+  mode_mini_wizard_started:
+    mw_intro_1:
+      priority: 100000
+      expire: 4s
+  timer_mw_intro_timer_tick{device.timers.mw_intro_timer.ticks==5}:
+    mw_intro_2:
+      priority: 100001
+      expire: 4s
+  timer_mw_intro_timer_tick{device.timers.mw_intro_timer.ticks==12}:
+    mw_intro_3:
+      priority: 100002
+      expire: 4s
+  timer_mw_intro_timer_tick{device.timers.mw_intro_timer.ticks==19}:
+    mw_intro_4:
+      priority: 100003
+      expire: 3.5s
+
+slides:
+  mw_intro_1:
+    widgets:
+      - type: text
+        text: CONGRADULATIONS
+        font_name: space_font
+        font_size: 100
+        y: 60%
+      - type: text
+        text: YOU HAVE COLLECTED
+        font_name: space_font
+        font_size: 75
+        y: 40%
+      - type: text
+        text: 4 OF 8 CRYSTALS
+        font_name: space_font
+        font_size: 75
+        y: 30%
+  mw_intro_2:
+    widgets:
+      - type: text
+        text: SHOOT THE CORRESPONDING
+        font_name: space_font
+        font_size: 75
+        y: 60%
+      - type: text
+        text: COLORED SHOTS TO
+        font_name: space_font
+        font_size: 75
+        y: 50%
+      - type: text
+        text: EXTRACT THEIR ENERGY
+        font_name: space_font
+        font_size: 75
+        y: 40%
+  mw_intro_3:
+    widgets:
+      - type: text
+        text: YOU HAVE 120 SECONDS
+        font_name: space_font
+        font_size: 85
+        y: 50%
+  mw_intro_4:
+    widgets:
+      - type: text
+        text: GOOD LUCK
+        font_name: space_font
+        font_size: 85
+        y: 50%
+  mw_score_slide:
+    widgets:
+      - type: text
+        text: (score)
+        font_name: score_font
+        number_grouping: true
+        min_digits: 2
+        font_size: 75
+        x: 60%
+      - type: text
+        text: PLAYER (number)
+        font_name: space_font
+        y: 10
+        x: 10
+        font_size: 50
+        anchor_x: left
+        anchor_y: bottom
+      - type: text
+        text: BALL (ball)
+        font_name: space_font
+        y: 10
+        x: right-10
+        anchor_x: right
+        anchor_y: bottom
+        font_size: 50
+      - type: Text
+        text: (player|mission4_timer_seconds)
+        y: 85%
+        font_name: space_font
+        font_size: 75
+      - type: image
+        image: forest_sparkle
+        opacity: 0.25
+        scale: 2.5
+#      - type: image
+#        image: mission4_active_bg
+#        scale: 1.5      

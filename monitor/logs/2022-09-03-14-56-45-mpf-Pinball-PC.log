@@ -1,0 +1,6 @@
+2022-09-03 14:56:45,908 : INFO : root : Loading config.
+2022-09-03 14:56:46,423 : INFO : ConfigProcessor : Config spec file cache created: C:\Users\Brendan\AppData\Local\Temp\config_spec.mpf_cache
+2022-09-03 14:56:46,423 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-09-03 14:56:46,423 : INFO : ConfigProcessor : Loading config from file c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\mpfconfig.yaml.
+2022-09-03 14:56:46,532 : INFO : ConfigProcessor : Loading config: c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\mpfconfig.yaml
+2022-09-03 14:56:46,532 : INFO : ConfigProcessor : Loading config from file C:\Baby_pacman_code\machine\monitor\config\config.yaml.

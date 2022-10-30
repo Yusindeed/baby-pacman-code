@@ -1,0 +1,157 @@
+#config_version=5
+mode:
+  priority: 700
+  start_events: ball_started
+
+timers:
+  combo_timer:
+    start_value: 6
+    end_value: 0
+    tick_interval: 500ms
+    direction: down
+    control_events:
+      - action: restart
+        event: s_left_inlane_far_active
+      - action: restart
+        event: s_right_inlane_far_active
+
+variable_player:
+
+  #--------------
+
+    s_left_spinner_active{device.timers.combo_timer.ticks==5}:
+      score: (current_player.playfield_multiplier) * 10000
+    s_left_spinner_active{device.timers.combo_timer.ticks==4}:
+      score: (current_player.playfield_multiplier) * 10000
+    s_left_spinner_active{device.timers.combo_timer.ticks==3}:
+      score: (current_player.playfield_multiplier) * 10000
+    s_left_spinner_active{device.timers.combo_timer.ticks==2}:
+      score: (current_player.playfield_multiplier) * 10000
+    s_left_spinner_active{device.timers.combo_timer.ticks==1}:
+      score: (current_player.playfield_multiplier) * 10000
+#--------------------
+
+    s_right_spinner_active{device.timers.combo_timer.ticks==5}:
+      score: (current_player.playfield_multiplier) * 10000
+    s_right_spinner_active{device.timers.combo_timer.ticks==4}:
+      score: (current_player.playfield_multiplier) * 10000
+    s_right_spinner_active{device.timers.combo_timer.ticks==3}:
+      score: (current_player.playfield_multiplier) * 10000
+    s_right_spinner_active{device.timers.combo_timer.ticks==2}:
+      score: (current_player.playfield_multiplier) * 10000
+    s_right_spinner_active{device.timers.combo_timer.ticks==1}:
+      score: (current_player.playfield_multiplier) * 10000
+      #-------------
+    s_left_inlane_far_active{device.timers.combo_timer.ticks==4}:
+      combo: 1
+      combo_value: 25000
+      score: (current_player.playfield_multiplier) * (current_player.combo_value)
+    s_left_inlane_far_active{device.timers.combo_timer.ticks==3}:
+      combo: 1
+      combo_value: 25000
+      score: (current_player.playfield_multiplier) * (current_player.combo_value)
+    s_left_inlane_far_active{device.timers.combo_timer.ticks==2}:
+      combo: 1
+      combo_value: 25000
+      score: (current_player.playfield_multiplier) * (current_player.combo_value)
+    s_left_inlane_far_active{device.timers.combo_timer.ticks==1}:
+      combo: 1
+      combo_value: 25000
+      score: (current_player.playfield_multiplier) * (current_player.combo_value)
+    s_right_inlane_far_active{device.timers.combo_timer.ticks==4}:
+      combo: 1
+      combo_value: 25000
+      score: (current_player.playfield_multiplier) * (current_player.combo_value)
+    s_right_inlane_far_active{device.timers.combo_timer.ticks==3}:
+      combo: 1
+      combo_value: 25000
+      score: (current_player.playfield_multiplier) * (current_player.combo_value)
+    s_right_inlane_far_active{device.timers.combo_timer.ticks==2}:
+      combo: 1
+      combo_value: 25000
+      score: (current_player.playfield_multiplier) * (current_player.combo_value)
+    s_right_inlane_far_active{device.timers.combo_timer.ticks==1}:
+      combo: 1
+      combo_value: 25000
+      score: (current_player.playfield_multiplier) * (current_player.combo_value)
+
+slide_player:
+    s_left_inlane_far_active{device.timers.combo_timer.ticks==4}: combo_slide
+    s_left_inlane_far_active{device.timers.combo_timer.ticks==3}: combo_slide
+    s_left_inlane_far_active{device.timers.combo_timer.ticks==2}: combo_slide
+    s_left_inlane_far_active{device.timers.combo_timer.ticks==1}: combo_slide
+    s_right_inlane_far_active{device.timers.combo_timer.ticks==4}: combo_slide
+    s_right_inlane_far_active{device.timers.combo_timer.ticks==3}: combo_slide
+    s_right_inlane_far_active{device.timers.combo_timer.ticks==2}: combo_slide
+    s_right_inlane_far_active{device.timers.combo_timer.ticks==1}: combo_slide
+
+show_player:
+  s_left_inlane_far_active:
+    flash_rgb:
+      loops: 6
+      show_tokens:
+        led: l_right_loop
+        color: white
+  s_right_inlane_far_active:
+    flash_rgb:
+      loops: 6
+      show_tokens:
+        led: l_left_loop
+        color: white
+  s_left_inlane_far_active{device.timers.combo_timer.ticks==4}:
+    wipe_left:
+      loops: 0
+      speed: 35
+  s_left_inlane_far_active{device.timers.combo_timer.ticks==3}:
+    wipe_left:
+      loops: 0
+      speed: 35
+  s_left_inlane_far_active{device.timers.combo_timer.ticks==2}:
+    wipe_left:
+      loops: 0
+      speed: 35
+  s_left_inlane_far_active{device.timers.combo_timer.ticks==1}:
+    wipe_left:
+      loops: 0
+      speed: 35
+  s_right_inlane_far_active{device.timers.combo_timer.ticks==4}:
+    wipe_right:
+      loops: 0
+      speed: 35
+  s_right_inlane_far_active{device.timers.combo_timer.ticks==3}:
+    wipe_right:
+      loops: 0
+      speed: 35
+  s_right_inlane_far_active{device.timers.combo_timer.ticks==2}:
+    wipe_right:
+      loops: 0
+      speed: 35
+  s_right_inlane_far_active{device.timers.combo_timer.ticks==1}:
+    wipe_right:
+      loops: 0
+      speed: 35
+
+
+slides:
+  combo_slide:
+    priority: 700
+    expire: 2s
+    widgets:
+      - type: text
+        text: COMBO
+        y: 70%
+        font_name: space_font
+        font_size: 70
+      - type: text
+        text: 'VALUE GROWS: (combo_value)'
+        font_name: space_font
+        font_size: 70
+        y: 60%
+        number_grouping: true
+      - type: text
+        text: 'TOTAL COMBOS: (combo)'
+        font_name: space_font
+        font_size: 70
+        y: 35%
+      - type: image
+        image: default_bg

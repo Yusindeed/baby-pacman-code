@@ -1,0 +1,58 @@
+#show_version=5
+
+- time: 0
+  lights:
+    l_mission1_1: 'FFFFFF'
+    l_mission1_3: off
+    l_mission2_3: 'FFFFFF'
+    l_mission2_1: off
+    l_mission3_1: 'FFFFFF'
+    l_mission3_3: off
+    l_mission4_3: 'FFFFFF'
+    l_mission4_1: off
+    l_mission5_1: 'FFFFFF'
+    l_mission5_3: off
+    l_mission6_3: 'FFFFFF'
+    l_mission6_1: off
+    l_mission7_1: 'FFFFFF'
+    l_mission7_3: off
+    l_mission8_3: 'FFFFFF'
+    l_mission8_1: off
+
+- time: '+1'
+  lights:
+    l_mission1_2: 'FFFFFF'
+    l_mission1_1: off
+    l_mission2_2: 'FFFFFF'
+    l_mission2_3: off
+    l_mission3_2: 'FFFFFF'
+    l_mission3_1: off
+    l_mission4_2: 'FFFFFF'
+    l_mission4_3: off
+    l_mission5_2: 'FFFFFF'
+    l_mission5_1: off
+    l_mission6_2: 'FFFFFF'
+    l_mission6_3: off
+    l_mission7_2: 'FFFFFF'
+    l_mission7_1: off
+    l_mission8_2: 'FFFFFF'
+    l_mission8_3: off
+
+- time: '+1'
+  lights:
+    l_mission1_3: 'FFFFFF'
+    l_mission1_2: off
+    l_mission2_1: 'FFFFFF'
+    l_mission2_2: off
+    l_mission3_3: 'FFFFFF'
+    l_mission3_2: off
+    l_mission4_1: 'FFFFFF'
+    l_mission4_2: off
+    l_mission5_3: 'FFFFFF'
+    l_mission5_2: off
+    l_mission6_1: 'FFFFFF'
+    l_mission6_2: off
+    l_mission7_3: 'FFFFFF'
+    l_mission7_2: off
+    l_mission8_1: 'FFFFFF'
+    l_mission8_2: off

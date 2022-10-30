@@ -1,0 +1,548 @@
+#config_version=5
+##! mode: base
+mode:
+  start_events: ball_started
+  priority: 100
+
+slide_player:
+  mode_base_started: score_slide
+  bonus_lanes_lit_complete: bonus_x_slide
+  ball_save_base_save_saving_ball: ball_saved_slide
+
+show_player:
+  extra_ball_two_modes_complete_awarded:
+    on_rgb:
+      loops: -1
+      priority: 70000
+      show_tokens:
+        led: l_left_shoot_again, l_right_shoot_again
+        color: orange
+  super_feature_lit:
+    galaxy_out:
+      speed: 30
+      loops: 0
+  bonus_lanes_lit_complete:
+    bonus_spin:
+      speed: 35
+      loops: 2
+  mode_base_started:
+    gi_on:
+      loops: -1
+  s_left_sling_active:
+    sling_flash:
+      loops: 1
+      priority: 1200
+      show_tokens:
+        slinglight1: l_gi_14
+        slinglight2: l_gi_13
+        slinglight3: l_gi_12
+  s_right_sling_active:
+    sling_flash:
+      loops: 1
+      priority: 1200
+      show_tokens:
+        slinglight1: l_gi_17
+        slinglight2: l_gi_16
+        slinglight3: l_gi_15
+  ball_save_base_save_timer_start:
+    flash_rgb:
+      loops: -1
+      show_tokens:
+        led: l_left_shoot_again, l_right_shoot_again
+        color: orange
+  ball_save_base_save_hurry_up:
+    flash_rgb:
+      loops: -1
+      speed: 3
+      show_tokens:
+        led: l_left_shoot_again, l_right_shoot_again
+        color: orange
+  ball_save_base_save_saving_ball:
+    ballsave:
+      loops: 0
+      speed: 30
+    on_rgb:
+      loops: -1
+      show_tokens:
+        led: l_left_shoot_again, l_right_shoot_again
+        color: white
+  ball_save_base_save_grace_period:
+    on_rgb:
+      loops: -1
+      show_tokens:
+        led: l_left_shoot_again, l_right_shoot_again
+        color: white
+  ball_save_base_save_disabled:
+    on_rgb:
+      loops: -1
+      show_tokens:
+        led: l_left_shoot_again, l_right_shoot_again
+        color: white
+  mode_lit:
+    mode_lit_out:
+      loops: 0
+      speed: 25
+      priority: 801
+  s_left_spinner_active:
+    spinner_flash:
+      loops: 0
+      priority: 1200
+      show_tokens:
+        color: blue
+        led: l_gi_11, l_gi_8
+  s_right_spinner_active:
+    spinner_flash:
+      loops: 0
+      priority: 1200
+      show_tokens:
+        color: blue
+        led: l_gi_2, l_gi_5
+  s_left_captive_ball_inactive:
+    left_ball_wipe:
+      loops: 0
+      priority: 1200
+  s_right_captive_ball_inactive:
+    right_ball_wipe:
+      loops: 0
+      priority: 1200
+  start_left_kicker_show:
+    left_kicker_show:
+      loops: 5
+      priority: 1200
+      events_when_completed: left_kicker_show_finished
+  start_right_kicker_show:
+    right_kicker_show:
+      loops: 5
+      priority: 1200
+      events_when_completed: right_kicker_show_finished
+
+shows:
+  sling_flash:
+    - lights:
+        (slinglight1): blue-f100ms
+        (slinglight2): blue-f100ms
+        (slinglight3): blue-f100ms
+      duration: 100ms
+    - lights:
+        (slinglight1): off-f100ms
+        (slinglight2): off-f100ms
+        (slinglight3): off-f100ms
+      duration: 100ms
+  spinner_flash:
+    - lights:
+        (led): (color)
+      duration: 100ms
+  left_ball_wipe:
+    - lights:
+        l_gi_8: blue-f100ms
+      duration: 100ms
+    - lights:
+        l_gi_7: blue-f100ms
+      duration: 100ms
+    - lights:
+        l_gi_6: blue-f100ms
+      duration: 100ms
+    - lights:
+        l_gi_4: blue-f100ms
+      duration: 100ms
+    - lights:
+        l_gi_5: blue-f100ms
+      duration: 100ms
+    - lights:
+        l_gi_8: stop-f100ms
+      duration: 100ms
+    - lights:
+        l_gi_7: stop-f100ms
+      duration: 100ms
+    - lights:
+        l_gi_6: stop-f100ms
+      duration: 100ms
+    - lights:
+        l_gi_4: stop-f100ms
+      duration: 100ms
+    - lights:
+        l_gi_5: stop-f100ms
+      duration: 100ms
+  right_ball_wipe:
+    - lights:
+        l_gi_5: blue-f100ms
+      duration: 100ms
+    - lights:
+        l_gi_4: blue-f100ms
+      duration: 100ms
+    - lights:
+        l_gi_6: blue-f100ms
+      duration: 100ms
+    - lights:
+        l_gi_7: blue-f100ms
+      duration: 100ms
+    - lights:
+        l_gi_8: blue-f100ms
+      duration: 100ms
+    - lights:
+        l_gi_5: stop-f100ms
+      duration: 100ms
+    - lights:
+        l_gi_4: stop-f100ms
+      duration: 100ms
+    - lights:
+        l_gi_6: stop-f100ms
+      duration: 100ms
+    - lights:
+        l_gi_7: stop-f100ms
+      duration: 100ms
+    - lights:
+        l_gi_8: stop-f100ms
+      duration: 100ms
+  left_kicker_show:
+    - lights:
+        l_gi_11: white
+      duration: 85ms
+    - lights:
+        l_gi_11: off
+      duration: 85ms
+  right_kicker_show:
+    - lights:
+        l_gi_2: white
+      duration: 85ms
+    - lights:
+        l_gi_2: off
+      duration: 85ms
+
+queue_relay_player:
+  balldevice_bd_left_kicker_ball_eject_attempt:
+    post: start_left_kicker_show
+    wait_for: left_kicker_show_finished
+  balldevice_bd_right_kicker_ball_eject_attempt:
+    post: start_right_kicker_show
+    wait_for: right_kicker_show_finished
+
+ball_saves:
+  base_save:
+    active_time: 10s
+    grace_period: 2s
+    auto_launch: true
+    hurry_up_time: 2s
+    balls_to_save: 1
+    timer_start_events: s_action_button_active
+    #enable_events: ball_started, game_started
+  #  disable_events: mode_mission3_started, mode_mission2_started, mode_mission1_started
+  target_save:
+    active_time: 2s
+    grace_period: 1s
+    balls_to_save: -1
+    enable_events: center_target_hit
+
+
+shots:
+  l_lane:
+    switch: s_left_inlane
+    show_tokens:
+      led: l_left_inlane
+  r_lane:
+    switch: s_right_inlane
+    show_tokens:
+      led: l_right_inlane
+  center_target:
+    switch: s_drop_target3
+    show_tokens:
+      led: l_drop_target3
+
+shot_groups:
+  bonus_lanes:
+    shots: l_lane, r_lane
+    rotate_left_events: s_left_flipper_active
+    rotate_right_events: s_right_flipper_active
+    reset_events:
+      bonus_lanes_lit_complete: 1s
+
+
+variable_player:
+  s_left_kicker_active:
+    score: (current_player.playfield_multiplier) * 15000
+  s_right_kicker_active:
+    score: (current_player.playfield_multiplier) * 15000
+  s_right_inlane_active:
+    score: (current_player.playfield_multiplier) * 10000
+  s_left_inlane_active:
+    score: (current_player.playfield_multiplier) * 10000
+    switches: 1
+  s_left_inlane_far_active:
+    score: (current_player.playfield_multiplier) * 30000
+    switches: 1
+  s_right_inlane_far_active:
+    score: (current_player.playfield_multiplier) * 30000
+    switches: 1
+  s_left_sling_active:
+    score: (current_player.playfield_multiplier) * 1110
+    switches: 1
+  s_right_sling_active:
+    score: (current_player.playfield_multiplier) * 1110
+    switches: 1
+  s_left_spinner_active:
+    score: (current_player.playfield_multiplier) * 1030
+    switches: 1
+    mode_value: 10000
+  s_right_spinner_active:
+    score: (current_player.playfield_multiplier) * 1030
+    switches: 1
+    mode_value: 10000
+  s_drop_target1_active:
+    score: (current_player.playfield_multiplier) * 4500
+    switches: 1
+  s_drop_target2_active:
+    score: (current_player.playfield_multiplier) * 4500
+    switches: 1
+  s_drop_target3_active:
+    score: (current_player.playfield_multiplier) * 4500
+    switches: 1
+  s_drop_target4_active:
+    score: (current_player.playfield_multiplier) * 4500
+    switches: 1
+  s_drop_target5_active:
+    score: (current_player.playfield_multiplier) * 4500
+    switches: 1
+  s_left_captive_ball_active:
+    score: (current_player.playfield_multiplier) * 5250
+    switches: 1
+  s_right_captive_ball_active:
+     score: (current_player.playfield_multiplier) * 5250
+     switches: 1
+
+#------------- mission total -------------------
+  mode_mission1_stopped:
+    mission1_total: (current_player.mission1_total)
+  mode_mission2_stopped:
+    mission2_total: (current_player.mission2_total)
+  mode_mission3_stopped:
+    mission3_total: (current_player.mission3_total)
+  mode_mission4_stopped:
+    mission4_total: (current_player.mission4_total)
+#------------- award mission total points --------------
+  final_shot:
+    score: (current_player.playfield_multiplier) * (current_player.mission1_total)
+  final_shot_mission2:
+    score: (current_player.playfield_multiplier) * (current_player.mission2_total)
+  final_shot_mission3:
+    score: (current_player.playfield_multiplier) * (current_player.mission3_total)
+  final_shot_mission4:
+    score: (current_player.playfield_multiplier) * (current_player.mission4_total)
+#---------------- bonus multiplier--------------------
+  bonus_lanes_lit_complete:
+     bonus_multiplier: 1
+#--------------playfield multiplier-----------------
+  mode_playfield_multiplier_stopped:
+    playfield_multiplier:
+      int: 1
+      action: set
+
+#  "{device.counters.mode_completion_counter.value == 0}":
+#    portal_letters: 3
+#  "{device.counters.mode_completion_counter.value < 1}":
+#    portal_letters: 3
+#  "{device.counters.mode_completion_counter.value == 2}":
+#    portal_letters: 2
+#  "{device.counters.mode_completion_counter.value == 3}":
+#    portal_letters: 2
+  mission1_completed:
+    modes_completed: 1
+  mission2_completed:
+    modes_completed: 1
+  mission3_completed:
+    modes_completed: 1
+  mission4_completed:
+    modes_completed: 1
+
+counters:
+  mode_completion_counter:
+    count_events: mission1_completed, mission2_completed, mission3_completed, mission4_completed
+    starting_count: 0
+    direction: up
+    count_complete_value: 8
+    persist_state: true
+    reset_on_complete: false
+
+extra_balls:
+  two_modes_complete:
+    enabled: true
+    award_events:
+      - mission1_completed{current_player.modes_completed == 1}
+      - mission2_completed{current_player.modes_completed == 1}
+      - mission3_completed{current_player.modes_completed == 1}
+      - mission4_completed{current_player.modes_completed == 1}
+
+
+
+achievement_groups:
+  all_missions:
+    achievements:
+      - mission1
+      - mission2
+      - mission3
+    show_tokens:
+      lights: l_left_kicker, l_right_kicker
+    events_when_all_completed: main_wizard_ready
+    enable_while_no_achievement_started: true
+    allow_selection_change_while_disabled: false
+    disable_while_achievement_started: false
+    start_selected_events: carousel_item_selected
+    enable_events: mode_base_started
+    disable_events: game_ended
+
+achievements:
+  mission1:
+    show_tokens:
+      led: l_mission1_3, l_mission1_2, l_mission1_1
+      color: red
+    show_when_started: flash_rgb
+    show_when_enabled: flash_rgb
+    show_when_completed: on_rgb
+    select_events: carousel_mission1_highlighted
+    events_when_started: start_mission1
+    events_when_completed: default_active, mission1_complete
+    enable_events: carousel_mission1_highlighted
+    disable_events:
+      - carousel_mission2_highlighted
+      - carousel_mission4_highlighted
+      - carousel_mission3_highlighted
+    complete_events: mission1_completed
+    reset_events: reset_missions
+
+  mission2:
+    show_tokens:
+      led: l_mission2_3, l_mission2_2, l_mission2_1
+      color: teal
+    show_when_started: flash_rgb
+    show_when_enabled: flash_rgb
+    show_when_completed: on_rgb
+    select_events: carousel_mission2_highlighted
+    events_when_started: start_mission2
+    events_when_completed: default_active, mission2_complete
+    enable_events: carousel_mission2_highlighted
+    disable_events:
+      - carousel_mission1_highlighted
+      - carousel_mission4_highlighted
+      - carousel_mission3_highlighted
+    complete_events: mission2_completed
+    reset_events: reset_missions
+
+  mission3:
+    show_tokens:
+      led: l_mission3_3, l_mission3_2, l_mission3_1
+      color: green
+    show_when_started: flash_rgb
+    show_when_enabled: flash_rgb
+    show_when_completed: on_rgb
+    select_events: carousel_mission3_highlighted
+    events_when_started: start_mission3
+    events_when_completed: default_active, mission3_complete
+    enable_events: carousel_mission3_highlighted
+    disable_events:
+      - carousel_mission2_highlighted
+      - carousel_mission4_highlighted
+      - carousel_mission1_highlighted
+    complete_events: mission3_completed
+    reset_events: reset_missions
+
+  mission4:
+    show_tokens:
+      led: l_mission4_3, l_mission4_2, l_mission4_1
+      color: yellow
+    show_when_started: flash_rgb
+    show_when_enabled: flash_rgb
+    show_when_completed: on_rgb
+    start_events: carousel_mission4_selected
+    select_events: carousel_mission4_highlighted
+    events_when_started: start_mission4
+    events_when_completed: default_active, mission4_complete
+    enable_events: carousel_mission4_highlighted
+    disable_events:
+      - carousel_mission2_highlighted
+      - carousel_mission1_highlighted
+      - carousel_mission3_highlighted
+    complete_events: mission4_completed
+    reset_events: reset_missions
+
+timed_switches:
+  game_cancel:
+    switch_tags: start
+    time: 3s
+    events_when_active: end_game
+
+event_player:
+  mode_spell_portal_will_start{current_player.crystals==4}: light_mini_wizard
+
+slides:
+  bonus_x_slide:
+    expire: 2s
+    widgets:
+      - type: text
+        text: BONUS
+        font_size: 70
+        font_name: space_font
+        y: 80%
+      - type: text
+        text: (bonus_multiplier)X
+        font_size: 50
+        font_name: space_font
+      - type: image
+        image: default_bg
+  ball_saved_slide:
+    priority: 70000
+    expire: 2s
+    widgets:
+      - type: text
+        text: BALL SAVED
+        font_name: space_font
+        font_size: 80
+        y: 65%
+      - type: text
+        text: KEEP SHOOTING
+        font_name: space_font
+        font_size: 50
+        y: 35%
+  score_slide:
+    priority: 100
+    widgets:
+      - type: text
+        text: (score)
+        font_name: score_font
+        number_grouping: true
+        min_digits: 2
+        font_size: 75
+        x: 60%
+      - type: text
+        text: CURRENT MODE SHOT VALUE
+        font_size: 35
+        font_name: space_font
+        anchor_x: left
+        anchor_y: top
+        y: 95%
+        x: 10
+      - type: text
+        text: (playfield_multiplier)X (mode_value)
+        font_size: 35
+        font_name: space_font
+        number_grouping: true
+        anchor_x: left
+        anchor_y: top
+        y: 91%
+        x: 10
+      - type: text
+        text: PLAYER (number)
+        font_name: space_font
+        y: 10
+        x: 10
+        font_size: 50
+        anchor_x: left
+        anchor_y: bottom
+      - type: text
+        text: BALL (ball)
+        font_name: space_font
+        y: 10
+        x: right-10
+        anchor_x: right
+        anchor_y: bottom
+        font_size: 50
+      - type: image
+        image: default_bg

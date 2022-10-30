@@ -1,0 +1,155 @@
+2022-08-29 15:16:44,312 : INFO : root : Loading config.
+2022-08-29 15:16:44,845 : INFO : ConfigProcessor : Config spec file cache created: C:\Users\Brendan\AppData\Local\Temp\config_spec.mpf_cache
+2022-08-29 15:16:44,846 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2022-08-29 15:16:44,846 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\bccefe987bb586eace29905fa80cab57.mpf_cache
+2022-08-29 15:16:44,937 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\467e7647689d29fad6adf949e1f4d51d.mpf_cache
+2022-08-29 15:16:44,938 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\5550e037aa776b42b91b29b40b356c70.mpf_cache
+2022-08-29 15:16:44,939 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\15e0c601392b30c3d9ba3ead8131edb5.mpf_cache
+2022-08-29 15:16:44,941 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\0bf50917c4ef15ab65ee13d6c14e7d7c.mpf_cache
+2022-08-29 15:16:44,942 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\bc7da7b13b2754e080c2afa0678ac274.mpf_cache
+2022-08-29 15:16:44,943 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\bbd59d0bb6602ee0c5a89d6f85e6dd42.mpf_cache
+2022-08-29 15:16:44,944 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\5526c78976fee311c3d05505d75f653d.mpf_cache
+2022-08-29 15:16:44,945 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\6e95138ae5415fc76b53ebf8fa245fb5.mpf_cache
+2022-08-29 15:16:44,946 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\1ec1c4dffb383758956493783a9ed391.mpf_cache
+2022-08-29 15:16:44,947 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\f2aee92728c8017b77c710c804dd7f5a.mpf_cache
+2022-08-29 15:16:44,948 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\88f57fa1305e9dc100972ec9f84d57fe.mpf_cache
+2022-08-29 15:16:44,949 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\6e00a9d794d4c3f43a0fc48da04dac60.mpf_cache
+2022-08-29 15:16:44,951 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\05ef98219fc733c3bcab58726c4b37ef.mpf_cache
+2022-08-29 15:16:44,952 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\c22d657a5a7bb60632c2be2c735e073b.mpf_cache
+2022-08-29 15:16:44,953 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\f7d4f5eb9425fe84d2e83a363afd4bdf.mpf_cache
+2022-08-29 15:16:44,955 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\125f51d329f930ea7bff10973551cc26.mpf_cache
+2022-08-29 15:16:44,956 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\08e18dfdf4e02cd29cc0cc52be2faaf4.mpf_cache
+2022-08-29 15:16:44,957 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\f042f5bf6362b9e04d43b40b93a92057.mpf_cache
+2022-08-29 15:16:44,958 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\60badac06cd62deb71f25fac24b103c2.mpf_cache
+2022-08-29 15:16:44,958 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\a3ad1aeb679a0686901de8a6ffe784f0.mpf_cache
+2022-08-29 15:16:44,959 : WARNING : ConfigProcessor : Config file in cache changed: C:\Baby_pacman_code\machine\modes\playfield_multiplier\config\playfield_multiplier.yaml
+2022-08-29 15:16:44,959 : INFO : ConfigProcessor : Loading config from file C:\Baby_pacman_code\machine\modes\playfield_multiplier\config\playfield_multiplier.yaml.
+2022-08-29 15:16:44,976 : INFO : ConfigProcessor : Loading config: C:\Baby_pacman_code\machine\modes\playfield_multiplier\config\playfield_multiplier.yaml
+2022-08-29 15:16:44,977 : INFO : ConfigProcessor : Config file cache created: C:\Users\Brendan\AppData\Local\Temp\d7856287e4ec48fb5adaa65e5f7b2848.mpf_cache
+2022-08-29 15:16:44,978 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\4849f32e60febd99d83791f2417d9a0f.mpf_cache
+2022-08-29 15:16:44,979 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\942a9c8af084c06606ececc74db0a30f.mpf_cache
+2022-08-29 15:16:44,980 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\d3a5f9b6ba13782c30d3f4f7e40a9dcf.mpf_cache
+2022-08-29 15:16:44,981 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\bb2305c107159ac261738ee6fa5177f9.mpf_cache
+2022-08-29 15:16:44,982 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\5e8fe62f7d4a280c75af4e016e79234a.mpf_cache
+2022-08-29 15:16:44,983 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\7934ad8984867b043b25c8f1f16418da.mpf_cache
+2022-08-29 15:16:44,984 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\201f4c0a0d10e05df2979372d05b639d.mpf_cache
+2022-08-29 15:16:44,984 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\29084e75e573608c6a2e9d91f8c2e516.mpf_cache
+2022-08-29 15:16:44,986 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\c1a52d9ec6beffcf3a0c74172f4f1789.mpf_cache
+2022-08-29 15:16:44,987 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\1a7cfdccecce53cd51775700aa921808.mpf_cache
+2022-08-29 15:16:44,988 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\bbeb6a5751b9d2029aa6e8633936e040.mpf_cache
+2022-08-29 15:16:44,988 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\396defae609afab4d6d7399595fd494b.mpf_cache
+2022-08-29 15:16:44,989 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\df5b128cf73808572dcd58af6b99a12a.mpf_cache
+2022-08-29 15:16:44,990 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\b16abd66a20b52f76df13eb007a93cde.mpf_cache
+2022-08-29 15:16:44,991 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\09ddf149c2750d0dc18124afb4ec1692.mpf_cache
+2022-08-29 15:16:44,992 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\dc261f740d4fb0b58874215bc05837b4.mpf_cache
+2022-08-29 15:16:44,993 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\fd5b67850c190931870595f7ba331325.mpf_cache
+2022-08-29 15:16:44,993 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\7fa0bf6f8a3d06d96f9daba2d24e8451.mpf_cache
+2022-08-29 15:16:44,994 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\17652c03725ec0d5dc66b35abdc504c5.mpf_cache
+2022-08-29 15:16:44,995 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\f6549f0a1a12987384ccc86b9df17004.mpf_cache
+2022-08-29 15:16:44,996 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\d416d6f9f35dec068a811f18f969a8db.mpf_cache
+2022-08-29 15:16:44,998 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\2cbb22f93ff96ef242a9a2d7465f7b14.mpf_cache
+2022-08-29 15:16:44,998 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\5b43fbcb021f3ce97d73fdb8a470eae4.mpf_cache
+2022-08-29 15:16:44,999 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\6d994d077edad00fe01353c1bfbf6638.mpf_cache
+2022-08-29 15:16:45,000 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\df6e37541f81fc1a6e02dbcf98e0d10b.mpf_cache
+2022-08-29 15:16:45,001 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\c5e911b563ca93c8e10ce7743f92e657.mpf_cache
+2022-08-29 15:16:45,002 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\99ecafb2993dab1e69369c4f69529b6f.mpf_cache
+2022-08-29 15:16:45,003 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\57f2f8973b8bd58edd1d215976151c60.mpf_cache
+2022-08-29 15:16:45,004 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\19f702536b27ff66106645e85afb027e.mpf_cache
+2022-08-29 15:16:45,005 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\c17101e4486856bd6430e66412997ee7.mpf_cache
+2022-08-29 15:16:45,006 : INFO : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\c5b3b18e965344eb40bdf988f6d052aa.mpf_cache
+2022-08-29 15:16:45,008 : INFO : Machine : Mission Pinball Framework Core Engine v0.55.0
+2022-08-29 15:16:45,008 : INFO : Machine : Command line arguments: {'no_load_cache': False, 'create_config_cache': True, 'bcp': True, 'configfile': ['config.yaml'], 'force_assets_load': False, 'jsonlogging': False, 'logfile': 'logs\\2022-08-29-15-16-44-mpf-Pinball-PC.log', 'pause': False, 'production': False, 'text_ui': True, 'loglevel': 15, 'consoleloglevel': 20, 'force_platform': None, 'syslog_address': None, 'mc_file_name': None, 'no_sound': False}
+2022-08-29 15:16:45,008 : INFO : Machine : MPF path: c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf
+2022-08-29 15:16:45,008 : INFO : Machine : Machine path: C:\Baby_pacman_code\machine
+2022-08-29 15:16:45,008 : INFO : Machine : Platform: win32
+2022-08-29 15:16:45,008 : INFO : Machine : Python executable location: c:\users\brendan\appdata\local\programs\python\python37\python.exe
+2022-08-29 15:16:45,008 : INFO : Machine : Python version: 3.7.8 (64-bit)
+2022-08-29 15:16:45,010 : INFO : Machine : Initialise MPF.
+2022-08-29 15:16:45,212 : INFO : FAST : Connecting to com7 at 921600bps
+2022-08-29 15:16:45,212 : INFO : Machine : Shutting down...
+2022-08-29 15:16:45,213 : INFO : EventManager : Event: ======'shutdown'====== Args={}
+2022-08-29 15:16:45,314 : ERROR : Machine : Failed to initialise MPF
+Traceback (most recent call last):
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 311, in _connect_to_hardware
+    await comm.connect()
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\base_serial_communicator.py", line 45, in connect
+    await self._connect_to_hardware(self.port, self.baud, self.xonxoff)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\base_serial_communicator.py", line 54, in _connect_to_hardware
+    self.reader, self.writer = await connector
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\clock.py", line 155, in open_serial_connection
+    **kwargs)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\asyncio\coroutines.py", line 120, in coro
+    res = func(*args, **kw)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\serial_asyncio\__init__.py", line 410, in create_serial_connection
+    ser = serial.serial_for_url(*args, **kwargs)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\serial\__init__.py", line 90, in serial_for_url
+    instance.open()
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'com7': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\machine.py", line 673, in initialise_mpf
+    raise init.exception()
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\machine.py", line 244, in initialise
+    await self.initialise_core_and_hardware()
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\machine.py", line 240, in initialise_core_and_hardware
+    await self._initialize_platforms()
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\machine.py", line 331, in _initialize_platforms
+    result.result()
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 178, in initialize
+    await self._connect_to_hardware()
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 315, in _connect_to_hardware
+    "port".format(port), 1, self.log.name) from e
+mpf.exceptions.runtime_error.MpfRuntimeError: Runtime Error in FAST: Could not open serial port com7. Check if you configured the correct port in the fast config section and if you got sufficient permissions to that port Error Code: RE-FAST-1 (https://docs.missionpinball.org/en/0.55/logs/RE-FAST-1.html)
+2022-08-29 15:16:52,039 : ERROR : root : 
+Traceback (most recent call last):
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 311, in _connect_to_hardware
+    await comm.connect()
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\base_serial_communicator.py", line 45, in connect
+    await self._connect_to_hardware(self.port, self.baud, self.xonxoff)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\base_serial_communicator.py", line 54, in _connect_to_hardware
+    self.reader, self.writer = await connector
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\clock.py", line 155, in open_serial_connection
+    **kwargs)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\asyncio\coroutines.py", line 120, in coro
+    res = func(*args, **kw)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\serial_asyncio\__init__.py", line 410, in create_serial_connection
+    ser = serial.serial_for_url(*args, **kwargs)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\serial\__init__.py", line 90, in serial_for_url
+    instance.open()
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\serial\serialwin32.py", line 64, in open
+    raise SerialException("could not open port {!r}: {!r}".format(self.portstr, ctypes.WinError()))
+serial.serialutil.SerialException: could not open port 'com7': FileNotFoundError(2, 'The system cannot find the file specified.', None, 2)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\machine.py", line 673, in initialise_mpf
+    raise init.exception()
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\machine.py", line 244, in initialise
+    await self.initialise_core_and_hardware()
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\machine.py", line 240, in initialise_core_and_hardware
+    await self._initialize_platforms()
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\machine.py", line 331, in _initialize_platforms
+    result.result()
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 178, in initialize
+    await self._connect_to_hardware()
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\platforms\fast\fast.py", line 315, in _connect_to_hardware
+    "port".format(port), 1, self.log.name) from e
+mpf.exceptions.runtime_error.MpfRuntimeError: Runtime Error in FAST: Could not open serial port com7. Check if you configured the correct port in the fast config section and if you got sufficient permissions to that port Error Code: RE-FAST-1 (https://docs.missionpinball.org/en/0.55/logs/RE-FAST-1.html)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\commands\game.py", line 239, in __init__
+    self.machine.run()
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\machine.py", line 683, in run
+    if not self.initialise_mpf():
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\machine.py", line 676, in initialise_mpf
+    report_crash(init.exception(), "init_exception", self.config)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\crash_reporter.py", line 236, in report_crash
+    response = input("Do you want to report the crash to the MPF team (yes/no/show)? ")
+EOFError

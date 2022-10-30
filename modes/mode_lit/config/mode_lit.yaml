@@ -1,0 +1,48 @@
+#config_version=5
+mode:
+  start_events: mode_lit
+  stop_events: start_selection_mode
+  restart_on_next_ball: true
+  priority: 800
+  stop_priority: 150
+
+event_player:
+  s_left_kicker_active{current_player.crystals<4}: start_selection_mode
+  s_right_kicker_active{current_player.crystals<4}: start_selection_mode
+
+show_player:
+  mode_mode_lit_started:
+      flash_rgb:
+         show_tokens:
+            led: l_left_kicker, l_right_kicker
+            color: 'FFFFFF'
+
+slide_player:
+  mode_mode_lit_started:
+    mode_lit_slide:
+      expire: 2s
+
+slides:
+  mode_lit_slide:
+    widgets:
+      - type: text
+        text: MODE IS LIT
+        font_name: space_font
+        font_size: 80
+        animations:
+          show_slide:
+            - property: opacity
+              value: 1
+              duration: 0.2s
+            - property: opacity
+              value: 0
+              duration: 0.02s
+            - property: opacity
+              value: 0
+              duration: 0.2s
+            - property: opacity
+              value: 1
+              duration: 0.02s
+              repeat: true
+      - type: image
+        image: default_bg

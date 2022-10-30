@@ -1,0 +1,223 @@
+#show_version=5
+- time: 0
+  lights:
+    l_super_spinners: 'FFA800'
+    l_warp_a: 'FFA800'
+    l_warp_p: 'FFA800'
+    l_warp_r: 'FFA800'
+    l_warp_w: 'FFA800'
+    
+- time: '+1'
+  lights:
+    l_mission6_1: '301F00'
+    l_super_spinners: '000000'
+    l_warp_a: '000000'
+    l_warp_p: '000000'
+    l_warp_r: '000000'
+    l_warp_w: '000000'
+    
+- time: '+1'
+  lights:
+    l_gi_14: 'FFA800'
+    l_gi_15: 'FFA800'
+    l_mission5_1: 'FFA800'
+    l_mission6_1: '000000'
+    l_mission8_1: 'FFA800'
+    
+- time: '+1'
+  lights:
+    l_gi_14: 'EB9A00'
+    l_gi_15: '000000'
+    l_mission5_1: '000000'
+    l_mission5_2: 'FFA800'
+    l_mission6_2: 'FFA800'
+    l_mission7_2: 'FFA800'
+    l_mission8_1: '000000'
+    l_mission8_2: 'FFA800'
+    l_super_targets: 'FFA800'
+    
+- time: '+1'
+  lights:
+    l_gi_13: 'FFA800'
+    l_gi_14: '000000'
+    l_gi_16: 'FFA800'
+    l_mission5_2: '000000'
+    l_mission6_2: '000000'
+    l_mission7_2: '000000'
+    l_mission8_2: '000000'
+    l_super_targets: '000000'
+    
+- time: '+1'
+  lights:
+    l_mission5_3: 'FFA800'
+    l_mission6_3: 'FFA800'
+    l_mission7_3: 'FFA800'
+    l_mission8_3: 'FFA800'
+    
+- time: '+1'
+  lights:
+    l_gi_13: '000000'
+    l_gi_16: '000000'
+    l_gi_17: '916000'
+    l_mission5_3: '000000'
+    l_mission6_3: '000000'
+    l_mission7_3: '000000'
+    l_mission8_3: '000000'
+    
+- time: '+1'
+  lights:
+    l_gi_12: 'FFA800'
+    l_gi_17: 'FFA800'
+    l_left_dimension: 'FFA800'
+    l_mission1_1: '684400'
+    l_mission2_1: 'FFA800'
+    l_mission3_1: 'FFA800'
+    
+- time: '+1'
+  lights:
+    l_gi_12: '000000'
+    l_gi_17: '000000'
+    l_left_dimension: '000000'
+    l_mission1_1: '000000'
+    l_mission2_1: '000000'
+    l_mission3_1: '000000'
+    l_mission4_1: 'FFA800'
+    l_super_slings: 'FFA800'
+    
+- time: '+1'
+  lights:
+    l_mission1_2: 'FFA800'
+    l_mission2_2: 'FFA800'
+    l_mission3_2: 'FFA800'
+    l_mission4_1: '000000'
+    l_mission4_2: 'FFA800'
+    l_super_slings: '000000'
+    
+- time: '+1'
+  lights:
+    l_left_inlane: 'D08900'
+    l_left_kicker: 'FFA800'
+    l_mission1_2: '000000'
+    l_mission2_2: '000000'
+    l_mission3_2: '000000'
+    l_mission4_2: '000000'
+    l_right_kicker: 'F5A100'
+    
+- time: '+1'
+  lights:
+    l_galaxy_y: 'FFA800'
+    l_left_inlane: 'FFA800'
+    l_left_kicker: '000000'
+    l_mission1_3: '805400'
+    l_mission2_3: '170F00'
+    l_mission3_3: 'FFA800'
+    l_mission4_3: 'FFA800'
+    l_right_inlane: 'FFA800'
+    l_right_kicker: 'FFA800'
+    
+- time: '+1'
+  lights:
+    l_galaxy_x: 'FFA800'
+    l_left_inlane: '000000'
+    l_mission1_3: '000000'
+    l_mission2_3: '000000'
+    l_mission3_3: '000000'
+    l_mission4_3: '000000'
+    l_portal_l: 'FFA800'
+    l_right_kicker: '000000'
+    
+- time: '+1'
+  lights:
+    l_galaxy_y: '9F6900'
+    l_portal_a: 'FFA800'
+    l_portal_l: '9F6900'
+    l_right_inlane: '000000'
+    
+- time: '+1'
+  lights:
+    l_galaxy_a_2: 'FFA800'
+    l_galaxy_y: '000000'
+    l_left_loop: 'FFA800'
+    l_portal_l: '000000'
+    l_portal_t: 'FFA800'
+    l_right_loop: 'FFA800'
+    
+- time: '+1'
+  lights:
+    l_drop_target1: 'FFA800'
+    l_drop_target2: 'FFA800'
+    l_drop_target3: 'FFA800'
+    l_drop_target4: 'FFA800'
+    l_drop_target5: 'FFA800'
+    l_galaxy_l: 'FFA800'
+    l_galaxy_x: '000000'
+    l_left_loop: '000000'
+    l_portal_a: '936100'
+    l_right_loop: '000000'
+    
+- time: '+1'
+  lights:
+    l_drop_target1: '000000'
+    l_drop_target2: '000000'
+    l_drop_target3: '000000'
+    l_drop_target4: '000000'
+    l_drop_target5: '000000'
+    l_portal_a: '000000'
+    l_portal_r: 'FFA800'
+    
+- time: '+1'
+  lights:
+    l_galaxy_a: 'FFA800'
+    l_galaxy_a_2: '000000'
+    l_portal_o: 'FFA800'
+    l_portal_t: '000000'
+    
+- time: '+1'
+  lights:
+    l_galaxy_g: 'FFA800'
+    l_galaxy_l: '000000'
+    l_gi_11: 'FFA800'
+    l_gi_2: 'FFA800'
+    l_gi_4: 'FFA800'
+    l_gi_8: 'FFA800'
+    l_portal_p: 'FFA800'
+    l_portal_r: '3C2700'
+    
+- time: '+1'
+  lights:
+    l_galaxy_a: '000000'
+    l_gi_11: '593A00'
+    l_gi_6: 'FFA800'
+    l_gi_8: '000000'
+    l_portal_r: '000000'
+    
+- time: '+1'
+  lights:
+    l_galaxy_g: '3C2700'
+    l_gi_11: '000000'
+    l_gi_2: '000000'
+    l_gi_4: '000000'
+    l_gi_6: '000000'
+    l_portal_o: '000000'
+    l_portal_p: '000000'
+    
+- time: '+1'
+  lights:
+    l_galaxy_g: '000000'
+    l_gi_5: 'FFA800'
+    l_gi_7: 'FFA800'
+    l_gi_9: '040300'
+    
+- time: '+1'
+  lights:
+    l_gi_3: 'FFA800'
+    l_gi_5: '000000'
+    l_gi_7: '000000'
+    l_gi_9: 'FFA800'
+    
+- time: '+1'
+  lights:
+    l_gi_10: 'FFA800'
+    l_gi_3: '000000'
+    l_gi_9: '000000'
+    

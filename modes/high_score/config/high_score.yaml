@@ -1,0 +1,110 @@
+#config_version=5
+mode:
+  priority: 1000
+  start_events: game_ending, start_high_score
+  use_wait_queue: true
+
+high_score:
+  _overwrite: true
+  enter_initials_timeout: 60
+  award_slide_display_time: 5s
+  categories: !!omap
+    - score:
+      - GRAND CHAMPION
+      - HIGH SCORE 1
+      - HIGH SCORE 2
+      - HIGH SCORE 3
+      - HIGH SCORE 4
+    - combos:
+        - COMBO CHAMP
+  defaults:
+    score:
+      - OZ: 50000000
+      - PEA: 35000000
+      - PETE: 30000000
+      - PAL: 25000000
+      - MDL: 20000000
+    combos:
+      - JAN: 15
+
+slide_player:
+  _overwrite: true
+  high_score_enter_initials: high_score_enter_initials
+  high_score_award_display: high_score_award_display
+
+slides:
+  _overwrite: true
+  high_score_enter_initials:
+    - type:
+      font_size: 45
+      font_name: space_font
+      text: PLAYER (player_num)
+      y: 80%
+    - type: text
+      font_size: 45
+      text: (award)
+      font_name: space_font
+      y: 60%
+    - type: text_input
+      initial_char: A
+      dynamic_x: false
+      key: high_score
+      font_name: space_font
+      font_size: 45
+      max_chars: 9
+      y: 40%
+      shift_left_event: s_left_flipper_active
+      shift_right_event: s_right_flipper_active
+      select_event: s_action_button_active
+    - type: text
+      font_name: space_font
+      text: '<       >'
+      font_size: 45
+      y: 40%
+    - type: text
+      text: ''
+      key: high_score
+      font_size: 45
+      font_name: space_font
+      animations:
+        show_slide:
+          - property:
+            value: 1
+            duration: 0.3s
+            easing: in_out_quint
+          - property:
+            value: 0
+            duration: 0.3s
+            repeat: true
+            easing: in_out_quint
+
+  high_score_award_display:
+    - type: text
+      text: (player_name)
+      font-size: 50
+      font_name: space_font
+      anchor_y: middle
+      anchor_x: middle
+      x: middle
+      y: middle
+      animations:
+        show_slide:
+          - property: opacity
+            value: 1
+            duration: 0.05s
+          - property: opacity
+            value: 0
+            duration: 0.05s
+            repeat: true
+    - type: text
+      text: (award)
+      font_size: 45
+      font_name: space_font
+      y: 35%
+    - type: text
+      text: (value)
+      font_name: space_font
+      y: 20%
+      font_size: 55
+      number_grouping: true
+      min_digits: 2

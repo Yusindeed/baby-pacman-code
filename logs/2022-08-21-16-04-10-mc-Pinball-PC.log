@@ -1,0 +1,456 @@
+2022-08-21 16:04:10,664 : kivy : Factory: 186 symbols loaded
+2022-08-21 16:04:10,836 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2022-08-21 16:04:10,836 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2022-08-21 16:04:10,872 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2022-08-21 16:04:10,872 : kivy : Video: Provider: gstplayer
+2022-08-21 16:04:11,038 : kivy : Loading MPF-MC controller
+2022-08-21 16:04:11,576 : ConfigProcessor : Config spec file cache created: C:\Users\Brendan\AppData\Local\Temp\config_spec.mpf_cache
+2022-08-21 16:04:11,576 : YamlMultifileConfigLoader : Machine config file #1: config
+2022-08-21 16:04:11,576 : ConfigProcessor : Config file in cache changed: C:\Baby_pacman_code\machine\config\config
+2022-08-21 16:04:11,576 : ConfigProcessor : Loading config from file c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpfmc\mcconfig.yaml.
+2022-08-21 16:04:11,627 : ConfigProcessor : Loading config: c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpfmc\mcconfig.yaml
+2022-08-21 16:04:11,628 : ConfigProcessor : Loading config from file C:\Baby_pacman_code\machine\config\config.
+2022-08-21 16:04:11,755 : ConfigProcessor : Loading config: C:\Baby_pacman_code\machine\config\config
+2022-08-21 16:04:11,757 : ConfigProcessor : Config file cache created: C:\Users\Brendan\AppData\Local\Temp\e68bda1e95a8aa0185725ca2569cabab.mpf_cache
+2022-08-21 16:04:11,757 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\467e7647689d29fad6adf949e1f4d51d.mpf_cache
+2022-08-21 16:04:11,758 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\5550e037aa776b42b91b29b40b356c70.mpf_cache
+2022-08-21 16:04:11,759 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\15e0c601392b30c3d9ba3ead8131edb5.mpf_cache
+2022-08-21 16:04:11,759 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\0bf50917c4ef15ab65ee13d6c14e7d7c.mpf_cache
+2022-08-21 16:04:11,760 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\bc7da7b13b2754e080c2afa0678ac274.mpf_cache
+2022-08-21 16:04:11,760 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\bbd59d0bb6602ee0c5a89d6f85e6dd42.mpf_cache
+2022-08-21 16:04:11,761 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\5526c78976fee311c3d05505d75f653d.mpf_cache
+2022-08-21 16:04:11,761 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\6e95138ae5415fc76b53ebf8fa245fb5.mpf_cache
+2022-08-21 16:04:11,762 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\1ec1c4dffb383758956493783a9ed391.mpf_cache
+2022-08-21 16:04:11,763 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\f2aee92728c8017b77c710c804dd7f5a.mpf_cache
+2022-08-21 16:04:11,763 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\88f57fa1305e9dc100972ec9f84d57fe.mpf_cache
+2022-08-21 16:04:11,764 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\6e00a9d794d4c3f43a0fc48da04dac60.mpf_cache
+2022-08-21 16:04:11,765 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\05ef98219fc733c3bcab58726c4b37ef.mpf_cache
+2022-08-21 16:04:11,766 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\c22d657a5a7bb60632c2be2c735e073b.mpf_cache
+2022-08-21 16:04:11,766 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\f7d4f5eb9425fe84d2e83a363afd4bdf.mpf_cache
+2022-08-21 16:04:11,767 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\125f51d329f930ea7bff10973551cc26.mpf_cache
+2022-08-21 16:04:11,768 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\08e18dfdf4e02cd29cc0cc52be2faaf4.mpf_cache
+2022-08-21 16:04:11,768 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\f042f5bf6362b9e04d43b40b93a92057.mpf_cache
+2022-08-21 16:04:11,769 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\60badac06cd62deb71f25fac24b103c2.mpf_cache
+2022-08-21 16:04:11,769 : mpfmc : Mission Pinball Framework Media Controller v0.55.0
+2022-08-21 16:04:11,769 : mpfmc : Mission Pinball Framework Game Engine v0.55.0
+2022-08-21 16:04:11,769 : mpfmc : Machine path: C:\Baby_pacman_code\machine
+2022-08-21 16:04:11,769 : mpfmc : Starting clock at 60.0Hz
+2022-08-21 16:04:11,781 : kivy : Text: Provider: sdl2
+2022-08-21 16:04:11,815 : kivy : Window: Provider: sdl2
+2022-08-21 16:04:11,883 : kivy : GL: Using the "OpenGL" graphics system
+2022-08-21 16:04:11,884 : kivy : GL: GLEW initialization succeeded
+2022-08-21 16:04:11,884 : kivy : GL: Backend used <glew>
+2022-08-21 16:04:11,884 : kivy : GL: OpenGL version <b'3.1.0 - Build 9.17.10.3517'>
+2022-08-21 16:04:11,884 : kivy : GL: OpenGL vendor <b'Intel'>
+2022-08-21 16:04:11,884 : kivy : GL: OpenGL renderer <b'Intel(R) HD Graphics 2000'>
+2022-08-21 16:04:11,885 : kivy : GL: OpenGL parsed version: 3, 1
+2022-08-21 16:04:11,885 : kivy : GL: Shading version <b'1.40 - Intel Build 9.17.10.3517'>
+2022-08-21 16:04:11,885 : kivy : GL: Texture max size <8192>
+2022-08-21 16:04:11,885 : kivy : GL: Texture max units <16>
+2022-08-21 16:04:11,952 : kivy : Window: auto add sdl2 input provider
+2022-08-21 16:04:11,953 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2022-08-21 16:04:12,125 : AudioInterface : Initialized
+2022-08-21 16:04:12,125 : AudioInterface : Loaded SDL 2.0.12
+2022-08-21 16:04:12,125 : AudioInterface : Loaded SDL_Mixer 2.0.4
+2022-08-21 16:04:12,125 : AudioInterface : Loaded GStreamer 1.18.0.0
+2022-08-21 16:04:12,125 : AudioInterface : Loaded GLib 2.62.6
+2022-08-21 16:04:12,125 : AudioInterface : Settings requested - rate: 44100, channels: 1, buffer: 2048 samples
+2022-08-21 16:04:12,126 : AudioInterface : Settings in use - rate: 44100, channels: 1, buffer: 2048 samples (4096 bytes @ 2 bytes per sample)
+2022-08-21 16:04:12,126 : SoundSystem : Setting master volume to 0.0
+2022-08-21 16:04:12,126 : SoundSystem : master_volume in sound_system is deprecated and will be removed in the future.
+2022-08-21 16:04:12,126 : AudioInterface : Enabling audio playback
+2022-08-21 16:04:12,128 : kivy : Base: Start application main loop
+2022-08-21 16:04:12,129 : EventManager : Event: ======'display_window_initialized'====== Args={}
+2022-08-21 16:04:12,150 : mpfmc : Display: Setting 'window' as default display
+2022-08-21 16:04:12,157 : mpfmc : ASPECT RATIO MISMATCH: The on-screen window is not the same aspect ratio as the display called 'window'. The logical display will be scaled from 1366x768 to the window size 1916x1054, and a black bar will make up the difference
+2022-08-21 16:04:12,158 : EventManager : Event: ======'displays_initialized'====== Args={}
+2022-08-21 16:04:12,159 : EventManager : Event: ======'slide_window_blank_created'====== Args={}
+2022-08-21 16:04:12,160 : EventManager : Event: ======'display_window_ready'====== Args={}
+2022-08-21 16:04:12,172 : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-08-21 16:04:12,181 : EventManager : Event: ======'mc_ready'====== Args={}
+2022-08-21 16:04:12,181 : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-08-21 16:04:12,209 : EventManager : Event: ======'init_phase_3'====== Args={}
+2022-08-21 16:04:12,215 : EventManager : Event: ======'init_phase_4'====== Args={}
+2022-08-21 16:04:12,215 : EventManager : Event: ======'init_phase_5'====== Args={}
+2022-08-21 16:04:12,268 : kivy : GL: NPOT texture support is available
+2022-08-21 16:04:12,287 : kivy : GL: Unpack subimage support is available
+2022-08-21 16:04:12,316 : EventManager : Event: ======'loading_assets'====== Args={'total': 27, 'loaded': 1, 'remaining': 26, 'percent': 4}
+2022-08-21 16:04:12,316 : AssetManager : Loading assets: 1/27 (4%)
+2022-08-21 16:04:13,541 : EventManager : Event: ======'loading_assets'====== Args={'total': 27, 'loaded': 2, 'remaining': 25, 'percent': 7}
+2022-08-21 16:04:13,541 : AssetManager : Loading assets: 2/27 (7%)
+2022-08-21 16:04:15,087 : EventManager : Event: ======'loading_assets'====== Args={'total': 27, 'loaded': 14, 'remaining': 13, 'percent': 52}
+2022-08-21 16:04:15,088 : AssetManager : Loading assets: 14/27 (52%)
+2022-08-21 16:04:15,825 : EventManager : Event: ======'loading_assets'====== Args={'total': 27, 'loaded': 27, 'remaining': 0, 'percent': 100}
+2022-08-21 16:04:15,825 : AssetManager : Asset loading took: 3.697211503982544
+2022-08-21 16:04:15,826 : EventManager : Event: ======'asset_loading_complete'====== Args={}
+2022-08-21 16:04:15,826 : AssetManager : Loading assets: 27/27 (100%)
+2022-08-21 16:04:15,826 : EventManager : Event: ======'init_done'====== Args={}
+2022-08-21 16:04:15,826 : MPF-MC BCP Server : Starting up on localhost port 5050
+2022-08-21 16:04:15,829 : MPF-MC BCP Server : Waiting for a connection...
+2022-08-21 16:04:15,829 : EventManager : Event: ======'client_disconnected'====== Args={'host': '127.0.0.1', 'port': 5050}
+2022-08-21 16:04:15,908 : MPF-MC BCP Server : Received connection from: 127.0.0.1:49290
+2022-08-21 16:04:15,920 : EventManager : Event: ======'client_connected'====== Args={'host': '127.0.0.1', 'port': 49290}
+2022-08-21 16:04:15,933 : EventManager : Event: ======'machine_var_fast_net_firmware'====== Args={'value': '01.05', 'prev_value': None, 'change': True}
+2022-08-21 16:04:15,933 : EventManager : Event: ======'machine_var_fast_net_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2022-08-21 16:04:15,933 : EventManager : Event: ======'machine_var_fast_rgb_firmware'====== Args={'value': '01.00', 'prev_value': None, 'change': True}
+2022-08-21 16:04:15,933 : EventManager : Event: ======'machine_var_fast_rgb_model'====== Args={'value': 'FP-CPU-002-2', 'prev_value': None, 'change': True}
+2022-08-21 16:04:15,933 : EventManager : Event: ======'machine_var_credits_string'====== Args={'value': 'FREE PLAY', 'prev_value': None, 'change': True}
+2022-08-21 16:04:15,933 : EventManager : Event: ======'machine_var_master_volume'====== Args={'value': 0.5, 'prev_value': None, 'change': True}
+2022-08-21 16:04:15,934 : EventManager : Event: ======'machine_var_player1_score'====== Args={'value': 58540490, 'prev_value': None, 'change': True}
+2022-08-21 16:04:15,934 : EventManager : Event: ======'machine_var_mpf_version'====== Args={'value': 'MPF v0.55.0', 'prev_value': None, 'change': True}
+2022-08-21 16:04:15,934 : EventManager : Event: ======'machine_var_mpf_extended_version'====== Args={'value': 'MPF v0.55.0, Config version:5, Show version: 5, BCP version:1.1', 'prev_value': None, 'change': True}
+2022-08-21 16:04:15,934 : EventManager : Event: ======'machine_var_python_version'====== Args={'value': '3.7.8', 'prev_value': None, 'change': True}
+2022-08-21 16:04:15,934 : EventManager : Event: ======'machine_var_platform'====== Args={'value': 'Windows-7-6.1.7601-SP1', 'prev_value': None, 'change': True}
+2022-08-21 16:04:15,934 : EventManager : Event: ======'machine_var_platform_system'====== Args={'value': 'Windows', 'prev_value': None, 'change': True}
+2022-08-21 16:04:15,934 : EventManager : Event: ======'machine_var_platform_release'====== Args={'value': '7', 'prev_value': None, 'change': True}
+2022-08-21 16:04:15,934 : EventManager : Event: ======'machine_var_platform_version'====== Args={'value': '6.1.7601', 'prev_value': None, 'change': True}
+2022-08-21 16:04:15,935 : EventManager : Event: ======'machine_var_platform_machine'====== Args={'value': 'AMD64', 'prev_value': None, 'change': True}
+2022-08-21 16:04:15,935 : EventManager : Event: ======'machine_var_mc_version'====== Args={'value': 'MPF-MC v0.55.0', 'prev_value': None, 'change': True}
+2022-08-21 16:04:15,935 : EventManager : Event: ======'machine_var_mc_extended_version'====== Args={'value': 'MPF-MC v0.55.0 (config_version=5, BCP v1.1, Requires MPF v0.55.0-dev.49)', 'prev_value': None, 'change': True}
+2022-08-21 16:04:15,935 : SoundSystem : Setting master volume to 0.5
+2022-08-21 16:04:16,436 : EventManager : Event: ======'machine_var_audits_events_game_ended'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,436 : EventManager : Event: ======'machine_var_audits_events_game_started'====== Args={'value': 0, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,436 : EventManager : Event: ======'machine_var_audits_player_score'====== Args={'value': {'average': 10318150.616438355, 'top': [198719690, 195274570, 161094530, 160419680, 140071820, 132769060, 132262360, 127113160, 121863670, 115954110], 'total': 584}, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,436 : EventManager : Event: ======'machine_var_audits_shots_center_drop_mission1'====== Args={'value': 492, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,436 : EventManager : Event: ======'machine_var_audits_shots_center_target'====== Args={'value': 34, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,436 : EventManager : Event: ======'machine_var_audits_shots_drop_target1_mission2'====== Args={'value': 217, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,436 : EventManager : Event: ======'machine_var_audits_shots_drop_target2_mission2'====== Args={'value': 249, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,436 : EventManager : Event: ======'machine_var_audits_shots_drop_target3_mission2'====== Args={'value': 279, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,437 : EventManager : Event: ======'machine_var_audits_shots_drop_target4_mission2'====== Args={'value': 255, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,437 : EventManager : Event: ======'machine_var_audits_shots_drop_target5_mission2'====== Args={'value': 218, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,437 : EventManager : Event: ======'machine_var_audits_shots_drop_targets_mission3'====== Args={'value': 1421, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,437 : EventManager : Event: ======'machine_var_audits_shots_galaxy_advance'====== Args={'value': 1934, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,437 : EventManager : Event: ======'machine_var_audits_shots_l_lane'====== Args={'value': 599, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,437 : EventManager : Event: ======'machine_var_audits_shots_left_kicker_mission2'====== Args={'value': 151, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,437 : EventManager : Event: ======'machine_var_audits_shots_left_kicker_mission4'====== Args={'value': 112, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,437 : EventManager : Event: ======'machine_var_audits_shots_left_loop_mission1'====== Args={'value': 555, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,438 : EventManager : Event: ======'machine_var_audits_shots_left_loop_mission2'====== Args={'value': 252, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,438 : EventManager : Event: ======'machine_var_audits_shots_left_loop_mission4'====== Args={'value': 372, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,438 : EventManager : Event: ======'machine_var_audits_shots_portal_advance'====== Args={'value': 4431, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,438 : EventManager : Event: ======'machine_var_audits_shots_r_lane'====== Args={'value': 527, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,438 : EventManager : Event: ======'machine_var_audits_shots_right_kicker_mission2'====== Args={'value': 134, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,438 : EventManager : Event: ======'machine_var_audits_shots_right_kicker_mission4'====== Args={'value': 132, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,438 : EventManager : Event: ======'machine_var_audits_shots_right_loop_mission1'====== Args={'value': 642, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,438 : EventManager : Event: ======'machine_var_audits_shots_right_loop_mission2'====== Args={'value': 280, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,438 : EventManager : Event: ======'machine_var_audits_shots_right_loop_mission4'====== Args={'value': 421, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,439 : EventManager : Event: ======'machine_var_audits_shots_warp_advance'====== Args={'value': 1070, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,439 : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 3874, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,439 : EventManager : Event: ======'machine_var_audits_switches_s_drain'====== Args={'value': 2679, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,439 : EventManager : Event: ======'machine_var_audits_switches_s_drop_target1'====== Args={'value': 1794, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,448 : EventManager : Event: ======'machine_var_audits_switches_s_drop_target2'====== Args={'value': 2094, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,448 : EventManager : Event: ======'machine_var_audits_switches_s_drop_target3'====== Args={'value': 2479, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,448 : EventManager : Event: ======'machine_var_audits_switches_s_drop_target4'====== Args={'value': 2001, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,448 : EventManager : Event: ======'machine_var_audits_switches_s_drop_target5'====== Args={'value': 1899, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,448 : EventManager : Event: ======'machine_var_audits_switches_s_left_captive_ball'====== Args={'value': 467, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,448 : EventManager : Event: ======'machine_var_audits_switches_s_left_flipper'====== Args={'value': 33720, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,448 : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane'====== Args={'value': 599, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,448 : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane_far'====== Args={'value': 3736, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,448 : EventManager : Event: ======'machine_var_audits_switches_s_left_kicker'====== Args={'value': 1492, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,448 : EventManager : Event: ======'machine_var_audits_switches_s_left_sling'====== Args={'value': 6690, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,449 : EventManager : Event: ======'machine_var_audits_switches_s_left_spinner'====== Args={'value': 19589, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,449 : EventManager : Event: ======'machine_var_audits_switches_s_right_captive_ball'====== Args={'value': 492, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,449 : EventManager : Event: ======'machine_var_audits_switches_s_right_flipper'====== Args={'value': 31267, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,449 : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane'====== Args={'value': 527, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,449 : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane_far'====== Args={'value': 5947, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,449 : EventManager : Event: ======'machine_var_audits_switches_s_right_kicker'====== Args={'value': 1672, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,449 : EventManager : Event: ======'machine_var_audits_switches_s_right_sling'====== Args={'value': 14033, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,449 : EventManager : Event: ======'machine_var_audits_switches_s_right_spinner'====== Args={'value': 15952, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,449 : EventManager : Event: ======'machine_var_audits_switches_s_start'====== Args={'value': 403, 'prev_value': None, 'change': True}
+2022-08-21 16:04:16,460 : EventManager : Event: ======'mc_reset_phase_1'====== Args={}
+2022-08-21 16:04:16,460 : EventManager : Event: ======'mc_reset_phase_2'====== Args={}
+2022-08-21 16:04:16,460 : EventManager : Event: ======'mc_reset_phase_3'====== Args={}
+2022-08-21 16:04:16,460 : EventManager : Event: ======'mc_reset_complete'====== Args={}
+2022-08-21 16:04:16,472 : EventManager : Event: ======'slides_play'====== Args={'settings': {'widgets': {'widgets': [{'type': 'text', 'text': 'GAME OVER', 'font_size': 50, 'font_name': 'space_font', '_default_settings': ['type', 'text', 'font_size', 'font_name'], 'x': None, 'y': None, 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'bitmap_font': False, 'font_kerning': True, 'bold': False, 'italic': False, 'number_grouping': False, 'min_digits': 0, 'halign': 'center', 'valign': 'middle', 'rotation': 0, 'scale': 1.0, 'casing': None, 'animations': None}, {'type': 'image', 'image': 'attract_background', '_default_settings': ['type', 'image'], 'x': None, 'y': None, 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'show_13', 'calling_context': 0, 'priority': 10, 'show_tokens': {}, 'start_time': 6792.673}
+2022-08-21 16:04:16,472 : mpfmc : SlidePlayer: Play called with settings={'widgets': {'widgets': [{'type': 'text', 'text': 'GAME OVER', 'font_size': 50, 'font_name': 'space_font', '_default_settings': ['type', 'text', 'font_size', 'font_name'], 'x': None, 'y': None, 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'bitmap_font': False, 'font_kerning': True, 'bold': False, 'italic': False, 'number_grouping': False, 'min_digits': 0, 'halign': 'center', 'valign': 'middle', 'rotation': 0, 'scale': 1.0, 'casing': None, 'animations': None}, {'type': 'image', 'image': 'attract_background', '_default_settings': ['type', 'image'], 'x': None, 'y': None, 'anchor_x': 'center', 'anchor_y': 'center', 'round_anchor_x': None, 'round_anchor_y': None, 'opacity': 1.0, 'z': 0, 'reset_animations_events': {}, 'color': [1.0, 1.0, 1.0, 1.0], 'style': [], 'adjust_top': 0, 'adjust_bottom': 0, 'adjust_left': 0, 'adjust_right': 0, 'expire': None, 'key': None, 'widget': None, 'events_when_added': [], 'events_when_removed': [], 'fps': 10, 'loops': -1, 'auto_play': True, 'start_frame': 0, 'rotation': 0, 'scale': 1.0, 'animations': None}], 'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2022-08-21 16:04:16,479 : EventManager : Event: ======'slide_show_13.slide_player-0_created'====== Args={}
+2022-08-21 16:04:16,481 : EventManager : Event: ======'slide_show_13.slide_player-0_active'====== Args={}
+2022-08-21 16:04:18,603 : EventManager : Event: ======'game_started'====== Args={}
+2022-08-21 16:04:18,615 : EventManager : Event: ======'slides_clear'====== Args={'context': 'show_13'}
+2022-08-21 16:04:18,615 : EventManager : Event: ======'slide_show_13.slide_player-0_removed'====== Args={}
+2022-08-21 16:04:18,616 : EventManager : Event: ======'slide_window_blank_active'====== Args={}
+2022-08-21 16:04:18,627 : EventManager : Event: ======'player_added'====== Args={'player': <Player 1>, 'num': 1}
+2022-08-21 16:04:18,627 : EventManager : Event: ======'player_index'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2022-08-21 16:04:18,627 : EventManager : Event: ======'player_number'====== Args={'value': 1, 'prev_value': 1, 'change': 0, 'player_num': 1}
+2022-08-21 16:04:18,627 : EventManager : Event: ======'player_score'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2022-08-21 16:04:18,628 : EventManager : Event: ======'player_mode_value'====== Args={'value': 1000000, 'prev_value': 0, 'change': 1000000, 'player_num': 1}
+2022-08-21 16:04:18,628 : EventManager : Event: ======'player_bonus_multiplier'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:18,628 : EventManager : Event: ======'player_playfield_multiplier'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:18,675 : EventManager : Event: ======'player_ball'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:18,675 : EventManager : Event: ======'player_turn_start'====== Args={'number': 1, 'player': <Player 1>}
+2022-08-21 16:04:18,700 : EventManager : Event: ======'player_shot_l_lane_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:18,700 : EventManager : Event: ======'player_shot_r_lane_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:18,700 : EventManager : Event: ======'player_shot_center_target_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:18,700 : EventManager : Event: ======'player_extra_ball_two_modes_complete_num_awarded'====== Args={'value': 0, 'prev_value': 0, 'change': 0, 'player_num': 1}
+2022-08-21 16:04:18,712 : EventManager : Event: ======'sounds_play'====== Args={'settings': {'default': {'action': 'stop', 'priority': 400, 'block': False, 'delay': None, 'track': None, 'volume': None, 'pan': None, 'loops': None, 'start_at': None, 'fade_in': None, 'fade_out': None, 'about_to_finish_time': -1.0, 'max_queue_time': -1.0, 'events_when_played': ['use_sound_setting'], 'events_when_stopped': ['use_sound_setting'], 'events_when_looping': ['use_sound_setting'], 'events_when_about_to_finish': ['use_sound_setting'], 'mode_end_action': 'use_sound_setting', 'key': 'use_sound_setting'}, 'shooter_waiting': {'action': 'play', 'loops': -1, 'priority': None, 'block': False, 'delay': None, 'track': None, 'volume': None, 'pan': None, 'start_at': None, 'fade_in': None, 'fade_out': None, 'about_to_finish_time': -1.0, 'max_queue_time': -1.0, 'events_when_played': ['use_sound_setting'], 'events_when_stopped': ['use_sound_setting'], 'events_when_looping': ['use_sound_setting'], 'events_when_about_to_finish': ['use_sound_setting'], 'mode_end_action': 'use_sound_setting', 'key': 'use_sound_setting'}}, 'context': '_global', 'calling_context': 'ball_started', 'priority': 0, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2022-08-21 16:04:18,712 : EventManager : Event: ======'player_shot_galaxy_advance_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:18,712 : EventManager : Event: ======'player_shot_warp_advance_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:18,724 : EventManager : Event: ======'player_shot_portal_advance_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:18,724 : EventManager : Event: ======'slides_play'====== Args={'settings': {'score_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'base', 'calling_context': 'mode_base_started', 'priority': 100, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2022-08-21 16:04:18,724 : mpfmc : SlidePlayer: Play called with settings={'score_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2022-08-21 16:04:18,737 : EventManager : Event: ======'slide_score_slide_created'====== Args={}
+2022-08-21 16:04:18,744 : EventManager : Event: ======'slide_score_slide_active'====== Args={}
+2022-08-21 16:04:18,750 : EventManager : Event: ======'sounds_play'====== Args={'settings': {'default': {'action': 'play', 'loops': -1, 'track': 'music', 'priority': None, 'block': False, 'delay': None, 'volume': None, 'pan': None, 'start_at': None, 'fade_in': None, 'fade_out': None, 'about_to_finish_time': -1.0, 'max_queue_time': -1.0, 'events_when_played': ['use_sound_setting'], 'events_when_stopped': ['use_sound_setting'], 'events_when_looping': ['use_sound_setting'], 'events_when_about_to_finish': ['use_sound_setting'], 'mode_end_action': 'use_sound_setting', 'key': 'use_sound_setting'}, 'mode_theme': {'action': 'stop', 'priority': None, 'block': False, 'delay': None, 'track': None, 'volume': None, 'pan': None, 'loops': None, 'start_at': None, 'fade_in': None, 'fade_out': None, 'about_to_finish_time': -1.0, 'max_queue_time': -1.0, 'events_when_played': ['use_sound_setting'], 'events_when_stopped': ['use_sound_setting'], 'events_when_looping': ['use_sound_setting'], 'events_when_about_to_finish': ['use_sound_setting'], 'mode_end_action': 'use_sound_setting', 'key': 'use_sound_setting'}}, 'context': '_global', 'calling_context': 'mode_spell_portal_started', 'priority': 0, 'player': 1, 'ball': 1, 'balls_remaining': 2, 'is_extra_ball': False}
+2022-08-21 16:04:21,852 : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 3875, 'prev_value': 3874, 'change': 1}
+2022-08-21 16:04:22,055 : EventManager : Event: ======'sounds_play'====== Args={'settings': {'shooter_waiting': {'action': 'stop', 'priority': None, 'block': False, 'delay': None, 'track': None, 'volume': None, 'pan': None, 'loops': None, 'start_at': None, 'fade_in': None, 'fade_out': None, 'about_to_finish_time': -1.0, 'max_queue_time': -1.0, 'events_when_played': ['use_sound_setting'], 'events_when_stopped': ['use_sound_setting'], 'events_when_looping': ['use_sound_setting'], 'events_when_about_to_finish': ['use_sound_setting'], 'mode_end_action': 'use_sound_setting', 'key': 'use_sound_setting'}, 'default': {'action': 'play', 'loops': -1, 'track': 'music', 'priority': None, 'block': False, 'delay': None, 'volume': None, 'pan': None, 'start_at': None, 'fade_in': None, 'fade_out': None, 'about_to_finish_time': -1.0, 'max_queue_time': -1.0, 'events_when_played': ['use_sound_setting'], 'events_when_stopped': ['use_sound_setting'], 'events_when_looping': ['use_sound_setting'], 'events_when_about_to_finish': ['use_sound_setting'], 'mode_end_action': 'use_sound_setting', 'key': 'use_sound_setting'}}, 'context': '_global', 'calling_context': 's_drain_inactive', 'priority': 0}
+2022-08-21 16:04:22,558 : EventManager : Event: ======'machine_var_audits_switches_s_left_sling'====== Args={'value': 6691, 'prev_value': 6690, 'change': 1}
+2022-08-21 16:04:22,558 : EventManager : Event: ======'player_score'====== Args={'value': 1110, 'prev_value': 0, 'change': 1110, 'player_num': 1}
+2022-08-21 16:04:22,558 : EventManager : Event: ======'player_switches'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:25,531 : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane_far'====== Args={'value': 5948, 'prev_value': 5947, 'change': 1}
+2022-08-21 16:04:25,531 : EventManager : Event: ======'player_shot_portal_advance'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:25,543 : EventManager : Event: ======'machine_var_audits_shots_portal_advance'====== Args={'value': 4432, 'prev_value': 4431, 'change': 1}
+2022-08-21 16:04:25,555 : EventManager : Event: ======'player_score'====== Args={'value': 31110, 'prev_value': 1110, 'change': 30000, 'player_num': 1}
+2022-08-21 16:04:25,555 : EventManager : Event: ======'player_switches'====== Args={'value': 2, 'prev_value': 1, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:25,555 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 6, 'prev_value': 0, 'change': 6, 'player_num': 1}
+2022-08-21 16:04:25,960 : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane_far'====== Args={'value': 5949, 'prev_value': 5948, 'change': 1}
+2022-08-21 16:04:25,972 : EventManager : Event: ======'machine_var_audits_shots_portal_advance'====== Args={'value': 4433, 'prev_value': 4432, 'change': 1}
+2022-08-21 16:04:25,972 : EventManager : Event: ======'player_score'====== Args={'value': 61110, 'prev_value': 31110, 'change': 30000, 'player_num': 1}
+2022-08-21 16:04:25,972 : EventManager : Event: ======'player_switches'====== Args={'value': 3, 'prev_value': 2, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:26,468 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 5, 'prev_value': 6, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:26,480 : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane_far'====== Args={'value': 5950, 'prev_value': 5949, 'change': 1}
+2022-08-21 16:04:26,480 : EventManager : Event: ======'machine_var_audits_shots_portal_advance'====== Args={'value': 4434, 'prev_value': 4433, 'change': 1}
+2022-08-21 16:04:26,480 : EventManager : Event: ======'player_score'====== Args={'value': 91110, 'prev_value': 61110, 'change': 30000, 'player_num': 1}
+2022-08-21 16:04:26,480 : EventManager : Event: ======'player_switches'====== Args={'value': 4, 'prev_value': 3, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:26,481 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 6, 'prev_value': 5, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:26,973 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 5, 'prev_value': 6, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:27,476 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 4, 'prev_value': 5, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:27,981 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 3, 'prev_value': 4, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:28,470 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 2, 'prev_value': 3, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:28,972 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 1, 'prev_value': 2, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:29,475 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:29,578 : EventManager : Event: ======'machine_var_audits_switches_s_left_kicker'====== Args={'value': 1493, 'prev_value': 1492, 'change': 1}
+2022-08-21 16:04:29,590 : EventManager : Event: ======'player_score'====== Args={'value': 106110, 'prev_value': 91110, 'change': 15000, 'player_num': 1}
+2022-08-21 16:04:29,610 : EventManager : Event: ======'slides_play'====== Args={'settings': {'select_mission1': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'carousel', 'calling_context': 'carousel_mission1_highlighted', 'priority': 1000, 'direction': None}
+2022-08-21 16:04:29,610 : mpfmc : SlidePlayer: Play called with settings={'select_mission1': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2022-08-21 16:04:29,626 : EventManager : Event: ======'slide_select_mission1_created'====== Args={}
+2022-08-21 16:04:29,633 : EventManager : Event: ======'slide_select_mission1_active'====== Args={}
+2022-08-21 16:04:32,724 : EventManager : Event: ======'machine_var_audits_switches_s_action_button'====== Args={'value': 3876, 'prev_value': 3875, 'change': 1}
+2022-08-21 16:04:32,987 : EventManager : Event: ======'player_shot_left_loop_mission1_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:32,987 : EventManager : Event: ======'player_shot_right_loop_mission1_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:32,988 : EventManager : Event: ======'player_shot_center_drop_mission1_enabled'====== Args={'value': True, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:32,988 : EventManager : Event: ======'player_modes_started'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:32,989 : EventManager : Event: ======'player_selected_mission'====== Args={'value': 'mission1', 'prev_value': 0, 'change': True, 'player_num': 1}
+2022-08-21 16:04:32,989 : EventManager : Event: ======'slides_clear'====== Args={'context': 'carousel'}
+2022-08-21 16:04:32,989 : EventManager : Event: ======'slide_select_mission1_removed'====== Args={}
+2022-08-21 16:04:32,989 : EventManager : Event: ======'sounds_play'====== Args={'settings': {'mode_theme': {'action': 'play', 'loops': -1, 'priority': None, 'block': False, 'delay': None, 'track': None, 'volume': None, 'pan': None, 'start_at': None, 'fade_in': None, 'fade_out': None, 'about_to_finish_time': -1.0, 'max_queue_time': -1.0, 'events_when_played': ['use_sound_setting'], 'events_when_stopped': ['use_sound_setting'], 'events_when_looping': ['use_sound_setting'], 'events_when_about_to_finish': ['use_sound_setting'], 'mode_end_action': 'use_sound_setting', 'key': 'use_sound_setting'}, 'default': {'action': 'stop', 'priority': None, 'block': False, 'delay': None, 'track': None, 'volume': None, 'pan': None, 'loops': None, 'start_at': None, 'fade_in': None, 'fade_out': None, 'about_to_finish_time': -1.0, 'max_queue_time': -1.0, 'events_when_played': ['use_sound_setting'], 'events_when_stopped': ['use_sound_setting'], 'events_when_looping': ['use_sound_setting'], 'events_when_about_to_finish': ['use_sound_setting'], 'mode_end_action': 'use_sound_setting', 'key': 'use_sound_setting'}}, 'context': '_global', 'calling_context': 'mode_carousel_stopped', 'priority': 0}
+2022-08-21 16:04:32,990 : EventManager : Event: ======'sounds_play'====== Args={'settings': {'carousel_select': {'action': 'play', 'priority': None, 'block': False, 'delay': None, 'track': None, 'volume': None, 'pan': None, 'loops': None, 'start_at': None, 'fade_in': None, 'fade_out': None, 'about_to_finish_time': -1.0, 'max_queue_time': -1.0, 'events_when_played': ['use_sound_setting'], 'events_when_stopped': ['use_sound_setting'], 'events_when_looping': ['use_sound_setting'], 'events_when_about_to_finish': ['use_sound_setting'], 'mode_end_action': 'use_sound_setting', 'key': 'use_sound_setting'}}, 'context': 'mission1', 'calling_context': 'mode_mission1_started', 'priority': 1000}
+2022-08-21 16:04:32,990 : EventManager : Event: ======'slides_play'====== Args={'settings': {'score_slide_lava': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'mission1', 'calling_context': 'mode_mission1_started', 'priority': 1000}
+2022-08-21 16:04:32,990 : EventManager : Event: ======'player_mission1_timer_seconds'====== Args={'value': 60, 'prev_value': 0, 'change': 60, 'player_num': 1}
+2022-08-21 16:04:32,990 : mpfmc : SoundPlayer: The specified sound does not exist ('carousel_select').
+2022-08-21 16:04:32,990 : mpfmc : SlidePlayer: Play called with settings={'score_slide_lava': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2022-08-21 16:04:33,007 : EventManager : Event: ======'slide_score_slide_lava_created'====== Args={}
+2022-08-21 16:04:33,013 : EventManager : Event: ======'slide_score_slide_lava_active'====== Args={}
+2022-08-21 16:04:34,142 : EventManager : Event: ======'player_mission1_mission1_timer_tick'====== Args={'value': 59, 'prev_value': 0, 'change': 59, 'player_num': 1}
+2022-08-21 16:04:34,142 : EventManager : Event: ======'player_mission1_timer_seconds'====== Args={'value': 59, 'prev_value': 60, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:35,336 : EventManager : Event: ======'player_mission1_mission1_timer_tick'====== Args={'value': 58, 'prev_value': 59, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:35,336 : EventManager : Event: ======'player_mission1_timer_seconds'====== Args={'value': 58, 'prev_value': 59, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:35,917 : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane_far'====== Args={'value': 3737, 'prev_value': 3736, 'change': 1}
+2022-08-21 16:04:35,929 : EventManager : Event: ======'player_shot_left_loop_mission1'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:35,929 : EventManager : Event: ======'machine_var_audits_shots_left_loop_mission1'====== Args={'value': 556, 'prev_value': 555, 'change': 1}
+2022-08-21 16:04:35,941 : EventManager : Event: ======'player_score'====== Args={'value': 136110, 'prev_value': 106110, 'change': 30000, 'player_num': 1}
+2022-08-21 16:04:35,941 : EventManager : Event: ======'player_switches'====== Args={'value': 5, 'prev_value': 4, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:35,941 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 6, 'prev_value': 0, 'change': 6, 'player_num': 1}
+2022-08-21 16:04:35,941 : EventManager : Event: ======'player_score'====== Args={'value': 1136110, 'prev_value': 136110, 'change': 1000000, 'player_num': 1}
+2022-08-21 16:04:35,942 : EventManager : Event: ======'player_mission1_total'====== Args={'value': 1000000, 'prev_value': 0, 'change': 1000000, 'player_num': 1}
+2022-08-21 16:04:35,942 : EventManager : Event: ======'slides_play'====== Args={'settings': {'shot_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'mission1', 'calling_context': 'left_loop_mission1_flashing_hit', 'priority': 1000, 'profile': 'profile1', 'state': 'flashing', 'advancing': True}
+2022-08-21 16:04:35,947 : mpfmc : SlidePlayer: Play called with settings={'shot_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2022-08-21 16:04:35,955 : EventManager : Event: ======'slide_shot_slide_created'====== Args={}
+2022-08-21 16:04:35,962 : EventManager : Event: ======'slide_shot_slide_active'====== Args={}
+2022-08-21 16:04:36,459 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 5, 'prev_value': 6, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:36,571 : EventManager : Event: ======'player_mission1_mission1_timer_tick'====== Args={'value': 57, 'prev_value': 58, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:36,572 : EventManager : Event: ======'player_mission1_timer_seconds'====== Args={'value': 57, 'prev_value': 58, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:36,971 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 4, 'prev_value': 5, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:37,486 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 3, 'prev_value': 4, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:37,766 : EventManager : Event: ======'player_mission1_mission1_timer_tick'====== Args={'value': 56, 'prev_value': 57, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:37,767 : EventManager : Event: ======'player_mission1_timer_seconds'====== Args={'value': 56, 'prev_value': 57, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:37,936 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 2, 'prev_value': 3, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:37,938 : EventManager : Event: ======'slide_shot_slide_removed'====== Args={}
+2022-08-21 16:04:37,939 : EventManager : Event: ======'slide_score_slide_lava_active'====== Args={}
+2022-08-21 16:04:38,424 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 1, 'prev_value': 2, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:38,933 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:38,945 : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane_far'====== Args={'value': 5951, 'prev_value': 5950, 'change': 1}
+2022-08-21 16:04:38,945 : EventManager : Event: ======'player_shot_right_loop_mission1'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:38,945 : EventManager : Event: ======'machine_var_audits_shots_right_loop_mission1'====== Args={'value': 643, 'prev_value': 642, 'change': 1}
+2022-08-21 16:04:38,958 : EventManager : Event: ======'player_score'====== Args={'value': 1166110, 'prev_value': 1136110, 'change': 30000, 'player_num': 1}
+2022-08-21 16:04:38,958 : EventManager : Event: ======'player_switches'====== Args={'value': 6, 'prev_value': 5, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:38,959 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 6, 'prev_value': 0, 'change': 6, 'player_num': 1}
+2022-08-21 16:04:38,959 : EventManager : Event: ======'player_score'====== Args={'value': 2166110, 'prev_value': 1166110, 'change': 1000000, 'player_num': 1}
+2022-08-21 16:04:38,959 : EventManager : Event: ======'player_mission1_total'====== Args={'value': 2000000, 'prev_value': 1000000, 'change': 1000000, 'player_num': 1}
+2022-08-21 16:04:38,959 : EventManager : Event: ======'slides_play'====== Args={'settings': {'shot_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'mission1', 'calling_context': 'right_loop_mission1_flashing_hit', 'priority': 1000, 'profile': 'profile1', 'state': 'flashing', 'advancing': True}
+2022-08-21 16:04:38,966 : mpfmc : SlidePlayer: Play called with settings={'shot_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2022-08-21 16:04:38,966 : EventManager : Event: ======'slide_shot_slide_removed'====== Args={}
+2022-08-21 16:04:38,974 : EventManager : Event: ======'slide_shot_slide_created'====== Args={}
+2022-08-21 16:04:38,978 : EventManager : Event: ======'slide_shot_slide_active'====== Args={}
+2022-08-21 16:04:38,983 : EventManager : Event: ======'player_mission1_mission1_timer_tick'====== Args={'value': 55, 'prev_value': 56, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:38,984 : EventManager : Event: ======'player_mission1_timer_seconds'====== Args={'value': 55, 'prev_value': 56, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:39,498 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 5, 'prev_value': 6, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:39,978 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 4, 'prev_value': 5, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:40,154 : EventManager : Event: ======'player_mission1_mission1_timer_tick'====== Args={'value': 54, 'prev_value': 55, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:40,155 : EventManager : Event: ======'player_mission1_timer_seconds'====== Args={'value': 54, 'prev_value': 55, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:40,492 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 3, 'prev_value': 4, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:40,973 : EventManager : Event: ======'slide_shot_slide_removed'====== Args={}
+2022-08-21 16:04:40,974 : EventManager : Event: ======'slide_score_slide_lava_active'====== Args={}
+2022-08-21 16:04:41,001 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 2, 'prev_value': 3, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:41,339 : EventManager : Event: ======'player_mission1_mission1_timer_tick'====== Args={'value': 53, 'prev_value': 54, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:41,351 : EventManager : Event: ======'player_mission1_timer_seconds'====== Args={'value': 53, 'prev_value': 54, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:41,456 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 1, 'prev_value': 2, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:41,865 : EventManager : Event: ======'machine_var_audits_switches_s_drop_target3'====== Args={'value': 2480, 'prev_value': 2479, 'change': 1}
+2022-08-21 16:04:41,865 : EventManager : Event: ======'player_shot_center_drop_mission1'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:41,878 : EventManager : Event: ======'machine_var_audits_shots_center_drop_mission1'====== Args={'value': 493, 'prev_value': 492, 'change': 1}
+2022-08-21 16:04:41,878 : EventManager : Event: ======'player_shot_center_target'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:41,891 : EventManager : Event: ======'machine_var_audits_shots_center_target'====== Args={'value': 35, 'prev_value': 34, 'change': 1}
+2022-08-21 16:04:41,891 : EventManager : Event: ======'player_score'====== Args={'value': 2170610, 'prev_value': 2166110, 'change': 4500, 'player_num': 1}
+2022-08-21 16:04:41,891 : EventManager : Event: ======'player_switches'====== Args={'value': 7, 'prev_value': 6, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:41,891 : EventManager : Event: ======'player_score'====== Args={'value': 3170610, 'prev_value': 2170610, 'change': 1000000, 'player_num': 1}
+2022-08-21 16:04:41,891 : EventManager : Event: ======'player_mission1_total'====== Args={'value': 3000000, 'prev_value': 2000000, 'change': 1000000, 'player_num': 1}
+2022-08-21 16:04:41,892 : EventManager : Event: ======'slides_play'====== Args={'settings': {'shot_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'mission1', 'calling_context': 'center_drop_mission1_flashing_hit', 'priority': 1000, 'profile': 'profile1', 'state': 'flashing', 'advancing': True}
+2022-08-21 16:04:41,892 : EventManager : Event: ======'player_shot_left_loop_mission1'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:41,892 : EventManager : Event: ======'player_shot_right_loop_mission1'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:41,897 : mpfmc : SlidePlayer: Play called with settings={'shot_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2022-08-21 16:04:41,897 : EventManager : Event: ======'slide_shot_slide_removed'====== Args={}
+2022-08-21 16:04:41,904 : EventManager : Event: ======'slide_shot_slide_created'====== Args={}
+2022-08-21 16:04:41,909 : EventManager : Event: ======'slide_shot_slide_active'====== Args={}
+2022-08-21 16:04:41,952 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:42,598 : EventManager : Event: ======'player_mission1_mission1_timer_tick'====== Args={'value': 52, 'prev_value': 53, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:42,599 : EventManager : Event: ======'player_mission1_timer_seconds'====== Args={'value': 52, 'prev_value': 53, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:43,762 : EventManager : Event: ======'player_mission1_mission1_timer_tick'====== Args={'value': 51, 'prev_value': 52, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:43,762 : EventManager : Event: ======'player_mission1_timer_seconds'====== Args={'value': 51, 'prev_value': 52, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:43,902 : EventManager : Event: ======'slide_shot_slide_removed'====== Args={}
+2022-08-21 16:04:43,903 : EventManager : Event: ======'slide_score_slide_lava_active'====== Args={}
+2022-08-21 16:04:44,625 : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane_far'====== Args={'value': 3738, 'prev_value': 3737, 'change': 1}
+2022-08-21 16:04:44,625 : EventManager : Event: ======'player_shot_left_loop_mission1'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:44,625 : EventManager : Event: ======'machine_var_audits_shots_left_loop_mission1'====== Args={'value': 557, 'prev_value': 556, 'change': 1}
+2022-08-21 16:04:44,637 : EventManager : Event: ======'player_score'====== Args={'value': 3200610, 'prev_value': 3170610, 'change': 30000, 'player_num': 1}
+2022-08-21 16:04:44,637 : EventManager : Event: ======'player_switches'====== Args={'value': 8, 'prev_value': 7, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:44,637 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 6, 'prev_value': 0, 'change': 6, 'player_num': 1}
+2022-08-21 16:04:44,637 : EventManager : Event: ======'player_score'====== Args={'value': 4200610, 'prev_value': 3200610, 'change': 1000000, 'player_num': 1}
+2022-08-21 16:04:44,637 : EventManager : Event: ======'player_mission1_total'====== Args={'value': 4000000, 'prev_value': 3000000, 'change': 1000000, 'player_num': 1}
+2022-08-21 16:04:44,638 : EventManager : Event: ======'slides_play'====== Args={'settings': {'shot_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'mission1', 'calling_context': 'left_loop_mission1_flashing_hit', 'priority': 1000, 'profile': 'profile1', 'state': 'flashing', 'advancing': True}
+2022-08-21 16:04:44,643 : mpfmc : SlidePlayer: Play called with settings={'shot_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2022-08-21 16:04:44,643 : EventManager : Event: ======'slide_shot_slide_removed'====== Args={}
+2022-08-21 16:04:44,651 : EventManager : Event: ======'slide_shot_slide_created'====== Args={}
+2022-08-21 16:04:44,658 : EventManager : Event: ======'slide_shot_slide_active'====== Args={}
+2022-08-21 16:04:44,947 : EventManager : Event: ======'player_mission1_mission1_timer_tick'====== Args={'value': 50, 'prev_value': 51, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:44,947 : EventManager : Event: ======'player_mission1_timer_seconds'====== Args={'value': 50, 'prev_value': 51, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:44,984 : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane_far'====== Args={'value': 5952, 'prev_value': 5951, 'change': 1}
+2022-08-21 16:04:44,984 : EventManager : Event: ======'player_shot_right_loop_mission1'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:44,984 : EventManager : Event: ======'machine_var_audits_shots_right_loop_mission1'====== Args={'value': 644, 'prev_value': 643, 'change': 1}
+2022-08-21 16:04:44,984 : EventManager : Event: ======'player_score'====== Args={'value': 4230610, 'prev_value': 4200610, 'change': 30000, 'player_num': 1}
+2022-08-21 16:04:44,991 : EventManager : Event: ======'player_switches'====== Args={'value': 9, 'prev_value': 8, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:44,991 : EventManager : Event: ======'player_score'====== Args={'value': 5230610, 'prev_value': 4230610, 'change': 1000000, 'player_num': 1}
+2022-08-21 16:04:44,991 : EventManager : Event: ======'player_mission1_total'====== Args={'value': 5000000, 'prev_value': 4000000, 'change': 1000000, 'player_num': 1}
+2022-08-21 16:04:44,992 : EventManager : Event: ======'slides_play'====== Args={'settings': {'shot_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'mission1', 'calling_context': 'right_loop_mission1_flashing_hit', 'priority': 1000, 'profile': 'profile1', 'state': 'flashing', 'advancing': True}
+2022-08-21 16:04:44,992 : EventManager : Event: ======'player_shot_center_drop_mission1'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:44,994 : mpfmc : SlidePlayer: Play called with settings={'shot_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2022-08-21 16:04:44,995 : EventManager : Event: ======'slide_shot_slide_removed'====== Args={}
+2022-08-21 16:04:45,001 : EventManager : Event: ======'slide_shot_slide_created'====== Args={}
+2022-08-21 16:04:45,004 : EventManager : Event: ======'slide_shot_slide_active'====== Args={}
+2022-08-21 16:04:45,491 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 5, 'prev_value': 6, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:45,979 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 4, 'prev_value': 5, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:46,179 : EventManager : Event: ======'player_mission1_mission1_timer_tick'====== Args={'value': 49, 'prev_value': 50, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:46,179 : EventManager : Event: ======'player_mission1_timer_seconds'====== Args={'value': 49, 'prev_value': 50, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:46,524 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 3, 'prev_value': 4, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:46,665 : EventManager : Event: ======'machine_var_audits_switches_s_drop_target3'====== Args={'value': 2481, 'prev_value': 2480, 'change': 1}
+2022-08-21 16:04:46,666 : EventManager : Event: ======'player_shot_center_drop_mission1'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:46,667 : EventManager : Event: ======'machine_var_audits_shots_center_drop_mission1'====== Args={'value': 494, 'prev_value': 493, 'change': 1}
+2022-08-21 16:04:46,667 : EventManager : Event: ======'machine_var_audits_shots_center_target'====== Args={'value': 36, 'prev_value': 35, 'change': 1}
+2022-08-21 16:04:46,667 : EventManager : Event: ======'player_score'====== Args={'value': 5235110, 'prev_value': 5230610, 'change': 4500, 'player_num': 1}
+2022-08-21 16:04:46,667 : EventManager : Event: ======'player_switches'====== Args={'value': 10, 'prev_value': 9, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:46,667 : EventManager : Event: ======'player_score'====== Args={'value': 6235110, 'prev_value': 5235110, 'change': 1000000, 'player_num': 1}
+2022-08-21 16:04:46,667 : EventManager : Event: ======'player_mission1_total'====== Args={'value': 6000000, 'prev_value': 5000000, 'change': 1000000, 'player_num': 1}
+2022-08-21 16:04:46,667 : EventManager : Event: ======'slides_play'====== Args={'settings': {'shot_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'mission1', 'calling_context': 'center_drop_mission1_flashing_hit', 'priority': 1000, 'profile': 'profile1', 'state': 'flashing', 'advancing': True}
+2022-08-21 16:04:46,667 : EventManager : Event: ======'player_shot_left_loop_mission1'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:46,667 : EventManager : Event: ======'player_shot_right_loop_mission1'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:46,667 : EventManager : Event: ======'machine_var_audits_switches_s_drop_target2'====== Args={'value': 2095, 'prev_value': 2094, 'change': 1}
+2022-08-21 16:04:46,668 : EventManager : Event: ======'player_score'====== Args={'value': 6239610, 'prev_value': 6235110, 'change': 4500, 'player_num': 1}
+2022-08-21 16:04:46,668 : EventManager : Event: ======'player_switches'====== Args={'value': 11, 'prev_value': 10, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:46,671 : mpfmc : SlidePlayer: Play called with settings={'shot_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2022-08-21 16:04:46,672 : EventManager : Event: ======'slide_shot_slide_removed'====== Args={}
+2022-08-21 16:04:46,678 : EventManager : Event: ======'slide_shot_slide_created'====== Args={}
+2022-08-21 16:04:46,684 : EventManager : Event: ======'slide_shot_slide_active'====== Args={}
+2022-08-21 16:04:46,976 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 2, 'prev_value': 3, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:47,392 : EventManager : Event: ======'player_mission1_mission1_timer_tick'====== Args={'value': 48, 'prev_value': 49, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:47,392 : EventManager : Event: ======'player_mission1_timer_seconds'====== Args={'value': 48, 'prev_value': 49, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:47,504 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 1, 'prev_value': 2, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:48,027 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:48,029 : EventManager : Event: ======'machine_var_audits_switches_s_left_inlane_far'====== Args={'value': 3739, 'prev_value': 3738, 'change': 1}
+2022-08-21 16:04:48,029 : EventManager : Event: ======'player_shot_left_loop_mission1'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:48,029 : EventManager : Event: ======'machine_var_audits_shots_left_loop_mission1'====== Args={'value': 558, 'prev_value': 557, 'change': 1}
+2022-08-21 16:04:48,029 : EventManager : Event: ======'player_score'====== Args={'value': 6269610, 'prev_value': 6239610, 'change': 30000, 'player_num': 1}
+2022-08-21 16:04:48,029 : EventManager : Event: ======'player_switches'====== Args={'value': 12, 'prev_value': 11, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:48,029 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 6, 'prev_value': 0, 'change': 6, 'player_num': 1}
+2022-08-21 16:04:48,030 : EventManager : Event: ======'player_score'====== Args={'value': 7269610, 'prev_value': 6269610, 'change': 1000000, 'player_num': 1}
+2022-08-21 16:04:48,030 : EventManager : Event: ======'player_mission1_total'====== Args={'value': 7000000, 'prev_value': 6000000, 'change': 1000000, 'player_num': 1}
+2022-08-21 16:04:48,030 : EventManager : Event: ======'slides_play'====== Args={'settings': {'shot_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'mission1', 'calling_context': 'left_loop_mission1_flashing_hit', 'priority': 1000, 'profile': 'profile1', 'state': 'flashing', 'advancing': True}
+2022-08-21 16:04:48,034 : mpfmc : SlidePlayer: Play called with settings={'shot_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2022-08-21 16:04:48,035 : EventManager : Event: ======'slide_shot_slide_removed'====== Args={}
+2022-08-21 16:04:48,042 : EventManager : Event: ======'slide_shot_slide_created'====== Args={}
+2022-08-21 16:04:48,046 : EventManager : Event: ======'slide_shot_slide_active'====== Args={}
+2022-08-21 16:04:48,545 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 5, 'prev_value': 6, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:48,545 : EventManager : Event: ======'player_mission1_mission1_timer_tick'====== Args={'value': 47, 'prev_value': 48, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:48,546 : EventManager : Event: ======'player_mission1_timer_seconds'====== Args={'value': 47, 'prev_value': 48, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:48,724 : EventManager : Event: ======'machine_var_audits_switches_s_right_inlane_far'====== Args={'value': 5953, 'prev_value': 5952, 'change': 1}
+2022-08-21 16:04:48,725 : EventManager : Event: ======'player_shot_right_loop_mission1'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:48,725 : EventManager : Event: ======'machine_var_audits_shots_right_loop_mission1'====== Args={'value': 645, 'prev_value': 644, 'change': 1}
+2022-08-21 16:04:48,725 : EventManager : Event: ======'player_score'====== Args={'value': 7299610, 'prev_value': 7269610, 'change': 30000, 'player_num': 1}
+2022-08-21 16:04:48,725 : EventManager : Event: ======'player_switches'====== Args={'value': 13, 'prev_value': 12, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:48,725 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 6, 'prev_value': 5, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:48,726 : EventManager : Event: ======'player_score'====== Args={'value': 8299610, 'prev_value': 7299610, 'change': 1000000, 'player_num': 1}
+2022-08-21 16:04:48,726 : EventManager : Event: ======'player_mission1_total'====== Args={'value': 8000000, 'prev_value': 7000000, 'change': 1000000, 'player_num': 1}
+2022-08-21 16:04:48,726 : EventManager : Event: ======'slides_play'====== Args={'settings': {'shot_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'mission1', 'calling_context': 'right_loop_mission1_flashing_hit', 'priority': 1000, 'profile': 'profile1', 'state': 'flashing', 'advancing': True}
+2022-08-21 16:04:48,730 : mpfmc : SlidePlayer: Play called with settings={'shot_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2022-08-21 16:04:48,731 : EventManager : Event: ======'slide_shot_slide_removed'====== Args={}
+2022-08-21 16:04:48,739 : EventManager : Event: ======'slide_shot_slide_created'====== Args={}
+2022-08-21 16:04:48,744 : EventManager : Event: ======'slide_shot_slide_active'====== Args={}
+2022-08-21 16:04:49,242 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 5, 'prev_value': 6, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:49,759 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 4, 'prev_value': 5, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:49,760 : EventManager : Event: ======'player_mission1_mission1_timer_tick'====== Args={'value': 46, 'prev_value': 47, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:49,760 : EventManager : Event: ======'player_mission1_timer_seconds'====== Args={'value': 46, 'prev_value': 47, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:50,239 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 3, 'prev_value': 4, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:50,724 : EventManager : Event: ======'slide_shot_slide_removed'====== Args={}
+2022-08-21 16:04:50,725 : EventManager : Event: ======'slide_score_slide_lava_active'====== Args={}
+2022-08-21 16:04:50,753 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 2, 'prev_value': 3, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:50,940 : EventManager : Event: ======'player_mission1_mission1_timer_tick'====== Args={'value': 45, 'prev_value': 46, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:50,940 : EventManager : Event: ======'player_mission1_timer_seconds'====== Args={'value': 45, 'prev_value': 46, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:51,207 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 1, 'prev_value': 2, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:51,707 : EventManager : Event: ======'player_combos_combo_timer_tick'====== Args={'value': 0, 'prev_value': 1, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:52,103 : EventManager : Event: ======'machine_var_audits_switches_s_drop_target3'====== Args={'value': 2482, 'prev_value': 2481, 'change': 1}
+2022-08-21 16:04:52,115 : EventManager : Event: ======'machine_var_audits_shots_center_drop_mission1'====== Args={'value': 495, 'prev_value': 494, 'change': 1}
+2022-08-21 16:04:52,127 : EventManager : Event: ======'machine_var_audits_shots_center_target'====== Args={'value': 37, 'prev_value': 36, 'change': 1}
+2022-08-21 16:04:52,127 : EventManager : Event: ======'player_score'====== Args={'value': 8304110, 'prev_value': 8299610, 'change': 4500, 'player_num': 1}
+2022-08-21 16:04:52,127 : EventManager : Event: ======'player_switches'====== Args={'value': 14, 'prev_value': 13, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:52,127 : EventManager : Event: ======'slides_play'====== Args={'settings': {'final_shot_mission1_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}, 'context': 'mission1', 'calling_context': 'final_shot', 'priority': 1000}
+2022-08-21 16:04:52,127 : EventManager : Event: ======'player_score'====== Args={'value': 16304110, 'prev_value': 8304110, 'change': 8000000, 'player_num': 1}
+2022-08-21 16:04:52,128 : EventManager : Event: ======'player_crystals'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:52,128 : EventManager : Event: ======'player_modes_completed'====== Args={'value': 1, 'prev_value': 0, 'change': 1, 'player_num': 1}
+2022-08-21 16:04:52,131 : mpfmc : SlidePlayer: Play called with settings={'final_shot_mission1_slide': {'target': None, 'background_color': [0.0, 0.0, 0.0, 1.0], 'priority': None, 'show': True, 'force': False, 'expire': None, 'slide': None, 'tokens': {}, 'action': 'play'}}
+2022-08-21 16:04:52,148 : EventManager : Event: ======'slide_final_shot_mission1_slide_created'====== Args={}
+2022-08-21 16:04:52,159 : EventManager : Event: ======'slide_final_shot_mission1_slide_active'====== Args={}
+2022-08-21 16:04:52,167 : EventManager : Event: ======'player_mode_value'====== Args={'value': 1250000, 'prev_value': 1000000, 'change': 250000, 'player_num': 1}
+2022-08-21 16:04:52,167 : EventManager : Event: ======'player_mission1_mission1_timer_tick'====== Args={'value': 44, 'prev_value': 45, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:52,167 : EventManager : Event: ======'player_mission1_timer_seconds'====== Args={'value': 44, 'prev_value': 45, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:53,347 : EventManager : Event: ======'player_mission1_mission1_timer_tick'====== Args={'value': 43, 'prev_value': 44, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:53,347 : EventManager : Event: ======'player_mission1_timer_seconds'====== Args={'value': 43, 'prev_value': 44, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:54,539 : EventManager : Event: ======'player_mission1_mission1_timer_tick'====== Args={'value': 42, 'prev_value': 43, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:54,539 : EventManager : Event: ======'player_mission1_timer_seconds'====== Args={'value': 42, 'prev_value': 43, 'change': -1, 'player_num': 1}
+2022-08-21 16:04:55,130 : EventManager : Event: ======'slide_final_shot_mission1_slide_removed'====== Args={}
+2022-08-21 16:04:55,131 : EventManager : Event: ======'slide_score_slide_lava_active'====== Args={}
+2022-08-21 16:04:55,155 : EventManager : Event: ======'sounds_clear'====== Args={'context': 'mission1'}
+2022-08-21 16:04:55,155 : EventManager : Event: ======'slides_clear'====== Args={'context': 'mission1'}
+2022-08-21 16:04:55,156 : EventManager : Event: ======'slide_score_slide_lava_removed'====== Args={}
+2022-08-21 16:04:55,157 : EventManager : Event: ======'slide_shot_slide_removed'====== Args={}
+2022-08-21 16:04:55,158 : EventManager : Event: ======'slide_final_shot_mission1_slide_removed'====== Args={}
+2022-08-21 16:04:55,158 : EventManager : Event: ======'player_mission1_total'====== Args={'value': 16000000, 'prev_value': 8000000, 'change': 8000000, 'player_num': 1}
+2022-08-21 16:04:55,159 : EventManager : Event: ======'slide_score_slide_active'====== Args={}
+2022-08-21 16:04:55,176 : EventManager : Event: ======'sounds_play'====== Args={'settings': {'default': {'action': 'play', 'loops': -1, 'track': 'music', 'priority': None, 'block': False, 'delay': None, 'volume': None, 'pan': None, 'start_at': None, 'fade_in': None, 'fade_out': None, 'about_to_finish_time': -1.0, 'max_queue_time': -1.0, 'events_when_played': ['use_sound_setting'], 'events_when_stopped': ['use_sound_setting'], 'events_when_looping': ['use_sound_setting'], 'events_when_about_to_finish': ['use_sound_setting'], 'mode_end_action': 'use_sound_setting', 'key': 'use_sound_setting'}, 'mode_theme': {'action': 'stop', 'priority': None, 'block': False, 'delay': None, 'track': None, 'volume': None, 'pan': None, 'loops': None, 'start_at': None, 'fade_in': None, 'fade_out': None, 'about_to_finish_time': -1.0, 'max_queue_time': -1.0, 'events_when_played': ['use_sound_setting'], 'events_when_stopped': ['use_sound_setting'], 'events_when_looping': ['use_sound_setting'], 'events_when_about_to_finish': ['use_sound_setting'], 'mode_end_action': 'use_sound_setting', 'key': 'use_sound_setting'}}, 'context': '_global', 'calling_context': 'mode_spell_portal_started', 'priority': 0}
+2022-08-21 16:05:02,454 : kivy : Base: Leaving application in progress...
+2022-08-21 16:05:02,702 : mpfmc : Stopping...
+2022-08-21 16:05:02,703 : EventManager : Event: ======'shutdown'====== Args={}
+2022-08-21 16:05:02,703 : AudioInterface : Disabling audio playback
+2022-08-21 16:05:02,703 : mpfmc : Loop rate 64.24 Hz
+2022-08-21 16:05:02,703 : kivy : MC run loop ended.
+2022-08-21 16:05:02,703 : kivy : Stopping child threads... (3 remaining)
+2022-08-21 16:05:03,124 : mpfmc : Stopping...
+2022-08-21 16:05:03,124 : EventManager : Event: ======'shutdown'====== Args={}
+2022-08-21 16:05:03,124 : mpfmc : Loop rate 63.71 Hz
+2022-08-21 16:05:03,171 : MPF-MC BCP Server : Stopping BCP sending thread
+2022-08-21 16:05:03,249 : kivy : All child threads stopped.

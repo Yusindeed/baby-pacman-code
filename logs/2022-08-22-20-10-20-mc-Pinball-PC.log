@@ -1,0 +1,143 @@
+2022-08-22 20:10:20,373 : kivy : Factory: 186 symbols loaded
+2022-08-22 20:10:20,607 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2022-08-22 20:10:20,607 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2022-08-22 20:10:20,642 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2022-08-22 20:10:20,642 : kivy : Video: Provider: gstplayer
+2022-08-22 20:10:20,805 : kivy : Loading MPF-MC controller
+2022-08-22 20:10:21,324 : ConfigProcessor : Config spec file cache created: C:\Users\Brendan\AppData\Local\Temp\config_spec.mpf_cache
+2022-08-22 20:10:21,324 : YamlMultifileConfigLoader : Machine config file #1: config
+2022-08-22 20:10:21,325 : ConfigProcessor : Config file in cache changed: C:\Baby_pacman_code\machine\config\config
+2022-08-22 20:10:21,325 : ConfigProcessor : Loading config from file c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpfmc\mcconfig.yaml.
+2022-08-22 20:10:21,375 : ConfigProcessor : Loading config: c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpfmc\mcconfig.yaml
+2022-08-22 20:10:21,376 : ConfigProcessor : Loading config from file C:\Baby_pacman_code\machine\config\config.
+2022-08-22 20:10:21,503 : ConfigProcessor : Loading config: C:\Baby_pacman_code\machine\config\config
+2022-08-22 20:10:21,505 : ConfigProcessor : Config file cache created: C:\Users\Brendan\AppData\Local\Temp\e68bda1e95a8aa0185725ca2569cabab.mpf_cache
+2022-08-22 20:10:21,506 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\467e7647689d29fad6adf949e1f4d51d.mpf_cache
+2022-08-22 20:10:21,506 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\5550e037aa776b42b91b29b40b356c70.mpf_cache
+2022-08-22 20:10:21,507 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\15e0c601392b30c3d9ba3ead8131edb5.mpf_cache
+2022-08-22 20:10:21,508 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\0bf50917c4ef15ab65ee13d6c14e7d7c.mpf_cache
+2022-08-22 20:10:21,508 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\bc7da7b13b2754e080c2afa0678ac274.mpf_cache
+2022-08-22 20:10:21,509 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\bbd59d0bb6602ee0c5a89d6f85e6dd42.mpf_cache
+2022-08-22 20:10:21,510 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\5526c78976fee311c3d05505d75f653d.mpf_cache
+2022-08-22 20:10:21,510 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\6e95138ae5415fc76b53ebf8fa245fb5.mpf_cache
+2022-08-22 20:10:21,511 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\1ec1c4dffb383758956493783a9ed391.mpf_cache
+2022-08-22 20:10:21,512 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\f2aee92728c8017b77c710c804dd7f5a.mpf_cache
+2022-08-22 20:10:21,513 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\88f57fa1305e9dc100972ec9f84d57fe.mpf_cache
+2022-08-22 20:10:21,513 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\6e00a9d794d4c3f43a0fc48da04dac60.mpf_cache
+2022-08-22 20:10:21,514 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\05ef98219fc733c3bcab58726c4b37ef.mpf_cache
+2022-08-22 20:10:21,515 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\c22d657a5a7bb60632c2be2c735e073b.mpf_cache
+2022-08-22 20:10:21,516 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\f7d4f5eb9425fe84d2e83a363afd4bdf.mpf_cache
+2022-08-22 20:10:21,516 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\125f51d329f930ea7bff10973551cc26.mpf_cache
+2022-08-22 20:10:21,517 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\08e18dfdf4e02cd29cc0cc52be2faaf4.mpf_cache
+2022-08-22 20:10:21,518 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\f042f5bf6362b9e04d43b40b93a92057.mpf_cache
+2022-08-22 20:10:21,518 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\60badac06cd62deb71f25fac24b103c2.mpf_cache
+2022-08-22 20:10:21,519 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\a3ad1aeb679a0686901de8a6ffe784f0.mpf_cache
+2022-08-22 20:10:21,519 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\d7856287e4ec48fb5adaa65e5f7b2848.mpf_cache
+2022-08-22 20:10:21,520 : mpfmc : Mission Pinball Framework Media Controller v0.55.0
+2022-08-22 20:10:21,520 : mpfmc : Mission Pinball Framework Game Engine v0.55.0
+2022-08-22 20:10:21,520 : mpfmc : Machine path: C:\Baby_pacman_code\machine
+2022-08-22 20:10:21,520 : mpfmc : Starting clock at 60.0Hz
+2022-08-22 20:10:21,531 : kivy : Text: Provider: sdl2
+2022-08-22 20:10:21,565 : kivy : Window: Provider: sdl2
+2022-08-22 20:10:21,632 : kivy : GL: Using the "OpenGL" graphics system
+2022-08-22 20:10:21,632 : kivy : GL: GLEW initialization succeeded
+2022-08-22 20:10:21,632 : kivy : GL: Backend used <glew>
+2022-08-22 20:10:21,632 : kivy : GL: OpenGL version <b'3.1.0 - Build 9.17.10.3517'>
+2022-08-22 20:10:21,632 : kivy : GL: OpenGL vendor <b'Intel'>
+2022-08-22 20:10:21,633 : kivy : GL: OpenGL renderer <b'Intel(R) HD Graphics 2000'>
+2022-08-22 20:10:21,633 : kivy : GL: OpenGL parsed version: 3, 1
+2022-08-22 20:10:21,633 : kivy : GL: Shading version <b'1.40 - Intel Build 9.17.10.3517'>
+2022-08-22 20:10:21,633 : kivy : GL: Texture max size <8192>
+2022-08-22 20:10:21,633 : kivy : GL: Texture max units <16>
+2022-08-22 20:10:21,699 : kivy : Window: auto add sdl2 input provider
+2022-08-22 20:10:21,700 : kivy : Window: virtual keyboard not allowed, single mode, not docked
+2022-08-22 20:10:21,852 : AudioInterface : Initialized
+2022-08-22 20:10:21,852 : AudioInterface : Loaded SDL 2.0.12
+2022-08-22 20:10:21,852 : AudioInterface : Loaded SDL_Mixer 2.0.4
+2022-08-22 20:10:21,852 : AudioInterface : Loaded GStreamer 1.18.0.0
+2022-08-22 20:10:21,852 : AudioInterface : Loaded GLib 2.62.6
+2022-08-22 20:10:21,852 : AudioInterface : Settings requested - rate: 44100, channels: 1, buffer: 2048 samples
+2022-08-22 20:10:21,852 : AudioInterface : Settings in use - rate: 44100, channels: 1, buffer: 2048 samples (4096 bytes @ 2 bytes per sample)
+2022-08-22 20:10:21,853 : SoundSystem : Setting master volume to 0.0
+2022-08-22 20:10:21,853 : SoundSystem : master_volume in sound_system is deprecated and will be removed in the future.
+2022-08-22 20:10:21,853 : AudioInterface : Enabling audio playback
+2022-08-22 20:10:21,855 : kivy : Base: Start application main loop
+2022-08-22 20:10:21,856 : EventManager : Event: ======'display_window1_initialized'====== Args={}
+2022-08-22 20:10:22,007 : mpfmc : Display: Setting 'window1' as default display
+2022-08-22 20:10:22,011 : mpfmc : ASPECT RATIO MISMATCH: The on-screen window is not the same aspect ratio as the display called 'window1'. The logical display will be scaled from 1366x768 to the window size 1920x1058, and a black bar will make up the difference
+2022-08-22 20:10:22,012 : EventManager : Event: ======'displays_initialized'====== Args={}
+2022-08-22 20:10:22,014 : EventManager : Event: ======'slide_window1_blank_created'====== Args={}
+2022-08-22 20:10:22,014 : EventManager : Event: ======'display_window1_ready'====== Args={}
+2022-08-22 20:10:22,023 : EventManager : Event: ======'init_phase_1'====== Args={}
+2022-08-22 20:10:22,033 : EventManager : Event: ======'mc_ready'====== Args={}
+2022-08-22 20:10:22,033 : EventManager : Event: ======'init_phase_2'====== Args={}
+2022-08-22 20:10:22,061 : ConfigValidator : Your config contains a value for the setting "widget_player:z", but this is not a valid setting name.
+2022-08-22 20:10:22,061 : kivy : Base: Leaving application in progress...
+2022-08-22 20:10:22,061 : kivy : Exception while processing RegisteredHandler(callback=<bound method ModeController._load_modes of <mpfmc.core.mode_controller.ModeController object at 0x0000000005558288>>, priority=1, kwargs={}, key=UUID('b6a8e409-d679-4677-a46a-bac70e81b263'), condition=None, blocking_facility=None) for event init_phase_2. Config File Error in ConfigValidator: Error while loading mode 'playfield_multiplier' >> Failed to load config player mode_playfield_multiplier_started:widgets with settings {'playfield_x_timer_widget': {'priority': 10000, 'z': -1}} >> Your config contains a value for the setting "widget_player:z", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-ConfigValidator-2.html)
+Traceback (most recent call last):
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\events.py", line 695, in _run_handlers
+    result = handler.callback(**merged_kwargs)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpfmc\core\mode_controller.py", line 74, in _load_modes
+    raise e
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpfmc\core\mode_controller.py", line 71, in _load_modes
+    **item.kwargs)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_player.py", line 132, in process_mode_config
+    config = self.validate_config(config)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_player.py", line 104, in validate_config
+    validated_config[event] = self.validate_config_entry(settings, event)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\config_players\device_config_player.py", line 56, in validate_config_entry
+    raise e
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\config_players\device_config_player.py", line 52, in validate_config_entry
+    self._validate_config_item(device, device_settings))
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpfmc\config_players\widget_player.py", line 110, in _validate_config_item
+    validated_dict = super()._validate_config_item(device, device_settings)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\config_players\device_config_player.py", line 79, in _validate_config_item
+    device_settings = self._parse_config(device_settings, device)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_player.py", line 126, in _parse_config
+    return self.get_full_config(config)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_player.py", line 199, in get_full_config
+    self.config_file_section, value, base_spec='config_player_common')
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 180, in validate_config
+    validation_failure_info=validation_failure_info)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 192, in _validate_config
+    self.check_for_invalid_sections(this_spec, source, validation_failure_info)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\config_validator.py", line 359, in check_for_invalid_sections
+    'setting name.', 2, self.log.name)
+mpf.exceptions.config_file_error.ConfigFileError: Config File Error in ConfigValidator: Error while loading mode 'playfield_multiplier' >> Failed to load config player mode_playfield_multiplier_started:widgets with settings {'playfield_x_timer_widget': {'priority': 10000, 'z': -1}} >> Your config contains a value for the setting "widget_player:z", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-ConfigValidator-2.html)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpfmc\commands\mc.py", line 227, in __init__
+    thread_stopper=thread_stopper).run()
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\kivy\app.py", line 950, in run
+    runTouchApp()
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\kivy\base.py", line 582, in runTouchApp
+    EventLoop.mainloop()
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\kivy\base.py", line 347, in mainloop
+    self.idle()
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\kivy\base.py", line 387, in idle
+    Clock.tick()
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\kivy\clock.py", line 733, in tick
+    self.post_idle(ts, self.idle())
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\kivy\clock.py", line 776, in post_idle
+    self._process_events()
+  File "kivy\_clock.pyx", line 616, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 649, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 645, in kivy._clock.CyClockBase._process_events
+  File "kivy\_clock.pyx", line 218, in kivy._clock.ClockEvent.tick
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpfmc\uix\display.py", line 211, in _displays_initialized
+    self.mc.displays_initialized()
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpfmc\core\mc.py", line 349, in displays_initialized
+    self._init()
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpfmc\core\mc.py", line 394, in _init
+    self.events.process_event_queue()
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\events.py", line 782, in process_event_queue
+    **event[3])
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\events.py", line 741, in _process_event
+    result = self._run_handlers(event, ev_type, kwargs)
+  File "c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpf\core\events.py", line 697, in _run_handlers
+    raise Exception("Exception while processing {} for event {}. {}".format(handler, event, e)) from e
+Exception: Exception while processing RegisteredHandler(callback=<bound method ModeController._load_modes of <mpfmc.core.mode_controller.ModeController object at 0x0000000005558288>>, priority=1, kwargs={}, key=UUID('b6a8e409-d679-4677-a46a-bac70e81b263'), condition=None, blocking_facility=None) for event init_phase_2. Config File Error in ConfigValidator: Error while loading mode 'playfield_multiplier' >> Failed to load config player mode_playfield_multiplier_started:widgets with settings {'playfield_x_timer_widget': {'priority': 10000, 'z': -1}} >> Your config contains a value for the setting "widget_player:z", but this is not a valid setting name. Error Code: CFE-ConfigValidator-2 (https://docs.missionpinball.org/en/0.55/logs/CFE-ConfigValidator-2.html)
+2022-08-22 20:10:22,071 : kivy : Stopping child threads... (1 remaining)
+2022-08-22 20:10:22,871 : kivy : All child threads stopped.

@@ -1,0 +1,102 @@
+#config_version=5
+#This will handle the timing stuff for playfield multipliers so that they don't go on indefinitely
+
+mode:
+  priority: 10000
+  start_events: add_x
+  stop_events: ball_will_end, timer_playfield_x_timer_complete
+
+timers:
+  playfield_x_timer:
+    start_value: 75
+    end_value: 0
+    tick_interval: 1200ms
+    direction: down
+    control_events:
+      - action: add
+        event: add_x{current_player.playfield_multiplier>1}
+        value: 75
+      - action: start
+        event: mode_playfield_multiplier_started
+
+
+show_player:
+  mode_playfield_multiplier_started:
+    flash_rgb:
+      sync_ms: 400
+      loops: -1
+      show_tokens:
+        led: l_left_dimension
+        color: green
+  add_x{current_player.playfield_multiplier>1}:
+    flash_rgb:
+      sync_ms: 400
+      loops: -1
+      show_tokens:
+        led: l_right_dimension
+        color: green
+    on_rgb:
+      loops: -1
+      show_tokens:
+        led: l_left_dimension
+        color: green
+
+variable_player:
+  timer_playfield_x_timer_tick:
+    playfield_x_timer_seconds:
+      int: device.timers.playfield_x_timer.ticks
+      action: set
+
+widget_player:
+  mode_playfield_multiplier_started:
+    playfield_x_timer_widget:
+      priority: 10000
+      action: add
+      widget_settings:
+        z: -1
+
+slide_player:
+  mode_playfield_multiplier_started:
+    pf_x_slide:
+      expire: 2.5s
+  add_x{current_player.playfield_multiplier>1}:
+    pf_x_slide:
+      expire: 2.5s
+
+slides:
+  pf_x_slide:
+    widgets:
+      - type: text
+        text: (playfield_multiplier)X PLAYFIELD STARTED
+        font_name: space_font
+        font_size: 80
+        y: 60%
+      - type: image
+        image: default_bg
+
+widgets:
+  playfield_x_timer_widget:
+    - type: text
+      text: PLAYFIELD
+      y: 50%
+      x: 1%
+      anchor_x: left
+      font_size: 30
+      font_name: space_font
+  #    z: 1
+    - type: text
+      text: (playfield_multiplier)X
+      y: 47%
+      x: 5%
+      anchor_x: left
+      font_size: 30
+      font_name: space_font
+  #    z: 1
+    - type: text
+      text: (player|playfield_x_timer_seconds)
+      y: 44%
+      x: 4.5%
+      anchor_x: left
+      font_name: space_font
+      font_size: 45
+  #    z: 1

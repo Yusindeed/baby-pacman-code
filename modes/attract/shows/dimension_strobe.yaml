@@ -1,0 +1,21 @@
+#show_version=5
+
+- time: 0
+  lights:
+    l_left_dimension: 'FFFFFF'
+    l_wizard_mode: off
+
+- time: '+1'
+  lights:
+    l_wizard_mode: '00FF00'
+    l_left_dimension: off
+
+- time: '+1'
+  lights:
+    l_right_dimension: 'FFFFFF'
+    l_wizard_mode: off
+
+- time: '+1'
+  lights:
+    l_wizard_mode: '00FF00'
+    l_right_dimension: off

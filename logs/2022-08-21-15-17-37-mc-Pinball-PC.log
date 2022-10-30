@@ -1,0 +1,19 @@
+2022-08-21 15:17:37,032 : kivy : Factory: 186 symbols loaded
+2022-08-21 15:17:37,172 : kivy : ImageLoaderFFPy: Using ffpyplayer 4.3.2
+2022-08-21 15:17:37,172 : kivy : Image: Providers: img_tex, img_dds, img_sdl2, img_pil, img_ffpyplayer 
+2022-08-21 15:17:37,213 : kivy : VideoGstplayer: Using Gstreamer 1.18.0.0
+2022-08-21 15:17:37,213 : kivy : Video: Provider: gstplayer
+2022-08-21 15:17:37,368 : kivy : Loading MPF-MC controller
+2022-08-21 15:17:37,888 : ConfigProcessor : Config spec file cache created: C:\Users\Brendan\AppData\Local\Temp\config_spec.mpf_cache
+2022-08-21 15:17:37,889 : YamlMultifileConfigLoader : Machine config file #1: config
+2022-08-21 15:17:37,889 : ConfigProcessor : Config file in cache changed: C:\Baby_pacman_code\machine\config\config
+2022-08-21 15:17:37,889 : ConfigProcessor : Loading config from file c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpfmc\mcconfig.yaml.
+2022-08-21 15:17:37,940 : ConfigProcessor : Loading config: c:\users\brendan\appdata\local\programs\python\python37\lib\site-packages\mpfmc\mcconfig.yaml
+2022-08-21 15:17:37,940 : ConfigProcessor : Loading config from file C:\Baby_pacman_code\machine\config\config.
+2022-08-21 15:17:38,067 : ConfigProcessor : Loading config: C:\Baby_pacman_code\machine\config\config
+2022-08-21 15:17:38,070 : ConfigProcessor : Config file cache created: C:\Users\Brendan\AppData\Local\Temp\e68bda1e95a8aa0185725ca2569cabab.mpf_cache
+2022-08-21 15:17:38,070 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\467e7647689d29fad6adf949e1f4d51d.mpf_cache
+2022-08-21 15:17:38,071 : ConfigProcessor : Loading config from cache: C:\Users\Brendan\AppData\Local\Temp\5550e037aa776b42b91b29b40b356c70.mpf_cache
+2022-08-21 15:17:38,071 : ConfigProcessor : Config file in cache changed: C:\Baby_pacman_code\machine\modes\base\config\base.yaml
+2022-08-21 15:17:38,071 : ConfigProcessor : Loading config from file C:\Baby_pacman_code\machine\modes\base\config\base.yaml.
+2022-08-21 15:17:38,185 : ConfigProcessor : Loading config: C:\Baby_pacman_code\machine\modes\base\config\base.yaml

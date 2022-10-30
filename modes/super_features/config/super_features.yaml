@@ -1,0 +1,87 @@
+#config_version=5
+
+mode:
+  start_events: ball_started
+
+achievements:
+  super_spinners:
+    sync_ms: 400
+    show_tokens:
+      lights: l_super_spinners
+    show_when_selected: pulse_white
+    show_when_started: flash_white
+  #  show_when_started: flash_white
+    show_when_completed: on
+    events_when_started: start_super_spinners
+    enable_events: mode_spell_galaxy_started
+    complete_events: super_spinners_completed
+
+  super_targets:
+    sync_ms: 400
+    show_tokens:
+      lights: l_super_targets
+    show_when_selected: pulse_white
+    show_when_started: flash_white
+  #  show_when_started: flash_white
+    show_when_completed: on
+    events_when_started: start_super_targets
+    enable_events: mode_spell_galaxy_started
+    complete_events: super_targets_completed
+
+  super_lanes:
+    sync_ms: 400
+    show_tokens:
+      lights: l_super_lanes
+    show_when_selected: pulse_white
+    show_when_started: flash_white
+  #  show_when_started: flash_white
+    show_when_completed: on
+    events_when_started: start_super_lanes
+    enable_events: mode_spell_galaxy_started
+    complete_events: super_lanes_completed
+
+  super_slings:
+    sync_ms: 400
+    show_tokens:
+      lights: l_super_slings
+    show_when_selected: pulse_white
+    show_when_started: flash_white
+  #  show_when_started: flash_white
+    show_when_completed: on
+    events_when_started: start_super_slings
+    enable_events: mode_spell_galaxy_started
+    complete_events: super_slings_completed
+
+achievement_groups:
+  super_features:
+    achievements:
+      - super_spinners
+      - super_targets
+      - super_slings
+      - super_lanes
+    auto_select: true
+    events_when_all_completed: super_features_complete
+    select_random_achievement_events: s_left_captive_ball_inactive, s_right_captive_ball_inactive
+    allow_selection_change_while_disabled: true
+    disable_while_achievement_started: false
+#    enable_events: start_super_feature
+    start_selected_events: start_super_feature
+    disable_events: mode_super_spinners_stopped, mode_super_targets_stopped, mode_super_slings_stopped, mode_super_lanes_stopped
+
+
+
+shows:
+  pulse_white:
+    - lights:
+        (lights): white-f150ms
+      duration: 600ms
+    - lights:
+        (lights): off-f800ms
+      duration: 800ms
+  flash_white:
+    - lights:
+        (lights): white-f10ms
+      duration: 200ms
+    - lights:
+        (lights): off-f10ms
+      duration: 200ms

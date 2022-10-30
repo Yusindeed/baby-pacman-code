@@ -1,0 +1,6 @@
+2021-01-25 16:17:34,915 : INFO : root : Loading config.
+2021-01-25 16:17:34,960 : INFO : YamlMultifileConfigLoader : Machine config file #1: config.yaml
+2021-01-25 16:17:34,973 : WARNING : ConfigProcessor : Cache file not found: C:\Users\sjk97\AppData\Local\Temp\cddea8f3f215231509ec77cdd80120b9.mpf_cache
+2021-01-25 16:17:34,974 : INFO : ConfigProcessor : Loading config from file c:\users\sjk97\appdata\local\programs\python\python37\lib\site-packages\mpf\mpfconfig.yaml.
+2021-01-25 16:17:35,140 : INFO : ConfigProcessor : Loading config: c:\users\sjk97\appdata\local\programs\python\python37\lib\site-packages\mpf\mpfconfig.yaml
+2021-01-25 16:17:35,142 : INFO : ConfigProcessor : Loading config from file C:\pinball\your_machine\moniter\config\config.yaml.
